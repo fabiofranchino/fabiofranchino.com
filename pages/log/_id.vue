@@ -2,9 +2,7 @@
     <div class="reader">
         <div class="post-header">
             <h1>{{page.title}}</h1>
-            <p>Posted on {{page.humandate}} in 
-                <nuxt-link :to="page.categories">{{page.categories}}</nuxt-link>
-                 - {{page.reading.text}}
+            <p>Posted on {{page.humandate}}
             </p>
         </div>
         
@@ -18,7 +16,6 @@
 
 
 <script>
-import {descending} from 'd3'
 import Subscribe from '@/components/Subscribe'
 
 export default {
@@ -29,7 +26,7 @@ export default {
         let cnt = null
 
         try{
-            cnt = await $content('blog', params.id).fetch()
+            cnt = await $content('log', params.id).fetch()
         }catch(err){
             error({ statusCode: 404, message: 'Post not found' })
         }
@@ -38,29 +35,9 @@ export default {
             page: cnt
         }
     },
-    async fetch({ store, $content, params }){
-        let res = await $content('blog').fetch()
-        const thisPage = res.filter(d => d.slug === params.id)[0]
-        
-        res.forEach(d => {
-            d.relevance = 0
-            if(d.slug !== thisPage.slug){
-                thisPage.tags.forEach(t => {
-                    if(d.tags.indexOf(t) >= 0) d.relevance++
-                })
-            }
-        })
-
-        res.sort((a,b) => {
-            return descending(a.relevance, b.relevance)
-        })
-
-        res = res.filter((d,i) => d.relevance>0).filter((d,i) => i<5)
-
-        store.commit('setRelated', res)
-    },
+    
     head () {
-        let cover = this.page.cover ? `blog/covers/${this.page.slug}.jpg` : 'social.png'
+        let cover = 'social.png'
         return {
             title: this.page.title,
             meta: [

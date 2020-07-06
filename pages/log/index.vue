@@ -1,32 +1,32 @@
 <template>
     <div>
         <div class="header">
-            <h1>I document what I've learnt here.</h1>
-            <h3>I try my best to write relevant things in a clear way. Always learning though.</h3>
+            <h1>I throw interesting stuff here.</h1>
+            <h3>Usually quickly and roughly. 
+                It's like a public bookmarks + notes.</h3>
         </div>
-
         <div class="container">
-            <Card :item="item" v-for="item in posts" :key="item.path" />
-        </div>  
-    </div>     
+            <Row :item="item" v-for="item in posts" :key="item.path" />
+        </div>     
+    </div>      
 </template>
 
 
 
 <script>
-import Card from '@/components/Card'
+import Row from '@/components/Row'
 
 export default {
     components:{
-        Card
+        Row
     },
     head () {
         return {
-            title: 'Articles'
+            title: 'Logs'
         }
     },
     async asyncData({ store, $content, params, error }) {
-        let res = await $content('blog').sortBy('date', 'desc').fetch()
+        let res = await $content('log').sortBy('date', 'desc').fetch()
         store.commit('setRelated', null)
         return {
             posts: res

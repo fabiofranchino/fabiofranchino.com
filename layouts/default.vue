@@ -63,7 +63,7 @@ export default {
 
 
 .page >>> a{
-    font-family: 'Domain Display Bold';
+    font-family: 'Domain Display';
     color:var(--maincolor);
 }
 

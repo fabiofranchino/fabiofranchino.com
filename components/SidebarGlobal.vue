@@ -28,10 +28,10 @@
                     <nuxt-link :to="'/blog'">Articles</nuxt-link>
                 </li>
                 <li>
-                    <nuxt-link :to="'/tips'">Tips</nuxt-link>
+                    <nuxt-link :to="'/tip'">Tips</nuxt-link>
                 </li>
                 <li>
-                    <nuxt-link :to="'/logs'">Notes</nuxt-link>
+                    <nuxt-link :to="'/log'">Logs</nuxt-link>
                 </li>
                 <li>
                     <nuxt-link :to="'/'">About</nuxt-link>
@@ -141,7 +141,7 @@ footer{
     color:var(--mainover);
     font-size:80%;
     display: none;
-    font-family: 'Domain Display Bold';
+    font-family: 'Domain Display';
 }
 
 @media screen and (min-width:420px){

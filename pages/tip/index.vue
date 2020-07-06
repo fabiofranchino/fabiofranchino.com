@@ -1,32 +1,33 @@
 <template>
     <div>
         <div class="header">
-            <h1>I document what I've learnt here.</h1>
-            <h3>I try my best to write relevant things in a clear way. Always learning though.</h3>
+            <h1>I annotate little tech finding here.</h1>
+            <h3>Usually alongside with a chunk of code. 
+                It's my public code snippets repository. 
+                Surprisingly, I use it myself from time to time.</h3>
         </div>
-
         <div class="container">
-            <Card :item="item" v-for="item in posts" :key="item.path" />
-        </div>  
-    </div>     
+            <Row :item="item" v-for="item in posts" :key="item.path" />
+        </div>     
+    </div>      
 </template>
 
 
 
 <script>
-import Card from '@/components/Card'
+import Row from '@/components/Row'
 
 export default {
     components:{
-        Card
+        Row
     },
     head () {
         return {
-            title: 'Articles'
+            title: 'Tips'
         }
     },
     async asyncData({ store, $content, params, error }) {
-        let res = await $content('blog').sortBy('date', 'desc').fetch()
+        let res = await $content('tip').sortBy('date', 'desc').fetch()
         store.commit('setRelated', null)
         return {
             posts: res
