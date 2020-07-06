@@ -9,14 +9,16 @@
 
 
 @font-face {
-    font-family: 'Domain Display Black';
+    font-family: 'Domain Display';
     src: url("fonts/domain-display-black.woff2") format("woff2");
     font-display: swap;
+    font-weight: 900;
 }
 @font-face {
-    font-family: 'Domain Display Bold';
+    font-family: 'Domain Display';
     src: url("fonts/domain-display-bold.woff2") format("woff2");
     font-display: swap;
+    font-weight: 700;
 }
 @font-face {
     font-family: 'Founter Grotest';
@@ -59,7 +61,8 @@ body{
     font-family: 'Founter Grotest';
 }
 h1{
-    font-family: 'Domain Display Black';
+    font-family: 'Domain Display';
+    font-weight: 900;
 }
 h1:first-child{
     margin-top: 0;
@@ -79,7 +82,8 @@ h3,h4,h5,h6{
     margin-top:2em;
 }
 h2,h3,h4,h5,h6{
-    font-family: 'Domain Display Bold';
+    font-family: 'Domain Display';
+    font-weight: 700;
 }
 
 
