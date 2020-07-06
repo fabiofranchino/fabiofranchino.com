@@ -1,0 +1,146 @@
+:root{
+    --maincolor: #FC6C3F;
+    --mainover: #FAF9F6;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'Domain Display Black';
+    src: url("fonts/domain-display-black.woff2") format("woff2");
+}
+@font-face {
+    font-family: 'Domain Display Bold';
+    src: url("fonts/domain-display-bold.woff2") format("woff2");
+}
+@font-face {
+    font-family: 'Founter Grotest';
+    font-style: normal;
+    src: url("fonts/founder-grotest-regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: 'Founter Grotest';
+    font-style: italic;
+    src: url("fonts/founder-grotest-light-italic.woff2") format("woff2");
+}
+@font-face {
+    font-family: 'Founter Grotest';
+    font-weight: bold;
+    src: url("fonts/founder-grotest-bold.woff2") format("woff2");
+}
+/* @font-face {
+    font-family: 'Founter Grotest Mono';
+    src: url("fonts/founder-grotest-mono.woff2") format("woff2");
+} */
+
+html, body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#__nuxt, #__layout, #__default{
+    width: 100%;
+    height: 100%;
+}
+
+
+body{
+    font-family: 'Founter Grotest';
+}
+h1{
+    font-family: 'Domain Display Black';
+}
+h1:first-child{
+    margin-top: 0;
+}
+h2{
+    border-left: 3px solid var(--maincolor);;
+    padding: 0;
+    padding-left: 1rem;
+    margin: 0;
+    margin-top:3rem;
+}
+h3,h4,h5,h6{
+    border-left: 2px solid var(--maincolor);;
+    padding: 0;
+    padding-left: .5rem;
+    margin: 0;
+    margin-top:2em;
+}
+h2,h3,h4,h5,h6{
+    font-family: 'Domain Display Bold';
+}
+
+
+
+
+
+
+
+.grid{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0 -1.5rem;
+    width: calc(100% + 3rem);
+}
+
+.grid.pair > .grid_item{
+    width: 100%;
+}
+
+.grid.four > .grid_item{
+    width: 100%;
+    padding: .5rem 0;
+}
+
+.grid.four.cond > .grid_item{
+    padding: 0;
+}
+
+.grid_item.padded{
+}
+.grid_item.padded > img{
+    display: block;
+    border: 3px solid #fff;
+}
+
+@media (min-width: 460px) {
+    .grid.pair > .grid_item{
+        padding: .5rem;
+        width: 50%;
+    }   
+    .grid.four > .grid_item{
+        width: 50%;
+    }
+}
+
+@media (min-width: 767px) {
+    .grid.four > .grid_item{
+        width: 25%;
+    }  
+    .grid{
+        margin: 0 -3rem;
+        width: calc(100% + 6rem);
+    }
+}
+@media (min-width: 1020px) {
+    .grid{
+        margin: 0 -6rem;
+        width: calc(100% + 12rem);
+    }
+}
+@media (min-width: 1270px) {
+    .grid.pair > .grid_item{
+        width: 25%;
+    }   
+    .grid{
+        margin: 0 -8rem;
+        width: calc(100% + 16rem);
+    }
+}

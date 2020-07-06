@@ -1,7 +1,8 @@
 <template>
     <div class="page">
         <div class="body">
-            <div class="content" v-html="html"></div>
+            <h1>{{page.title}}</h1>
+            <nuxt-content :document="page" />
         </div>
     </div>
 </template>
@@ -11,16 +12,10 @@
 
 <script>
 export default {
-    async asyncData({ params }) {
-        let cnt = await import(`~/content/page/${params.id}.md`)
+    async asyncData({ $content, params }) {
+        let cnt = await $content('page', params.id).fetch()
         return {
-            slug: params.id,
-            cnt: cnt
-        }
-    },
-    computed:{
-        html(){
-            return this.cnt.html
+            page: cnt
         }
     }
 }

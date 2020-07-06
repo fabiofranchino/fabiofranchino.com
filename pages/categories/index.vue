@@ -8,22 +8,20 @@
 </template>
 
 
-
 <script>
-import * as d3 from 'd3'
 
 export default {
     async asyncData({ params, error }) {
         let res = []
 
-        try{
-            let cts = await import(`~/content/index.json`)
-            let arr = cts.default
-            res = d3.nest()
-                .key(d => d.front.category)
-                .entries(arr)
-        }catch(err){
-        }
+        // try{
+        //     let cts = await import(`~/content/index.json`)
+        //     let arr = cts.default
+        //     res = d3.nest()
+        //         .key(d => d.front.category)
+        //         .entries(arr)
+        // }catch(err){
+        // }
         
         return {
             categories: res

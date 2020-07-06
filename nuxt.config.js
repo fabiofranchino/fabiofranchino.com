@@ -1,14 +1,5 @@
-import fs from 'fs'
-import routes from './libs/dumpRoutes.js'
-import index from './libs/dumpIndex.js'
 import metaDefault from './libs/metaDefault.js'
-import path from 'path'
-import FMMode from 'frontmatter-markdown-loader/mode'
-
-const tips = require('./content/tips.json')
-const allroutes = routes.concat(tips).map(d => d.url)
-
-fs.writeFileSync('content/index.json', JSON.stringify(index(routes)))
+import readingTime from 'reading-time'
 
 export default {
   mode: 'universal',
@@ -26,28 +17,22 @@ export default {
     '~/css/style.css'
   ],
 
-  build: {
-    extend (config) {
-      config.module.rules.push({
-        test: /\.md$/,
-        loader: 'frontmatter-markdown-loader',
-        include: path.resolve(__dirname, 'content'),
-        options: {
-          mode: [FMMode.VUE_COMPONENT],
-          vue: {
-            root: 'markdown-body'
-          }
-        }
-      })
-    }
-  },
-  generate: {
-    routes: allroutes
-  },
   modules: [
+    '@nuxt/content',
     '@nuxtjs/sitemap',
     ['nuxt-canonical', { baseUrl: 'https://www.fabiofranchino.com' }]
   ],
+  hooks: {
+    'content:file:beforeInsert': (document) => {
+      const reg = /\d{4}-\d{2}-\d{2}/
+      const mtc = reg.exec(document.slug)
+      if (mtc) {
+        document.slug = document.slug.substr(11)
+        document.path = document.dir + '/' + document.slug
+        document.reading = readingTime(document.text)
+      }
+    }
+  },
   sitemap: {
     hostname: 'https://www.fabiofranchino.com'
   }
