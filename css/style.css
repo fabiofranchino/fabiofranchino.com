@@ -11,25 +11,30 @@
 @font-face {
     font-family: 'Domain Display Black';
     src: url("fonts/domain-display-black.woff2") format("woff2");
+    font-display: swap;
 }
 @font-face {
     font-family: 'Domain Display Bold';
     src: url("fonts/domain-display-bold.woff2") format("woff2");
+    font-display: swap;
 }
 @font-face {
     font-family: 'Founter Grotest';
     font-style: normal;
     src: url("fonts/founder-grotest-regular.woff2") format("woff2");
+    font-display: swap;
 }
 @font-face {
     font-family: 'Founter Grotest';
     font-style: italic;
     src: url("fonts/founder-grotest-light-italic.woff2") format("woff2");
+    font-display: swap;
 }
 @font-face {
     font-family: 'Founter Grotest';
     font-weight: bold;
     src: url("fonts/founder-grotest-bold.woff2") format("woff2");
+    font-display: swap;
 }
 /* @font-face {
     font-family: 'Founter Grotest Mono';
