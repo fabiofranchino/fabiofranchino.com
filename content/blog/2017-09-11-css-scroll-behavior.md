@@ -28,6 +28,6 @@ So far, it's compatible with the latest version of Chrome (61.x) and Firefox (55
 Feel free to click on the header sections, the next/prev and don't forget to try the last section as well:
 
 <p data-height="365" data-theme-id="light" data-slug-hash="qPWdwO" data-default-tab="result" data-user="abusedmedia" data-embed-version="2" data-pen-title="CSS Scroll Behavior" class="codepen">See the Pen <a href="https://codepen.io/abusedmedia/pen/qPWdwO/">CSS Scroll Behavior</a> by Fabio Franchino (<a href="https://codepen.io/abusedmedia">@abusedmedia</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
 
 **Tip:** if you set the scrollable wrapper both with `overflow:hidden;` and `scroll-behavior:smooth;` you'll get and interesting effect. The user scroll is disabled (and so the scrollbars are hidden) but the behavior is still working as expected using the anchor links, even in browsers that don't support `scroll-behavior` property.

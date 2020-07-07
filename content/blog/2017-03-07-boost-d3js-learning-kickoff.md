@@ -14,7 +14,7 @@ I've been involved in teaching [d3.js](https://d3js.org/) and data visualisation
 Every time it's like the first time.  
 It's always a challenge because every class is diverse and every student is unique. It's an ever learning process that is rewarding for this reason.
 
-Since the coming of the 6th edition of [Bigdive](http://www.bigdive.eu/), I've started to think about how to improve the learning experience of the dataviz track I'm going to provide in class. It's something I try to do every year.  
+Since the coming of the 6th edition of [Bigdive](https://www.bigdive.eu/), I've started to think about how to improve the learning experience of the dataviz track I'm going to provide in class. It's something I try to do every year.  
 I've already penned [some words]({% post_url 2017-03-03-d3js_toward_v4 %}) related to some updates that are in the pipeline.
 
 This time I'm going to focus on something more fundamental.

@@ -96,3 +96,4 @@ By converting as path all the text elements does fix the problem at the cost of 
 Another solution is by modifyng the SVG source changing the **font-family value** with the CSS one. This makes it hard maintaining the SVG for further modifications on Illustrator.
 
 Using the web-font technique requires a bit of work but the benefits are worth the efforts.
+

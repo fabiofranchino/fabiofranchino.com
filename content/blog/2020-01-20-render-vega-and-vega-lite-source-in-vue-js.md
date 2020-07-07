@@ -14,7 +14,7 @@ I'm poking to the following feature for a while.
 
 And here the first POC!
 
-![](/blog/assets/posts/render-vega-and-vega-lite-source-in-vue-js/cover.gif)
+![](/assets/posts/render-vega-and-vega-lite-source-in-vue-js/cover.gif)
 
 Thanks to the [Vega](https://vega.github.io/) resources, it's something reeeeeally straightforward to implement, almost a joke.
 

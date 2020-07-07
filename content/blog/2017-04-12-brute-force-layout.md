@@ -76,7 +76,7 @@ And no, I didn’t use [processing.js/p5.js](https://p5js.org/) on purpose, for 
 
 The new sketch runs using an empty SVG as canvas and here you can see it in action:
 
-<iframe class="fuildframe" width="3000" data-width-mobile="1000" height="1000" src="http://fabiofranchino.com/brute_force_layout/sketches/01.html" frameborder="0"></iframe>
+<iframe class="fuildframe" width="3000" data-width-mobile="1000" height="1000" src="https://fabiofranchino.com/brute_force_layout/sketches/01.html" frameborder="0"></iframe>
 
 You can tweak with this version on [Codepen.](https://codepen.io/abusedmedia/pen/oBxQgM)
 
@@ -90,21 +90,21 @@ Actually, the algorithm runs by itself without any way to influence its process.
 
 Changing that part of the process might be interesting in terms of exploration possibilities; let’s do it using the mouse movement and position as driver:
 
-<iframe class="fuildframe" width="3000" data-width-mobile="1000" height="1000" src="http://fabiofranchino.com/brute_force_layout/sketches/02.html" frameborder="0"></iframe>
+<iframe class="fuildframe" width="3000" data-width-mobile="1000" height="1000" src="https://fabiofranchino.com/brute_force_layout/sketches/02.html" frameborder="0"></iframe>
 
 We know that every single rect can be manipulated further. What about adding a further variation on a specific property? Here the next iteration adding one line of code to change the opacity, randomly:
 
-<iframe class="fuildframe" width="3000" data-width-mobile="1000" height="1000" src="http://fabiofranchino.com/brute_force_layout/sketches/03.html" frameborder="0"></iframe>
+<iframe class="fuildframe" width="3000" data-width-mobile="1000" height="1000" src="https://fabiofranchino.com/brute_force_layout/sketches/03.html" frameborder="0"></iframe>
 
 The color is an important property to deal with. Again, assigning different fill color for each rectangle might be interesting in terms of creative outcome.
 
 Instead of putting a random color value which might end up to something not very pleasant, here a popular technique to get both a consistent color palette and proper assignment borrowing this information out of a picture:
 
-<iframe class="fuildframe" width="3000" data-width-mobile="1000" height="1000" src="http://fabiofranchino.com/brute_force_layout/sketches/04.html" frameborder="0"></iframe>
+<iframe class="fuildframe" width="3000" data-width-mobile="1000" height="1000" src="https://fabiofranchino.com/brute_force_layout/sketches/04.html" frameborder="0"></iframe>
 
 So far, the rectangle has been the shape of choice but what about trying another one? Let's try with a circle alongside a bit of animation:
 
-<iframe class="fuildframe" width="3000" data-width-mobile="1000" height="1000" src="http://fabiofranchino.com/brute_force_layout/sketches/05.html" frameborder="0"></iframe>
+<iframe class="fuildframe" width="3000" data-width-mobile="1000" height="1000" src="https://fabiofranchino.com/brute_force_layout/sketches/05.html" frameborder="0"></iframe>
 
 As you might start noticing, each variation is nothing more than an answer to a *"what if?"* asked to the previous sketch.
 
@@ -126,14 +126,3 @@ There is a huge debate about whether designers should be able to code or not. My
 
 It’s all about the purpose: start learning how to write a simple chunk of code today. Don’t judge it too soon. Worst case scenario? You’ve learned something new, **something that is going to expand your way of thinking.**
 
----
-
-**Thanks for reading and please share!**
-
-For quick feedbacks or see what’s next, follow me on [Twitter](https://twitter.com/fabiofranchino). You can write me also via [email](mailto:hello@fabiofranchino.com).
-
-Have a nice day!
-
----
-
-Thanks to [Greta](http://www.greatgreta.com/) and [Luca](http://www.01temp.it/) for reading drafts of this.

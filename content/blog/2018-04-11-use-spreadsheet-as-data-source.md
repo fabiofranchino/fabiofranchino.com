@@ -25,3 +25,4 @@ And here the live sketch with a little barchart using the spreadsheet as data so
 <p data-height="265" data-theme-id="light" data-slug-hash="NYoZzb" data-default-tab="js,result" data-user="abusedmedia" data-embed-version="2" data-pen-title="TestLoadGSPXwithD3" class="codepen">See the Pen <a href="https://codepen.io/abusedmedia/pen/NYoZzb/">TestLoadGSPXwithD3</a> by Fabio Franchino (<a href="https://codepen.io/abusedmedia">@abusedmedia</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
 I'll post more use-case with this combination.
+

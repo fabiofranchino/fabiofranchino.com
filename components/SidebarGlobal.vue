@@ -78,7 +78,7 @@ export default {
             return {visible: this.panelVisible}
         }
     },
-
+    
     methods:{
         getClass(link){
             let check = link.base || link.url

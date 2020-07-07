@@ -31,7 +31,7 @@ var chart = rivela.barchart()
 The module has some defaults and provides some configs, then, D3.js is explicitly required to complete the initialization:
 
 <p data-height="270" data-theme-id="light" data-slug-hash="MrOQvG" data-default-tab="js,result" data-user="abusedmedia" data-embed-version="2" data-pen-title="MrOQvG" class="codepen">See the Pen <a href="https://codepen.io/abusedmedia/pen/MrOQvG/">MrOQvG</a> by Fabio Franchino (<a href="https://codepen.io/abusedmedia">@abusedmedia</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
 
 ## The data structure
 
@@ -47,31 +47,31 @@ rivela.barchart()
 ```
 
 <p data-height="270" data-theme-id="light" data-slug-hash="PEOgPx" data-default-tab="js,result" data-user="abusedmedia" data-embed-version="2" data-pen-title="PEOgPx" class="codepen">See the Pen <a href="https://codepen.io/abusedmedia/pen/PEOgPx/">PEOgPx</a> by Fabio Franchino (<a href="https://codepen.io/abusedmedia">@abusedmedia</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
 
 Further configurations follow the same principle:
 
 <p data-height="270" data-theme-id="light" data-slug-hash="BJmEby" data-default-tab="js,result" data-user="abusedmedia" data-embed-version="2" data-pen-title="BJmEby" class="codepen">See the Pen <a href="https://codepen.io/abusedmedia/pen/BJmEby/">BJmEby</a> by Fabio Franchino (<a href="https://codepen.io/abusedmedia">@abusedmedia</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
 
 An additional accessor might allow to specifing the array key in case of more complex dataset structure. This turns very useful on multiple instances of the same chart:
 
 <p data-height="270" data-theme-id="light" data-slug-hash="MrORxm" data-default-tab="js,result" data-user="abusedmedia" data-embed-version="2" data-pen-title="MrORxm" class="codepen">See the Pen <a href="https://codepen.io/abusedmedia/pen/MrORxm/">MrORxm</a> by Fabio Franchino (<a href="https://codepen.io/abusedmedia">@abusedmedia</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
 
 ## Other configurations
 
 Dynamic accessors can be powerful also in other situation such as how to tint items based on some logic. Instead of putting this logic within the chart generator, let's rely on the full power of D3.js:
 
 <p data-height="270" data-theme-id="light" data-slug-hash="LeOvaJ" data-default-tab="js,result" data-user="abusedmedia" data-embed-version="2" data-pen-title="LeOvaJ" class="codepen">See the Pen <a href="https://codepen.io/abusedmedia/pen/LeOvaJ/">LeOvaJ</a> by Fabio Franchino (<a href="https://codepen.io/abusedmedia">@abusedmedia</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
 
 ## Dynamic
 
 The module is designed to accept updates. In this example you can push the 'update' button to add random data points: 
 
 <p data-height="270" data-theme-id="light" data-slug-hash="BJmEEy" data-default-tab="js,result" data-user="abusedmedia" data-embed-version="2" data-pen-title="BJmEEy" class="codepen">See the Pen <a href="https://codepen.io/abusedmedia/pen/BJmEEy/">BJmEEy</a> by Fabio Franchino (<a href="https://codepen.io/abusedmedia">@abusedmedia</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
 
 ## Style
 
@@ -80,7 +80,7 @@ I truly believe that styling should belong to CSS as much as possible. This is n
 Here an example about how to transform the default style through CSS:
 
 <p data-height="270" data-theme-id="light" data-slug-hash="EobJJE" data-default-tab="js,result" data-user="abusedmedia" data-embed-version="2" data-pen-title="EobJJE" class="codepen">See the Pen <a href="https://codepen.io/abusedmedia/pen/EobJJE/">EobJJE</a> by Fabio Franchino (<a href="https://codepen.io/abusedmedia">@abusedmedia</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
 
 ## Conclusion
 

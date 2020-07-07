@@ -9,6 +9,9 @@ export default {
     meta: metaDefault,
     link: [
       { rel: 'icon', href: '/favicon.png' }
+    ],
+    script: [
+      { src: 'https://production-assets.codepen.io/assets/embed/ei.js', async: true }
     ]
   },
   css: [

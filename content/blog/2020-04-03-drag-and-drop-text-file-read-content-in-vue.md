@@ -14,6 +14,6 @@ This time, I want to make a variation using text files instead of images. The re
 
 You can test both components using this live prototype:
 
-<iframe height="400px" width="100%" src="https://vue-drop-txt-and-read.abusedmedia.repl.co" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://vue-drop-txt-and-read.abusedmedia.repl.co" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
 And, of course, grab the full source code [here](https://github.com/fabiofranchino/vue-drop-txt-and-read).

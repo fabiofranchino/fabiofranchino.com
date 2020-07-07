@@ -45,3 +45,4 @@ Here the working Codepen:
   Load an image in SVG with D3.js</a> by Fabio Franchino (<a href="https://codepen.io/abusedmedia">@abusedmedia</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+

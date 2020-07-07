@@ -58,4 +58,3 @@ Still happy of the results nevertheless some changes over the road.
 
 Let's see the next episode!
 
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>

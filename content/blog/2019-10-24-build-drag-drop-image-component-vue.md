@@ -12,7 +12,7 @@ In this post I'm going to dive a bit creating a Vue.js component from scratch us
 
 The final implementation is not meant to be "ready to be drop" components for your app. They are better a starting point to be include in your app by adding further logics required by your product.
 
-![](/blog/assets/posts/build-drag-drop-image-component-vue/cover.gif)
+![](/assets/posts/build-drag-drop-image-component-vue/cover.gif)
 
 The component can be used in any Vue app such this one:
 

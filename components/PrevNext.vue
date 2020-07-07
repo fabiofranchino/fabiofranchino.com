@@ -19,9 +19,17 @@ export default {
         ...mapGetters(['prevSlug', 'nextSlug']),
 
     },
+    mounted(){
+        document.addEventListener('keyup', this.onKey)
+    },
+    beforeDestroy(){
+        document.removeEventListener('keyup', this.onKey)
+    },
     methods:{
         onKey(e){
-            console.log(e.key)
+            let k = e.key
+            if(this.prevSlug && k === 'ArrowLeft') this.$router.push(this.prevSlug.path)
+            if(this.nextSlug && k === 'ArrowRight') this.$router.push(this.nextSlug.path)
         }
     }
 }

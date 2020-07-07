@@ -27,3 +27,4 @@ After a bit of trial and error, I've ended up with a working solution, with an a
 <p data-height="265" data-theme-id="light" data-slug-hash="xjgGgz" data-default-tab="result" data-user="abusedmedia" data-embed-version="2" data-pen-title="smart layout" class="codepen">See the Pen <a href="https://codepen.io/abusedmedia/pen/xjgGgz/">smart layout</a> by Fabio Franchino (<a href="https://codepen.io/abusedmedia">@abusedmedia</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
 The trick here has been separating the wrapper that is responsible to center the whole content from the one that is responsible to distribute each single items.
+

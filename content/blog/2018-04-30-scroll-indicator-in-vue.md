@@ -99,3 +99,4 @@ So far, so good, hopefully more to come.
 Here the Codepen with the above working code:
 
 <p data-height="265" data-theme-id="light" data-slug-hash="yjMeGy" data-default-tab="js,result" data-user="abusedmedia" data-embed-version="2" data-pen-title="Scoll Indicator with Vue (revisited)" class="codepen">See the Pen <a href="https://codepen.io/abusedmedia/pen/yjMeGy/">Scoll Indicator with Vue (revisited)</a> by Fabio Franchino (<a href="https://codepen.io/abusedmedia">@abusedmedia</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+
