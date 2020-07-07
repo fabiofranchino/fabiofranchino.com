@@ -3,10 +3,11 @@
         <div class="header">
             <h1>I throw interesting stuff here.</h1>
             <h3>Usually quickly and roughly. 
-                It's like a public bookmarks + notes.</h3>
+                It's like a public container of bookmarks, code snippets and notes, all together.</h3>
         </div>
+        <Search :source="posts" @results="onResults" />
         <div class="container">
-            <Row :item="item" v-for="item in posts" :key="item.path" />
+            <Row :item="item" v-for="item in results" :key="item.path" />
         </div>     
     </div>      
 </template>
@@ -15,10 +16,11 @@
 
 <script>
 import Row from '@/components/Row'
+import Search from '@/components/Search'
 
 export default {
     components:{
-        Row
+        Row, Search
     },
     head () {
         return {
@@ -29,7 +31,14 @@ export default {
         let res = await $content('log').sortBy('date', 'desc').fetch()
         store.commit('setRelated', null)
         return {
-            posts: res
+            posts: res,
+            results: res
+        }
+    },
+    
+    methods:{
+        onResults(res){
+            this.results = res
         }
     }
 }

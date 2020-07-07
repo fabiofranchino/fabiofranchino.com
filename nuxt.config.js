@@ -3,7 +3,7 @@ import readingTime from 'reading-time'
 
 export default {
   mode: 'universal',
-
+  components: true,
   head: {
     titleTemplate: '%s @ Fabio Franchino',
     meta: metaDefault,
@@ -11,16 +11,28 @@ export default {
       { rel: 'icon', href: '/favicon.png' }
     ]
   },
-  // css: [
-  //   '~/node_modules/normalize-css/normalize.css',
-  //   '~/css/style.css'
-  // ],
+  css: [
+    '~/node_modules/normalize-css/normalize.css',
+    '~/css/style.css'
+  ],
 
   modules: [
-    '@nuxt/content'
-    // '@nuxtjs/sitemap',
-    // ['nuxt-canonical', { baseUrl: 'https://www.fabiofranchino.com' }]
+    '@nuxt/content',
+    '@nuxtjs/sitemap',
+    // '@nuxtjs/feed',
+    ['nuxt-canonical', { baseUrl: 'https://www.fabiofranchino.com' }]
   ],
+
+  feed: [
+    {
+      path: '/feed.xml', // The route to your feed.
+      // async create(feed) {}, // The create function (see below)
+      cacheTime: 1000 * 60 * 15, // How long should the feed be cached
+      type: 'rss2', // Can be: rss2, atom1, json1
+      data: ['Some additional data'] // Will be passed as 2nd argument to `create` function
+    }
+  ],
+
   hooks: {
     'content:file:beforeInsert': d => {
       // convert the jekyll style slug
@@ -42,8 +54,8 @@ export default {
       // add the cover path
       d.cover = d.cover ? `assets/posts/${d.slug}/${d.cover}` : null
     }
+  },
+  sitemap: {
+    hostname: 'https://www.fabiofranchino.com'
   }
-  // sitemap: {
-  //   hostname: 'https://www.fabiofranchino.com'
-  // }
 }

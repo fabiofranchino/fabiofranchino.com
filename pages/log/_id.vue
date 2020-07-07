@@ -8,6 +8,7 @@
         
         <nuxt-content :document="page" />
 
+        <PrevNext />
         <Subscribe />
     </div>
 </template>
@@ -17,10 +18,11 @@
 
 <script>
 import Subscribe from '@/components/Subscribe'
+import PrevNext from '@/components/PrevNext'
 
 export default {
     components:{
-        Subscribe
+        Subscribe, PrevNext
     },
     async asyncData({ $content, params, error }) {
         let cnt = null
@@ -35,7 +37,29 @@ export default {
             page: cnt
         }
     },
-    
+    async fetch({ store, $content, params }){
+        let res = await $content('log').fetch()
+        const thisPage = res.filter(d => d.slug === params.id)[0]
+        const thisIndex = res.indexOf(thisPage)
+
+        let prevS = ''
+        let nextS = ''
+
+        if(thisIndex >= 0){
+            if(thisIndex > 0){
+                prevS = res[thisIndex-1]
+            }
+            if(thisIndex < res.length - 1){
+                nextS = res[thisIndex+1]
+            }
+        }
+
+        store.commit('setPrevSlug', prevS)
+        store.commit('setNextSlug', nextS)
+        store.commit('setCurrent', thisPage)
+    },
+
+
     head () {
         let cover = 'social.png'
         return {

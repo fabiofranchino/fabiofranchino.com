@@ -3,7 +3,10 @@
 
         <header>
             <div class="logo">
-                <nuxt-link :to="'/'">FF</nuxt-link>
+                <nuxt-link :to="'/'">
+                    <span>FF</span>
+                    <img src="@/assets/ff.jpg" />
+                </nuxt-link>
             </div>
             <div class="ham" @click="panelVisible=!panelVisible">
                 <div></div>
@@ -24,20 +27,8 @@
 
             <h3>Discover:</h3>
             <ul>
-                <li>
-                    <nuxt-link :to="'/blog'">Articles</nuxt-link>
-                </li>
-                <li>
-                    <nuxt-link :to="'/tip'">Tips</nuxt-link>
-                </li>
-                <li>
-                    <nuxt-link :to="'/log'">Logs</nuxt-link>
-                </li>
-                <li>
-                    <nuxt-link :to="'/'">About</nuxt-link>
-                </li>
-                <li>
-                    <nuxt-link :to="'/'">Home</nuxt-link>
+                <li v-for="link in links" :class="getClass(link)">
+                    <nuxt-link :to="link.url">{{link.label}}</nuxt-link>
                 </li>
             </ul>
 
@@ -45,8 +36,15 @@
            
         </section>
 
-        <footer>
-            2020 @ Fabio Franchino
+        <footer :class="panelClass">
+            <div class="socials">
+                <a href="https://github.com/abusedmedia" title="Github" target="_blank"><img src="@/assets/github.svg" /></a>
+                <a href="https://twitter.com/fabiofranchino" title="Twitter" target="_blank"><img src="@/assets/twitter.svg" /></a>
+                <a href="https://twitter.com/fabiofranchino" title="RSS" target="_blank"><img src="@/assets/rss.svg" /></a>
+            </div>
+            <div>
+                2017-20 @ Fabio Franchino
+            </div>
         </footer>
         
     </div>
@@ -60,14 +58,32 @@ import {mapGetters} from 'vuex'
 export default {
     data(){
         return{
-            panelVisible:false
+            panelVisible:false,
+            links:[
+                {url:'/blog', label:'Articles'},
+                {url:'/log', label:'Logs'},
+                {base:'/resources/', url:'/resources/index', label:'Resources'},
+                {url:'/about', label:'About Me'},
+            ]
         }
     },
-    
+    watch:{
+        '$route'(){
+            this.panelVisible=false
+        }
+    },
     computed:{
         ...mapGetters(['related']),
         panelClass(){
             return {visible: this.panelVisible}
+        }
+    },
+
+    methods:{
+        getClass(link){
+            let check = link.base || link.url
+            let sel = this.$route.path.indexOf(check) === 0 || false
+            return {selected: sel}
         }
     }
 }
@@ -99,13 +115,31 @@ header{
 
 .logo{
     display: flex;
+    width:50px;
+    height:50px;
 }
 .logo > a{
+    width: 100%;
+    height: 100%;
     text-decoration: none;
-    font-family: 'Domain Display Black';
+    font-family: 'Domain Display';
     border:3px solid var(--maincolor);
     color: var(--mainover);
-    padding:.5rem;
+    overflow: hidden;
+}
+.logo span{
+    padding: .2rem;
+}
+.logo img{
+    width: 100%;
+    display: none;
+}
+
+.logo:hover span{
+    display: none;
+}
+.logo:hover img{
+    display: block;
 }
 
 section{
@@ -114,8 +148,12 @@ section{
     margin-top:1rem;
     flex:1;
 }
+footer{
+    margin-top:2rem;
+    display: none;
+}
 
-section.visible{
+.visible{
     display: block;
 }
 
@@ -123,6 +161,9 @@ ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+li{
+    margin-bottom:1px;
 }
 li a{
     display: block;
@@ -135,12 +176,15 @@ li a:hover{
     background-color: var(--mainover);
 }
 
+li.selected a{
+    color: var(--maincolor);
+    background-color: var(--mainover);
+}
 
 
 footer{
     color:var(--mainover);
     font-size:80%;
-    display: none;
     font-family: 'Domain Display';
 }
 
@@ -152,14 +196,27 @@ footer{
     .ham{
         display: none;
     }
-
     footer{
         display: block;
     }
 }
 
 
-
+.socials{
+    display: flex;
+}
+.socials a{
+    display: block;
+    width: 20px;
+    margin-right: .7rem;
+    opacity: .5;
+}
+.socials a:hover{
+    opacity: 1;
+}
+.socials img{
+    width: 100%;
+}
 
 </style>
 

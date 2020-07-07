@@ -15,7 +15,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@nuxt/components": "^1.0.7",
     "@nuxt/content": "^1.4.1",
+    "@nuxtjs/feed": "^2.0.0",
     "@nuxtjs/sitemap": "^2.4.0",
     "d3": "^5.16.0",
     "normalize-css": "^2.3.1",

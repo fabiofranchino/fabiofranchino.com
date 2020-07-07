@@ -4,12 +4,13 @@
             <h1>{{page.title}}</h1>
             <p>Posted on {{page.humandate}} in 
                 <nuxt-link :to="page.categories">{{page.categories}}</nuxt-link>
-                 - {{page.reading.text}}
+                 <br /><em>{{page.reading.text}}</em>
             </p>
         </div>
         
         <nuxt-content :document="page" />
 
+        <PrevNext />
         <Subscribe />
     </div>
 </template>
@@ -20,27 +21,47 @@
 <script>
 import {descending} from 'd3'
 import Subscribe from '@/components/Subscribe'
+import PrevNext from '@/components/PrevNext'
 
 export default {
     components:{
-        Subscribe
+        Subscribe, PrevNext
+    },
+    data(){
+        return{
+            prevS:'aaa',
+            nextS:''
+        }
     },
     async asyncData({ $content, params, error }) {
-        let cnt = null
+        let page = null
 
         try{
-            cnt = await $content('blog', params.id).fetch()
+            page = await $content('blog', params.id).fetch()
         }catch(err){
             error({ statusCode: 404, message: 'Post not found' })
         }
 
         return {
-            page: cnt
+            page
         }
     },
     async fetch({ store, $content, params }){
         let res = await $content('blog').fetch()
         const thisPage = res.filter(d => d.slug === params.id)[0]
+        const thisIndex = res.indexOf(thisPage)
+
+        let prevS = ''
+        let nextS = ''
+
+        if(thisIndex >= 0){
+            if(thisIndex > 0){
+                prevS = res[thisIndex-1]
+            }
+            if(thisIndex < res.length - 1){
+                nextS = res[thisIndex+1]
+            }
+        }
         
         res.forEach(d => {
             d.relevance = 0
@@ -58,6 +79,9 @@ export default {
         res = res.filter((d,i) => d.relevance>0).filter((d,i) => i<5)
 
         store.commit('setRelated', res)
+        store.commit('setPrevSlug', prevS)
+        store.commit('setNextSlug', nextS)
+        store.commit('setCurrent', thisPage)
     },
     head () {
         let cover = this.page.cover ? `blog/covers/${this.page.slug}.jpg` : 'social.png'

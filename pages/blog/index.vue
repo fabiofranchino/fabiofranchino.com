@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="header">
-            <h1>I document what I've learnt here.</h1>
+            <h1>I document what I learn.</h1>
             <h3>I try my best to write relevant things in a clear way. Always learning though.</h3>
         </div>
 

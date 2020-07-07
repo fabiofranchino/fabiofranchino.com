@@ -1,5 +1,8 @@
 <template>
     <div class="reader">
+        <div class="post-header">
+            <h1>{{page.title}}</h1>
+        </div>
         <nuxt-content :document="page" />
     </div>
 </template>
@@ -14,7 +17,7 @@ export default {
         }
     },
     async asyncData({ $content, params, error }) {
-        let page = await $content('home').fetch()
+        let page = await $content('/resources', params.id).fetch()
         const title = page.title
         return {
             page,
@@ -26,10 +29,3 @@ export default {
     }
 }
 </script>
-
-
-<style scoped>
-.reader >>> h2{
-    margin-top: 1rem;
-}
-</style>

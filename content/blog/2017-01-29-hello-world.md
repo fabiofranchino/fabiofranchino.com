@@ -9,7 +9,7 @@ tags: [opinion, general, thoughts]
 ---
 
 First off, a confession.  
-I've been always an internet lurker with some [timid](https://therumorsofdata.tumblr.com/) public contributions.   
+I've been always an internet lurker with some timid public contributions.   
 
 Most of what I've learned over my career is thanks to the web, a place where, among other things, people use their personal time to organize and share pieces of knowledge, often for free.
 

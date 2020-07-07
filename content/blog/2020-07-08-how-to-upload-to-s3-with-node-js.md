@@ -1,8 +1,6 @@
 ---
 title: How to upload images to S3 with Node.js
-date: 2020-05-12 07:00:00 +0100
-subtitle: 12th May, 2020
-style: blue
+date: 2020-07-08 07:00:00 +0100
 cover: cover.png
 categories: Tutorials
 tags: [tutorial, s3, node, upload]

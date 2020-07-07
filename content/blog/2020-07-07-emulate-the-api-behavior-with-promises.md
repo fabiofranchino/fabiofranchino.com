@@ -1,8 +1,6 @@
 ---
 title: Emulate the API behavior with Promises
-date: 2012-04-30 07:00:00 +0100
-subtitle: 7th April, 2020
-style: blue
+date: 2020-07-07 07:00:00 +0100
 cover: cover.png
 categories: Tutorials
 tags: [tutorial, promise, api, es6]
