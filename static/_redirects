@@ -1,0 +1,3 @@
+/blog/tips/*    /log/:splat
+/blog/log/*    /log/:splat
+/blog/resources/*   /resources/:splat
