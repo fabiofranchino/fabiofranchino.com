@@ -22,4 +22,4 @@ if(cleanPath) console.log(cleanPath[1])
 
 Have fun!
 
-**Update:** A better reg-ex in this [post](/blog/log/extract-the-url-from-css-a-better-way).
+**Update:** A better reg-ex in this [post](/log/extract-the-url-from-css-a-better-way).

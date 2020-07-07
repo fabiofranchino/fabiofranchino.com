@@ -10,7 +10,7 @@ tags: [tutorial, vue, es6, directive]
 
 I've just started studying seriously the `vue-cli` ([now in version 3](https://cli.vuejs.org/)) because, among all the awesomeness of the framework, it allows to write in pure ES6 javascript, which is, you know, somewhat the future.
 
-I've [already explored](/blog/tag/vue) Vue in previous posts but I haven't written something about the `directive` feature in general.
+I've already explored Vue in previous posts but I haven't written something about the `directive` feature in general.
 
 In Vue world, there are two main ways to create bricks of your app, that are by:
 

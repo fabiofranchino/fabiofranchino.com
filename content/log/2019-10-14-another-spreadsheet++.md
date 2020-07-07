@@ -6,7 +6,7 @@ categories: Logs
 tags: [log]
 ---
 
-I've already written about the new breed of spreadsheets belonging to the low-code movement [here](/blog/log/the-rise-of-a-new-breed-of-spreadsheets) and [here](/blog/log/fluidtable-the-modern-spreadsheet). 
+I've already written about the new breed of spreadsheets belonging to the low-code movement [here](/log/the-rise-of-a-new-breed-of-spreadsheets) and [here](/log/fluidtable-the-modern-spreadsheet). 
 
 There's another one, even though I dunno whether it's a new kid in the block or not. 
 

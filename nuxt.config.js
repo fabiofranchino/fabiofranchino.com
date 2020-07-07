@@ -1,5 +1,8 @@
 import metaDefault from './libs/metaDefault.js'
 import readingTime from 'reading-time'
+import marked from 'marked'
+
+const allRoutes = []
 
 export default {
   mode: 'universal',
@@ -22,20 +25,44 @@ export default {
   modules: [
     '@nuxt/content',
     '@nuxtjs/sitemap',
-    // '@nuxtjs/feed',
+    '@nuxtjs/feed',
     ['nuxt-canonical', { baseUrl: 'https://www.fabiofranchino.com' }]
   ],
 
   feed: [
     {
-      path: '/feed.xml', // The route to your feed.
-      // async create(feed) {}, // The create function (see below)
-      cacheTime: 1000 * 60 * 15, // How long should the feed be cached
-      type: 'rss2', // Can be: rss2, atom1, json1
-      data: ['Some additional data'] // Will be passed as 2nd argument to `create` function
+      path: '/feed.xml',
+      create (feed, data) {
+        feed.options = {
+          title: 'Fabio Franchino',
+          link: 'https://fabiofranchino.com/feed.xml',
+          description: 'Fabio Franchino RSS feed',
+          language: 'en'
+        }
+
+        allRoutes.forEach(post => {
+          feed.addItem({
+            title: post.title,
+            id: post.path,
+            link: post.fullurl,
+            content: post.html,
+            date: new Date(post.date)
+          })
+        })
+
+        feed.addContributor({
+          name: 'Fabio Franchino',
+          email: 'hello@fabiofranchino.com',
+          link: 'https://www.fabiofranchino.com'
+        })
+      },
+      cacheTime: 1000 * 60 * 15,
+      type: 'rss2'
     }
   ],
-
+  // generate: {
+  //   routes: allRoutes
+  // },
   hooks: {
     'content:file:beforeInsert': d => {
       // convert the jekyll style slug
@@ -56,9 +83,15 @@ export default {
 
       // add the cover path
       d.cover = d.cover ? `assets/posts/${d.slug}/${d.cover}` : null
+      d.html = marked(d.text)
+      d.url = d.path
+      d.fullurl = 'https://www.fabiofranchino.com' + d.path
+
+      allRoutes.push(d)
     }
   },
   sitemap: {
-    hostname: 'https://www.fabiofranchino.com'
+    hostname: 'https://www.fabiofranchino.com',
+    routes: allRoutes
   }
 }

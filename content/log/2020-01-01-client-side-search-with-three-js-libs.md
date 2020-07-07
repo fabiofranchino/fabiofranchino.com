@@ -10,7 +10,7 @@ Client side search with three js libs
 
 I've already tested **Lunr** in [PRESENTA](https://www.presenta.cc/).
 
-I've then discovered **FlexSearch** as an alternative documented in this quick [post](/blog/log/lunr-of-flexsearch).
+I've then discovered **FlexSearch** as an alternative documented in this quick [post](/log/lunr-of-flexsearch).
 
 Now, [JS Search](https://github.com/bvaughn/js-search) is another option.
 

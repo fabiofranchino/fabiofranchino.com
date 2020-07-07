@@ -40,7 +40,7 @@
             <div class="socials">
                 <a href="https://github.com/abusedmedia" title="Github" target="_blank"><img src="@/assets/github.svg" /></a>
                 <a href="https://twitter.com/fabiofranchino" title="Twitter" target="_blank"><img src="@/assets/twitter.svg" /></a>
-                <a href="https://twitter.com/fabiofranchino" title="RSS" target="_blank"><img src="@/assets/rss.svg" /></a>
+                <a href="/feed.xml" title="Feed RSS" target="_blank"><img src="@/assets/rss.svg" /></a>
             </div>
             <div>
                 2017-20 @ Fabio Franchino
@@ -62,7 +62,7 @@ export default {
             links:[
                 {url:'/blog', label:'Articles'},
                 {url:'/log', label:'Logs'},
-                {base:'/resources/', url:'/resources/index', label:'Resources'},
+                {base:'/resources/', url:'/resources', label:'Resources'},
                 {url:'/about', label:'About Me'},
             ]
         }

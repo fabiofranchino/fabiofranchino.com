@@ -3,7 +3,7 @@
         <div class="post-header">
             <h1>{{page.title}}</h1>
             <p>Posted on {{page.humandate}} in 
-                <nuxt-link :to="page.categories">{{page.categories}}</nuxt-link>
+                <!-- <nuxt-link :to="page.categories">{{page.categories}}</nuxt-link> -->
                  <br /><em>{{page.reading.text}}</em>
             </p>
         </div>

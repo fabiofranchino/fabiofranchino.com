@@ -28,6 +28,6 @@ Modularization is the (only) way to survive in the complexity of the front end d
 
 I got that years ago, this is why I've built something to overcome this necessity [here](https://www.npmjs.com/package/static-player) and [here](https://www.npmjs.com/package/grunt-static-player).
 
-Right now, I see in the .vue [single-file-component](https://vuejs.org/v2/guide/single-file-components.html) mechanism the best scenario and this is why [I'm](/blog/vuejs-nice-to-meet-you/) [so excited](/blog/vuejs-welcome-cli/) [about](/nuxt-getting-started-with-it/). I know, it's not standard but I hope to see similar (or better) strategies by the W3C in the near future.
+Right now, I see in the .vue [single-file-component](https://vuejs.org/v2/guide/single-file-components.html) mechanism the best scenario and this is why [I'm](/blog/vuejs-nice-to-meet-you/) [so excited](/blog/vuejs-welcome-cli/) [about](/blog/nuxt-getting-started-with-it/). I know, it's not standard but I hope to see similar (or better) strategies by the W3C in the near future.
 
 In the meantime, give me the time polishing my next **Vue.js** exploration.
