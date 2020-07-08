@@ -66,5 +66,5 @@ date: ${today.format('YYYY-MM-DD HH:mm:00 +0100')}
   var dest = frontmatter + src
   var finalname = `${today.format('YYYY-MM-DD')}-${filename}.md`
   fs.writeFileSync(`./content/log/${finalname}`, dest)
-  // fs.unlinkSync(`./pub/${f}`)
+  fs.unlinkSync(`./pub/${f}`)
 })

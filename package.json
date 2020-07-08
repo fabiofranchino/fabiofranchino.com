@@ -10,7 +10,7 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "export": "nuxt build --target static && nuxt export",
-    "pub": "node pub.js && git add content/log && git add assets/log && git commit -m \"push log\" && git push"
+    "pub": "node pub.js && git add content/log && git add static/assets/log && git commit -m \"push log\" && git push"
   },
   "keywords": [],
   "author": "",
