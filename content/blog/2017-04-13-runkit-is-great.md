@@ -8,7 +8,7 @@ categories: Tutorials
 tags: [tutorial, runkit, tips]
 ---
 
-![](../assets/posts/runkit-is-great/cover.jpg)
+![](/assets/posts/runkit-is-great/cover.jpg)
 
 Some friends and followers already know I'm a keen advocate of scraping online information especially when that information are not easily available in a machine readable format.   
 

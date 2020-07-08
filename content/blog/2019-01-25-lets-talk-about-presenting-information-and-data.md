@@ -18,7 +18,7 @@ I started poking around the idea of a custom tool a year ago, a tool able to bui
 
 Here one of the very first POC (now completely different, though):
 
-<video autoplay loop muted controls src="../assets/posts/lets-talk-about-presenting-information-and-data/poc.m4v"></video>
+<video autoplay loop muted controls src="/assets/posts/lets-talk-about-presenting-information-and-data/poc.m4v"></video>
 
 Lately, I was able to dedicate some time to this side project and a little tool was born.
 

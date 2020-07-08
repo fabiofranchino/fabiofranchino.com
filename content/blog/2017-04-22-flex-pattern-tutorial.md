@@ -16,7 +16,7 @@ Limits don't have to be hard nor complex.
 
 This is an example of how to reach some interesting outcome trying to push a little piece of technology out of its usual context.
 
-![](../assets/posts/flex-pattern-tutorial/cover.png)
+![](/assets/posts/flex-pattern-tutorial/cover.png)
 
 CSS is the web technology used to style contents.  
 Lately, CSS has become powerful enough to built complex layouts and animation effects.

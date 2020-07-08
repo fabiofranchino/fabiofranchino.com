@@ -10,7 +10,7 @@ tags: [tutorial, scraping, twitter, nodejs]
 
 I do like the [#May1Reboot](http://www.may1reboot.com/) initiative:
 
-![](../assets/posts/dump-tweets-from-search/tweet.png)
+![](/assets/posts/dump-tweets-from-search/tweet.png)
 
 The campaign has been almost completely advertised through Twitter, therefore, I got curious to see some numbers related to people that used it to promote the initiative and their own relaunch as well.
 

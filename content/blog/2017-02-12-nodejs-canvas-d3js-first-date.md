@@ -54,10 +54,10 @@ Now, show time:
 
 
 <div class="grid pair">
-<div class="grid_item padded"><img src="../assets/posts/canvas-on-nodejs/plots/2017-02-02.png" /></div>
-<div class="grid_item padded"><img src="../assets/posts/canvas-on-nodejs/plots/2017-02-03.png" /></div>
-<div class="grid_item padded"><img src="../assets/posts/canvas-on-nodejs/plots/2017-02-04.png" /></div>
-<div class="grid_item padded"><img src="../assets/posts/canvas-on-nodejs/plots/2017-02-05.png" /></div>
+<div class="grid_item padded"><img src="/assets/posts/canvas-on-nodejs/plots/2017-02-02.png" /></div>
+<div class="grid_item padded"><img src="/assets/posts/canvas-on-nodejs/plots/2017-02-03.png" /></div>
+<div class="grid_item padded"><img src="/assets/posts/canvas-on-nodejs/plots/2017-02-04.png" /></div>
+<div class="grid_item padded"><img src="/assets/posts/canvas-on-nodejs/plots/2017-02-05.png" /></div>
 </div>
 
 It's not easy to extract meaningful insights out of them. You might notice the unusual dots concentration on the left side. 
@@ -67,10 +67,10 @@ I do use Mac OS X and my **dock** is left-centered positioned.
 The next iteration includes histograms related to quantitative occurrences on specific coordinate positions. The red one is the quantity of data points in the **x-axis**, the blue one in the **y-axis**:
 
 <div class="grid pair">
-<div class="grid_item padded"><img src="../assets/posts/canvas-on-nodejs/histo/2017-02-02.jpg" /></div>
-<div class="grid_item padded"><img src="../assets/posts/canvas-on-nodejs/histo/2017-02-03.jpg" /></div>
-<div class="grid_item padded"><img src="../assets/posts/canvas-on-nodejs/histo/2017-02-04.jpg" /></div>
-<div class="grid_item padded"><img src="../assets/posts/canvas-on-nodejs/histo/2017-02-05.jpg" /></div>
+<div class="grid_item padded"><img src="/assets/posts/canvas-on-nodejs/histo/2017-02-02.jpg" /></div>
+<div class="grid_item padded"><img src="/assets/posts/canvas-on-nodejs/histo/2017-02-03.jpg" /></div>
+<div class="grid_item padded"><img src="/assets/posts/canvas-on-nodejs/histo/2017-02-04.jpg" /></div>
+<div class="grid_item padded"><img src="/assets/posts/canvas-on-nodejs/histo/2017-02-05.jpg" /></div>
 </div>
 
 ## So, what's the point?

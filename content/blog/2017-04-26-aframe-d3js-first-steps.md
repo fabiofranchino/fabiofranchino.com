@@ -37,7 +37,7 @@ If would happen to leave the default position (which is "0 0 0") you'll end up n
 
 Now, you might wonder: how to fill that attribute properly?
 
-![](../assets/posts/aframe-d3js-first-steps/right-hand.jpg)
+![](/assets/posts/aframe-d3js-first-steps/right-hand.jpg)
 
 > The position of each object follows the **right-hand** coordinate system.  
 
@@ -150,6 +150,6 @@ Do you want to be part of this revolution?
 This summer there'll be an exciting workshop on the topic.  
 [Join](https://goo.gl/0GLSb3) us to this awesome learning experience in beautiful Lugano:
 
-<a href="https://goo.gl/0GLSb3">![](../assets/posts/aframe-d3js-first-steps/adventures_dataviz.png)</a>
+<a href="https://goo.gl/0GLSb3">![](/assets/posts/aframe-d3js-first-steps/adventures_dataviz.png)</a>
 
 Full source code [here](https://github.com/fabiofranchino/aframe-d3js-first-steps)

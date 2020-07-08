@@ -10,13 +10,13 @@ tags: [review, workshop, ied, conditional, design, drawing]
 
 So happy since I've successfully conducted my first [conditional design workshop](https://conditionaldesign.org/) with my students at IED Torino.
 
-![](../assets/posts/conditional-design-workshop-ied/cover.jpg)
+![](/assets/posts/conditional-design-workshop-ied/cover.jpg)
 
 It's been so long since I had this desire and finally I caught the opportunity with my new class of wannabe designers.
 
 I've given 30 minutes for the activity. I've set up 7 groups,  4/5 people each.
 
-![](../assets/posts/conditional-design-workshop-ied/4.jpg)
+![](/assets/posts/conditional-design-workshop-ied/4.jpg)
 
 They had to draw a little square, turning clockwise, on an A0 sheet, with a colored marker, each square has to follow these rules:
 
@@ -26,11 +26,11 @@ They had to draw a little square, turning clockwise, on an A0 sheet, with a colo
 - it can be filled with parallel lines, horizontal, vertical or diagonal
 - it doesn't have to intersect any other shapes
 
-![](../assets/posts/conditional-design-workshop-ied/rules.gif)
+![](/assets/posts/conditional-design-workshop-ied/rules.gif)
 
 I'm quite happy with the outcomes. They were skeptical at first but during the session, they got engaged and I had some difficulties to stop them because the time run out.
 
-![](../assets/posts/conditional-design-workshop-ied/3.jpg)
+![](/assets/posts/conditional-design-workshop-ied/3.jpg)
 
 I've noticed a couple of things observing them during the workshop:
 

@@ -105,6 +105,10 @@ export default {
     border: none;
 }
 
+.page >>> video{
+    width: 100%;
+}
+
 .page >>> blockquote{
     font-size:170%;
     background-color: var(--maincolor);

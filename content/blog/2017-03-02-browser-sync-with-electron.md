@@ -17,7 +17,7 @@ It might also be useful for others, though.
 
 <!-- main_ad -->
 
-![](../assets/posts/browser-sync-with-electron/cover.png)
+![](/assets/posts/browser-sync-with-electron/cover.png)
 
 ## Browser-sync
 

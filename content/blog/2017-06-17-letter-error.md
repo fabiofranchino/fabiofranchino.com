@@ -17,10 +17,10 @@ It's more an exploration than a real project but I'd like to keep in memory some
 Here some samples:
 
 <div class="grid four">
-<div class="grid_item"><img src="../assets/posts/letter-error/letterError-1.jpg" /></div>
-<div class="grid_item"><img src="../assets/posts/letter-error/letterError-2.jpg" /></div>
-<div class="grid_item"><img src="../assets/posts/letter-error/letterError-3.jpg" /></div>
-<div class="grid_item"><img src="../assets/posts/letter-error/letterError-4.jpg" /></div>
+<div class="grid_item"><img src="/assets/posts/letter-error/letterError-1.jpg" /></div>
+<div class="grid_item"><img src="/assets/posts/letter-error/letterError-2.jpg" /></div>
+<div class="grid_item"><img src="/assets/posts/letter-error/letterError-3.jpg" /></div>
+<div class="grid_item"><img src="/assets/posts/letter-error/letterError-4.jpg" /></div>
 </div>
 
 and here the full script:

@@ -16,7 +16,7 @@ You already know that you may open the generated SVG file, copy the source code 
 
 There's a better way: load the SVG file and inject it into the HTML document at run-time.
 
-![](../assets/posts/how-to-inject-external-svg-with-d3/spark.png)
+![](/assets/posts/how-to-inject-external-svg-with-d3/spark.png)
 
 This way you can go back and forth between the code editor and the SVG editor very fast, in full iterative and lean spirit.
 

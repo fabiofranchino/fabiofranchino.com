@@ -10,7 +10,7 @@ tags: [tutorial, regex, tips]
 
 If you consider the [Regular Expression](https://en.wikipedia.org/wiki/Regular_expression), RegEx to my friends, a language for **aliens**, well, nice to include you in my company!
 
-![](../assets/posts/i-know-regex/cover_regex.png)
+![](/assets/posts/i-know-regex/cover_regex.png)
 
 Maybe you already know that it basically allows to find sequences of characters by means of pattern rules. 
 

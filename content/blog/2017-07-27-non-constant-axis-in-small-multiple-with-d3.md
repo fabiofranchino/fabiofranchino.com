@@ -10,7 +10,7 @@ tags: [tutorial, d3js, tips, smallmultiple]
 
 > I like to break the rules sometimes.
 
-![](../assets/posts/non-constant-axis-in-small-multiple-with-d3/cover.png)
+![](/assets/posts/non-constant-axis-in-small-multiple-with-d3/cover.png)
 
 [Small multiple](https://en.wikipedia.org/wiki/Small_multiple) in data visualization is a way to represent and compare variations of a property in several categories at once by means of an array of small and pretty similar charts that use the same scale and axes.
 
@@ -22,7 +22,7 @@ In D3.js context, creating multiple charts out of a single dataset is a matter o
 
 Considering a dataset structured as an array of objects with each object that contains an array of data points, a *small multiple* chart like this one:
 
-![](../assets/posts/non-constant-axis-in-small-multiple-with-d3/small_quick_1.png)
+![](/assets/posts/non-constant-axis-in-small-multiple-with-d3/small_quick_1.png)
 
 can be built using D3.js with this working script:
 
@@ -76,7 +76,7 @@ I had to figure out a bit the way to go because, looking the above script, the *
 
 Basically, this is what I wanted to achieve (remember, no comparison can be done here):
 
-![](../assets/posts/non-constant-axis-in-small-multiple-with-d3/small_quick_2.png)
+![](/assets/posts/non-constant-axis-in-small-multiple-with-d3/small_quick_2.png)
 
 and this is what I've changed in the previous script related to the path generation, basically, I've moved the scale/line configs within the **d** attribute setter:
 

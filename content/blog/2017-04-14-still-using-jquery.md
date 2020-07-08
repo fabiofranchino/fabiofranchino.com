@@ -8,7 +8,7 @@ categories: Opinions
 tags: [opinion, jquery, thoughts]
 ---
 
-![](../assets/posts/still-using-jquery/cover.jpg)
+![](/assets/posts/still-using-jquery/cover.jpg)
 
 ## One upon a time
 

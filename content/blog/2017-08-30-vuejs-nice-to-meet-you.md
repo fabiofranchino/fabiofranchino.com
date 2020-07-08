@@ -10,7 +10,7 @@ tags: [tutorial, vue, svg, basic]
 
 [Vue.js](https://vuejs.org/) caught my attention since its first public release mainly for its simplicity. Unfortunately, I've never had the opportunity to put my hands on it. Finally, that time has come.
 
-![](../assets/posts/vuejs-nice-to-meet-you/cover.png)
+![](/assets/posts/vuejs-nice-to-meet-you/cover.png)
 
 Over the past few years, I had some experience with [Angular 1.x](https://angularjs.org/). I remember I've stumbled upon it back in 2012.  
 I remember quite clearly my excitement about how I was able to transform a static web-page in a reactive web-app using a couple of magic custom HTML tags. 
@@ -31,7 +31,7 @@ I've conducted a *getting started* time with the library, trying to discover som
 Import the library, use this HTML fragment:
 
 ```html
-{% raw %}<h1 id="app">{{ message }}</h1>{% endraw %}
+<h1 id="app">{{ message }}</h1>
 ```
 
 and this js code:
@@ -48,10 +48,10 @@ new Vue({
 Creating a reusable component:
 
 ```javascript
-{% raw %}Vue.component('my-comp', {
+Vue.component('my-comp', {
     template: '<h1>{{ mydata.message }}</h1>',
     props: ['mydata']
-}){% endraw %}
+})
 ```
 
 use it in your document specifying the data bind:
@@ -80,11 +80,11 @@ new Vue({
 Using the directive `v-for`:
 
 ```html
-{% raw %}<div id="app">
+<div id="app">
   <ul>
     <li v-for="item in items">{{ item }}</li>
   </ul>
-</div>{% endraw %}
+</div>
 ```
 
 Vue.js will render it according to the passed array:
@@ -103,10 +103,10 @@ new Vue({
 The `v-model` directive allows for two-way binding:
 
 ```html
-{% raw %}<div id="app">
+<div id="app">
   <textarea v-model="message"></textarea>
   <p>{{ message }}</p>
-</div>{% endraw %}
+</div>
 ```
 
 Now the textarea value will update the `p` tag everytime we type in it:
@@ -125,11 +125,11 @@ new Vue({
 The `v-if` directive allows for simple conditionals:
 
 ```html
-{% raw %}<div id="app">
+<div id="app">
   <ul>
     <li v-for="item in items" v-if="item.show">{{ item.label }}</li>
   </ul>
-</div>{% endraw %}
+</div>
 ```
 
 In this case, a property in data object will be responsible for the list item visibility:
@@ -153,14 +153,14 @@ new Vue({
 The `v-on:click` directive allows to add click event on HTML elements:
 
 ```html
-{% raw %}<div id="app">
+<div id="app">
   <ul>
     <li 
         v-for="item in items" 
         v-if="item.show"
         v-on:click="hide">{{ item.label }}</li>
   </ul>
-</div>{% endraw %}
+</div>
 ```
 
 If you want to pass the data object to the event handler function, you need to specify, explicitly, the arguments as the following:
@@ -168,13 +168,13 @@ If you want to pass the data object to the event handler function, you need to s
 <lineselect lines="4-4" ></lineselect>
 
 ```html
-{% raw %}<div id="app">
+<div id="app">
   <ul>
     <li v-for="item in items" 
         v-if="item.show"
         v-on:click="hide(item, $event)">{{ item.label }}</li>
   </ul>
-</div>{% endraw %}
+</div>
 ```
 
 The javascript part looks like:
@@ -203,7 +203,7 @@ var vm = new Vue({
 We can transform the above code as reusable component with:
 
 ```javascript
-{% raw %}Vue.component('list', {
+Vue.component('list', {
     template: '<ul><li v-for="item in items" v-if="item.show" v-on:click="hide(item, $event)">{{item.label}}</li></ul>',
     props: ['items'],
     methods:{
@@ -211,7 +211,7 @@ We can transform the above code as reusable component with:
             item.show = false
         }
     }
-}){% endraw %}
+})
 ```
 
 and using the new tag in our document:

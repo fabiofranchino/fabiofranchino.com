@@ -16,7 +16,7 @@ I like cooking.
 
 I can even humbly to say I’m pretty good at it. I like to be creative when in front of stove and pots, I usually try to experiment a lot using the combination of two of my senses as the main driver.
 
-![](../assets/posts/scraping-data-in-the-kitchen/image_0.jpg)
+![](/assets/posts/scraping-data-in-the-kitchen/image_0.jpg)
 
 Unfortunately, I’m not very educated in nutrition. I’m usually not spending my free time reading/browsing technical papers about it. I would like, though.
 
@@ -76,19 +76,19 @@ So, assuming you are using Google Chrome, this is what you need to do:
 
 Now that we have injected jQuery into the original page, we can exploit it for our purposes (yes, we could avoid jQuery at all by writing [vanilla](http://vanilla-js.com/) javascript but it’s easier and faster with it).
 
-![](../assets/posts/scraping-data-in-the-kitchen/image_1.gif)
+![](/assets/posts/scraping-data-in-the-kitchen/image_1.gif)
 
 From that page, we have the complete list of food items, each of them with its proper link to the details page.
 
 The following tiny code snippet will be responsible for transforming that list into a structured javascript array with 1736 objects:
 
-![](../assets/posts/scraping-data-in-the-kitchen/image_2.png)Look the relation between the readable information and the data object
+![](/assets/posts/scraping-data-in-the-kitchen/image_2.png)Look the relation between the readable information and the data object
 
 Now with the complete list in memory, we can fetch the details page for each item in order to decorate each object with all the available properties.
 
 To complete the tutorial check [this repository out on Github](https://github.com/abusedmedia/Scraping-data-in-the-kitchen), a better place to store stuff like that.
 
-![](../assets/posts/scraping-data-in-the-kitchen/image_3.png)The same data object has been decorated with additional properties
+![](/assets/posts/scraping-data-in-the-kitchen/image_3.png)The same data object has been decorated with additional properties
 
 This is a quick demonstration to show how to scrape any public website using few lines of javascript. I really hope I have given, at least, a bit of curiosity to try to scrape with your hands.
 
@@ -98,4 +98,4 @@ It’s interesting to see that there is already something (may I call them *insi
 
 [Experience and enjoy the visualization](http://bl.ocks.org/abusedmedia/bfc42ae0b4888f8843da)
 
-![](../assets/posts/scraping-data-in-the-kitchen/image_4.gif)
+![](/assets/posts/scraping-data-in-the-kitchen/image_4.gif)

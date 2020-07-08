@@ -11,7 +11,7 @@ tags: [opinion, thoughts, studio, ddd]
 I was lucky enough to attend the [Digital Design Days](http://www.ddd.it/) festival held a few days ago in Milan.  
 We, as [TODO](https://todo.to.it/), have been invited to give a speech there, together with an incredible line-up of design studios and designers.
 
-![](../assets/posts/run-a-design-studio/ddd.jpg)
+![](/assets/posts/run-a-design-studio/ddd.jpg)
 
 Giving a public talk is always, beside disseminating the studio brand, an opportunity to share thoughts trying to inspire people or, at least, to entertain them.
 

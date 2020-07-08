@@ -24,7 +24,7 @@ Communicating to the outside world for a design and communication firm is one of
 
 One of the most common ways to explain to potential users what an agency is able to provide is by showing their projects. I understand the rationale: demonstrating the abilities and skills through finished projects in order to attract potential commitments.
 
-![](../assets/posts/how-design-agency-communicate-themself/cover.jpg)
+![](/assets/posts/how-design-agency-communicate-themself/cover.jpg)
 
 [Pentagram work section](https://www.pentagram.com/work) shows something interesting and a little bit different than the usual way. The primary entry point to explore projects is by **Type of Client**. This might seems nothing special but, to me, that choice rang something.
 

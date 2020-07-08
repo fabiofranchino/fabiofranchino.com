@@ -18,7 +18,7 @@ I was wrong. It's not going to be a thing.
 
 The browser support speaks by itself. Only Google Chrome natively support it. The other main vendors need a polyfill to work with.
 
-![](../assets/posts/html-import-is-dead/browser-compatibility.png)
+![](/assets/posts/html-import-is-dead/browser-compatibility.png)
 
 This will affect also the [Polymer Project](https://www.polymer-project.org/), no doubt.
 

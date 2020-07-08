@@ -10,7 +10,7 @@ tags: [tutorial, aframe, d3js, tips, vr]
 
 > A promise is a promise.
 
-![](../assets/posts/3D-pie-chart-finally/promise.png)
+![](/assets/posts/3D-pie-chart-finally/promise.png)
 
 I did it. I've built the unspeakable, the unmentionable and possibly the worst piece of data visualisation ever invented by the human specie. 
 
@@ -62,6 +62,6 @@ I'm still trying to figure out how to better use this kind of visualization in V
 I believe I've had enough of pies.  
 If you've had too, [join us](https://goo.gl/0GLSb3) this summer contributing to this awesome learning experience in Lugano:
 
-<a href="https://goo.gl/0GLSb3">![](../assets/posts/aframe-d3js-first-steps/adventures_dataviz.png)</a>
+<a href="https://goo.gl/0GLSb3">![](/assets/posts/aframe-d3js-first-steps/adventures_dataviz.png)</a>
 
 As usual, full source code [here](https://github.com/fabiofranchino/3D-pie-chart-finally)

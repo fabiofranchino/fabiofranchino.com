@@ -20,7 +20,7 @@ Contrary to what many people might believe, I've learned that a massive amount o
 
 This is the full 2017 "audience" report from Google Analytics:
 
-![](../assets/posts/spikes-vs-organic/spike.png)
+![](/assets/posts/spikes-vs-organic/spike.png)
 
 You can easily spot a couple of spikes thanks to **YC** since two of my posts happened to live on its front page for a whole day.
 
@@ -31,7 +31,7 @@ Indeed, I'm making **assumptions** based on data in a **specific context**. The 
 
 The following chart, instead, reveals a different **story**:
 
-![](../assets/posts/spikes-vs-organic/organic.png)
+![](/assets/posts/spikes-vs-organic/organic.png)
 
 It shows the organic traffic brought by Google search engine.
 

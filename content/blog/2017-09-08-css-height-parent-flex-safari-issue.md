@@ -25,7 +25,7 @@ On **Chrome** and **Firefox** this works like a charm, but not on Safari (becaus
 
 Since it will be fixed at some point, here a screenshot taken with Safari 10.1.2 desktop version:
 
-![](../assets/posts/css-height-parent-flex-safari-issue/safari.png)
+![](/assets/posts/css-height-parent-flex-safari-issue/safari.png)
 
 And here a modified version to make it Safari compatible. You can see I had to add an additional wrapper and change the CSS making it less maintainable:
 

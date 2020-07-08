@@ -16,7 +16,7 @@ I’ve been fascinated by **complex structures** since always and grid systems d
 
 In graphic design, a grid is a visual structure that usually serves as a framework on which a designer can organize graphic elements in a rational way.
 
-![](../assets/posts/brute-force-layout/cover.jpg)
+![](/assets/posts/brute-force-layout/cover.jpg)
 
 It’s a tool, a functional tool with a technical purpose, invisible to the final user/reader, without any pretense to be aesthetic.
 
@@ -41,7 +41,7 @@ Out of it, a simple set of tasks were outlined, defined as the follows:
 3. Repeat
 4. Sometimes remove a rect picked up randomly
 
-![](../assets/posts/brute-force-layout/sketch.jpg)
+![](/assets/posts/brute-force-layout/sketch.jpg)
 
 These simple rules can be manually executed producing simple results. The same simple rules are able to produce complex outcomes if iterated multiple times properly.
 
@@ -55,15 +55,15 @@ Full disclosure: the code has been written **fast** with the sole purpose of vis
 
 You can take a look at the whole sketch [here.](https://gist.github.com/abusedmedia/bb4761a4d259e97a419a235e386a26f3)
 
-![](../assets/posts/brute-force-layout/p5.jpg)
+![](/assets/posts/brute-force-layout/p5.jpg)
 
 The sketch was able to generate infinite permutations of the visual structure but I’ve saved only four variations eventually becoming the following manually fine-tuned graphic posters:
 
 <div class="grid four">
-<div class="grid_item"><img src="../assets/posts/brute-force-layout/b-001_640.jpg" /></div>
-<div class="grid_item"><img src="../assets/posts/brute-force-layout/b-002_640.jpg" /></div>
-<div class="grid_item"><img src="../assets/posts/brute-force-layout/b-003_640.jpg" /></div>
-<div class="grid_item"><img src="../assets/posts/brute-force-layout/b-004_640.jpg" /></div>
+<div class="grid_item"><img src="/assets/posts/brute-force-layout/b-001_640.jpg" /></div>
+<div class="grid_item"><img src="/assets/posts/brute-force-layout/b-002_640.jpg" /></div>
+<div class="grid_item"><img src="/assets/posts/brute-force-layout/b-003_640.jpg" /></div>
+<div class="grid_item"><img src="/assets/posts/brute-force-layout/b-004_640.jpg" /></div>
 </div>
 
 I was pretty happy with the outcome and, at that time, the thing was done there.
@@ -114,7 +114,7 @@ Or I could export these artworks onto Illustrator (or similar vector editors) in
 
 > **Bonus tip:** Export is just a matter of copying the generated source SVG code *(copy element)* and put it into an empty .svg file:
 
-![](../assets/posts/brute-force-layout/export.jpg)
+![](/assets/posts/brute-force-layout/export.jpg)
 
 Do you want to tweak and continue the exploration by your own? Check or [download](https://github.com/fabiofranchino/brute_force_layout/archive/master.zip) the source code from [this repository](https://github.com/fabiofranchino/brute_force_layout) and let me know if you reach something else.
 
