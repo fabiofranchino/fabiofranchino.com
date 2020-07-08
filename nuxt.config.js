@@ -82,7 +82,7 @@ export default {
       d.humandate = date.toLocaleDateString(undefined, options)
 
       // add the cover path
-      d.cover = d.cover ? `assets/posts/${d.slug}/${d.cover}` : null
+      d.cover = d.cover ? `/assets/posts/${d.slug}/${d.cover}` : null
       d.html = marked(d.text)
       d.url = d.path
       d.fullurl = 'https://www.fabiofranchino.com' + d.path
