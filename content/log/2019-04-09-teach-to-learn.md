@@ -12,4 +12,4 @@ I want to remind this which is very true:
 
 > "If you want to master something, teach it." - Richard Feynman
 
-![](../assets/log/n493_0.jpg)
+![](/assets/log/n493_0.jpg)

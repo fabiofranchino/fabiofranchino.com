@@ -8,5 +8,5 @@ tags: [log]
 
 Nice dynamic in thi geometric animated composition:
 
-<video autoplay muted loop src="../assets/log/n780_n673_800x600.mp4"></video>
+<video autoplay muted loop src="/assets/log/n780_n673_800x600.mp4"></video>
 

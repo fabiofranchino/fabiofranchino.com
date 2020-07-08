@@ -10,4 +10,4 @@ tags: [log]
 
 This is a wonderful quote with an unknown owner. This is some info I found:
 
-![](../assets/log/n32_screen-shot-2019-01-27-at-22.07.45.png)
+![](/assets/log/n32_screen-shot-2019-01-27-at-22.07.45.png)

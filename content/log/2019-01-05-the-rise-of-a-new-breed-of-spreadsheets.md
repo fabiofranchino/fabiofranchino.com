@@ -16,4 +16,4 @@ The ability to store and structure data and information (a database) with the po
 
 To be fair, this paradigm [exists](https://en.wikipedia.org/wiki/HyperCard) since more than 30 years ago :)
 
-![](../assets/log/n710_proxy.duckduckgo.jpg)
+![](/assets/log/n710_proxy.duckduckgo.jpg)

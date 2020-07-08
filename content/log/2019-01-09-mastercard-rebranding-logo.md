@@ -14,4 +14,4 @@ Removing the name is not something everybody can do. Indeed, only a few can stan
 
 [Source](https://www.itsnicethat.com/news/mastercard-new-logo-michael-bierut-graphic-design-080119)
 
-![](../assets/log/n754_mastercard-new-logo-graphic-design-itsnicethat-02.jpg)
+![](/assets/log/n754_mastercard-new-logo-graphic-design-itsnicethat-02.jpg)

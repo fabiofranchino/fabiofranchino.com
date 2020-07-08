@@ -10,7 +10,7 @@ Light to visualize future sea level
 
 [A beautiful site specific installation](http://www.niittyvirta.com/lines-57-59-n-7-16w/) that uses lights to represent the future sea level rise.
 
-![](../assets/log/n488_lines_2018-niittyvirta-aho-009.jpg)
+![](/assets/log/n488_lines_2018-niittyvirta-aho-009.jpg)
 
 It's of course a typical design fiction project that try to arise awareness about a specific issue, provoking possible dialogues around it.
 

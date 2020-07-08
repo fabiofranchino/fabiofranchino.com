@@ -8,7 +8,7 @@ tags: [log]
 
 The best *share* button ever:
 
-![](../assets/log/n449_best-share-button.png)
+![](/assets/log/n449_best-share-button.png)
 
 Sharing a webpage has been always a URL copy/paste matter. 
 

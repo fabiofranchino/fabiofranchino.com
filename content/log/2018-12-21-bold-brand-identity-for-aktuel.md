@@ -10,7 +10,7 @@ Bold [brand identity](https://www.behance.net/gallery/73841579/Aktuel-Brand-iden
 
 Very dynamic and modular brand system that allows great exploration and creativity.
 
-![](../assets/log/n624_66b33173841579.5c178639f1c17.png)
+![](/assets/log/n624_66b33173841579.5c178639f1c17.png)
 
-![](../assets/log/n300_efc18873841579.5c178639f0ed4.jpg)
+![](/assets/log/n300_efc18873841579.5c178639f0ed4.jpg)
 

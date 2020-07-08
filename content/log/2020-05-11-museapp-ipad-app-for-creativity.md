@@ -8,4 +8,4 @@ tags: [log]
 
 Interesting approach of this [app](https://museapp.com/) to help creatives structuring their ideas.
 
-![](../assets/log/n683_screen-shot-2020-05-11-at-07.15.44.png)
+![](/assets/log/n683_screen-shot-2020-05-11-at-07.15.44.png)

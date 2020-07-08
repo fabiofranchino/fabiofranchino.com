@@ -12,4 +12,4 @@ Seamless integration in Hadron App.
 
 Looks very good by the teasers, I've request an early access to test it out. Let's see.
 
-<video autoplay muted loop src="../assets/log/n792_design-profile.mp4"></video>
+<video autoplay muted loop src="/assets/log/n792_design-profile.mp4"></video>

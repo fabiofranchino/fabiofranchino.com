@@ -8,5 +8,5 @@ tags: [log]
 
 Trust is a process.
 
-![](../assets/log/n587_screen-shot-2018-05-16-at-17.18.38.png)
+![](/assets/log/n587_screen-shot-2018-05-16-at-17.18.38.png)
 

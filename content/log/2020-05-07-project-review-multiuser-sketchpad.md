@@ -8,5 +8,5 @@ tags: [log]
 
 Incredible project by Mr. Doob, a [real-time multiuser sketchpad](https://multiuser-sketchpad-colors.glitch.me/) always running.
 
-![](../assets/log/n718_screen-shot-2020-05-07-at-15.27.52.png)
+![](/assets/log/n718_screen-shot-2020-05-07-at-15.27.52.png)
 

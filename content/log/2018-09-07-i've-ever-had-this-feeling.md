@@ -8,4 +8,4 @@ tags: [log]
 
 I've ever had this feeling:
 
-![](../assets/log/n13_screen-shot-2018-09-07-at-12.34.35.png)
+![](/assets/log/n13_screen-shot-2018-09-07-at-12.34.35.png)

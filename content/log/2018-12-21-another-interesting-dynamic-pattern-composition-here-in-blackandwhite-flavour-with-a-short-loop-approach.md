@@ -8,4 +8,4 @@ tags: [log]
 
 Another interesting dynamic pattern composition, here in black&white flavour with a short loop approach:
 
-<video autoplay muted loop src="../assets/log/n430_flabio_pattern_dribbble.mp4"></video>
+<video autoplay muted loop src="/assets/log/n430_flabio_pattern_dribbble.mp4"></video>

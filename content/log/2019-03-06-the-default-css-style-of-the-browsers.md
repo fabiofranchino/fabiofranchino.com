@@ -8,7 +8,7 @@ tags: [log]
 
 TIL from this tweet:
 
-![](../assets/log/n821_screen-shot-2019-03-06-at-21.20.08.png)
+![](/assets/log/n821_screen-shot-2019-03-06-at-21.20.08.png)
 
 that there's a [reference](https://meiert.com/en/blog/user-agent-style-sheets/) of the CSS style used by the browsers, technically it's the User-Agent default style.
 

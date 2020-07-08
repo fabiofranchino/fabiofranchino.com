@@ -8,7 +8,7 @@ tags: [log]
 
 The website budget
 
-![](../assets/log/n255_il-budget-non-conta-ma-efficacia.png)
+![](/assets/log/n255_il-budget-non-conta-ma-efficacia.png)
 
 This is why I started to ask the budget first, no matter the goal nor the requirements the client has in mind.
 

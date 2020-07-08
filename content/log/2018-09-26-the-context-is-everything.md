@@ -8,6 +8,6 @@ tags: [log]
 
 How is this true?
 
-![](../assets/log/n918_dnivm02wwaapegr.jpg)
+![](/assets/log/n918_dnivm02wwaapegr.jpg)
 
 The context is everything. Period.

@@ -10,6 +10,6 @@ Again from [RealtimeBoard.com](https://realtimeboard.com), a increasing trend th
 
 The user is asked to digit manually a given code instead clicking an email link.
 
-![](../assets/log/n652_screen-shot-2018-09-10-at-14.28.21.png)
+![](/assets/log/n652_screen-shot-2018-09-10-at-14.28.21.png)
 
 From security perspective, no difference at all, therefore, it must be a UX decision. Still not convinced about its usability.

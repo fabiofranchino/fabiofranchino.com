@@ -10,4 +10,4 @@ I understand your intentions but you should begin to understand your readers.
 
 If I don't want to **Open in app** your article, you should take it. It's also easy to fix. Just listen for the `scroll event` in order to hide that obtrusive and annoying button.
 
-![](../assets/log/n564_2018-09-04-16_23_32.gif)
+![](/assets/log/n564_2018-09-04-16_23_32.gif)

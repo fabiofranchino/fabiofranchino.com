@@ -9,7 +9,7 @@ tags: [log]
 
 This is a very interesting quote which is against the common flow.
 
-![](../assets/log/n609_screen-shot-2019-08-30-at-18.42.45.png)
+![](/assets/log/n609_screen-shot-2019-08-30-at-18.42.45.png)
 
 Everybody agree that population grown and we'll have problems for that.
 

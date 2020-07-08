@@ -8,5 +8,5 @@ tags: [log]
 
 What a wonderful and powerful image that communicate a lot!
 
-![](../assets/log/n893_exe5pzyxqaat6uz.png)
+![](/assets/log/n893_exe5pzyxqaat6uz.png)
 

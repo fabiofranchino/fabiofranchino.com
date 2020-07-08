@@ -10,6 +10,6 @@ Manipulating arcs
 
 This little video made me think of a possible POC I could work on:
 
-<video autoplay muted loop src="../assets/log/n720_design-circular-graphs-pie-charts-watch-faces-and-more-with-the-arc-component-available-now-in-the-framer-x-store.-.mp4"></video>
+<video autoplay muted loop src="/assets/log/n720_design-circular-graphs-pie-charts-watch-faces-and-more-with-the-arc-component-available-now-in-the-framer-x-store.-.mp4"></video>
 
 I leave it here for future reference

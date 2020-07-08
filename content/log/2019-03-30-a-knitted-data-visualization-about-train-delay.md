@@ -10,6 +10,6 @@ A knitted data visualization about train delay
 
 So beautiful.
 
-![](../assets/log/n651_dwpbafxwoaahr8h.jpg)
+![](/assets/log/n651_dwpbafxwoaahr8h.jpg)
 
-![](../assets/log/n724_screen-shot-2019-03-30-at-11.14.40.png)
+![](/assets/log/n724_screen-shot-2019-03-30-at-11.14.40.png)

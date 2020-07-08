@@ -10,4 +10,4 @@ tags: [log]
 
 It might be useful to use some of them to make some points using a tangible scenario, though.
 
-![](../assets/log/n584_screencapture-theuncomfortable-2018-09-05-12_11_26.png)
+![](/assets/log/n584_screencapture-theuncomfortable-2018-09-05-12_11_26.png)

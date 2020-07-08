@@ -12,4 +12,4 @@ This is a very good quote:
 
 In other words, you can't design upfront correctly.
 
-![](../assets/log/n482_screen-shot-2019-03-24-at-15.52.04.png)
+![](/assets/log/n482_screen-shot-2019-03-24-at-15.52.04.png)

@@ -10,4 +10,4 @@ This is interesting.
 
 Warning companies making advertising wrong. You have to work in context, always:
 
-![](../assets/log/n825_screen-shot-2018-09-24-at-11.35.06.png)
+![](/assets/log/n825_screen-shot-2018-09-24-at-11.35.06.png)

@@ -12,11 +12,11 @@ The project is over now and I want to fix the bits I've learned somewhere.
 
 The Serial In Watcher setup:
 
-![](../assets/log/n92_isa2.png)
+![](/assets/log/n92_isa2.png)
 
 And a basic patch using the MicroBit microcontroller:
 
-![](../assets/log/n329_isa.png)
+![](/assets/log/n329_isa.png)
 
 The following links were very useful:
 

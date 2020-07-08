@@ -6,7 +6,7 @@ categories: Logs
 tags: [log]
 ---
 
-![](../assets/log/n63_photohop-blending-mode-ui.png)
+![](/assets/log/n63_photohop-blending-mode-ui.png)
 
 It has been always like this and it will be the same, for any Photoshop user.
 

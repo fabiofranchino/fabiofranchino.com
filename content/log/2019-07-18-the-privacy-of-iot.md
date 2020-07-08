@@ -12,6 +12,6 @@ This is very interesting. IoT devices are going to be encrypted ever more but...
 
 > Sniffing data traffic, even if encrypted, can reveal a lot about personal and private activities exposing some risks.
 
-![](../assets/log/n53_d_tblfvwkaawrka.png)
+![](/assets/log/n53_d_tblfvwkaawrka.png)
 
 Here the [paper](https://arxiv.org/pdf/1812.00955.pdf).

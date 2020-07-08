@@ -12,5 +12,5 @@ This is a very good picture about the representation of two very famous process 
 
 The creative/design process and the iterative/agile one:
 
-![](../assets/log/n11_processes-represented.jpg)
+![](/assets/log/n11_processes-represented.jpg)
 

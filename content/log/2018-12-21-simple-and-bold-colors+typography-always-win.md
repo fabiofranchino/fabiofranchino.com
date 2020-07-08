@@ -8,5 +8,5 @@ tags: [log]
 
 Simple and bold colors+typography always win.
 
-![](../assets/log/n214_wieden_kenndedy-rxbar-graphicdesign-itsnicethat-00.jpg)
+![](/assets/log/n214_wieden_kenndedy-rxbar-graphicdesign-itsnicethat-00.jpg)
 

@@ -10,4 +10,4 @@ tags: [log]
 
 Novel directions in aesthetic and art.
 
-![](../assets/log/n561_screen-shot-2019-04-12-at-17.40.15.png)
+![](/assets/log/n561_screen-shot-2019-04-12-at-17.40.15.png)

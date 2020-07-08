@@ -10,6 +10,6 @@ This is a classic in UX, the technical possibilities versus the real user needs 
 
 The amount of this divergence determine the inverse quality of any design:
 
-![](../assets/log/n849_0.jpg)
+![](/assets/log/n849_0.jpg)
 
 What's technical possible, usually an engineering task, needs to face with the user needs, a design task.

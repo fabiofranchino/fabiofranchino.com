@@ -16,4 +16,4 @@ Lovely quote about learning process from the genius Feynman:
 
 Food for thoughts.
 
-![](../assets/log/n536_screen-shot-2019-03-07-at-09.41.09.png)
+![](/assets/log/n536_screen-shot-2019-03-07-at-09.41.09.png)

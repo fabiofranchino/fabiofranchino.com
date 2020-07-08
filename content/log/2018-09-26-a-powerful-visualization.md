@@ -8,4 +8,4 @@ tags: [log]
 
 A powerful visualization is something that communicates in a powerful way. A strong message in the right context without barriers for readers.
 
-![](../assets/log/n36_dnhlembxoaacelv.jpg)
+![](/assets/log/n36_dnhlembxoaacelv.jpg)

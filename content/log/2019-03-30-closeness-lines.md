@@ -14,4 +14,4 @@ It depics with two simple lines specific relations among two persons.
 
 It's impressive the level of systhesis of the artwork.
 
-![](../assets/log/n502_closeness+lines_print+copy.jpg)
+![](/assets/log/n502_closeness+lines_print+copy.jpg)

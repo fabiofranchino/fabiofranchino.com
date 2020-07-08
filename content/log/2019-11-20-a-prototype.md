@@ -8,7 +8,7 @@ tags: [log]
 
 A **prototype** is *"an early sample, model, or release of a product built to test a concept or process or to act as a thing to be replicated or learned from."*
 
-![](../assets/log/n390_prototyping-cover.jpg)
+![](/assets/log/n390_prototyping-cover.jpg)
 
 In design context, a prototype is everything since the inception to the final and released product. That means sketches, wireframes, visual comps, demos and all the early releases might be considered a prototyped version in order to improve something for the next cycle.
 

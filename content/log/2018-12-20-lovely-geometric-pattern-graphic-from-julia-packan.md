@@ -8,4 +8,4 @@ tags: [log]
 
 Lovely geometric pattern graphic from [Julia Packan](https://dribbble.com/shots/5727349-Geometric-Pattern/attachments):
 
-![](../assets/log/n841_geometric-pattern.png)
+![](/assets/log/n841_geometric-pattern.png)

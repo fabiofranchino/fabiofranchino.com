@@ -10,6 +10,6 @@ Architects and designers
 
 This is an interesting statement I couldn't agree more:
 
-![](../assets/log/n909_tween-parallelo-design-architettura.png)
+![](/assets/log/n909_tween-parallelo-design-architettura.png)
 
 This is one of the reasons I do teach coding to designers.

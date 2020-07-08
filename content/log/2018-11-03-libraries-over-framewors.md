@@ -8,4 +8,4 @@ tags: [log]
 
 WOW. So damn straight to the point explaining the difference between libraries over frameworks:
 
-![](../assets/log/n85_dre0h-7wkaizpdp.jpg)
+![](/assets/log/n85_dre0h-7wkaizpdp.jpg)

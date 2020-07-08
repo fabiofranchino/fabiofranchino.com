@@ -12,7 +12,7 @@ Here a very good comparison between the Space Shuttle cockpit (1998) with the Dr
 
 Can you spot the difference?
 
-![](../assets/log/n28_0.jpg)
+![](/assets/log/n28_0.jpg)
 
-![](../assets/log/n625_0-1.jpg)
+![](/assets/log/n625_0-1.jpg)
 

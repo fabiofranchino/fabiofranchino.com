@@ -8,4 +8,4 @@ tags: [log]
 
 > Design is the adaptive execution of strategic intent
 
-![](../assets/log/n809_screen-shot-2018-10-09-at-15.54.30.png)
+![](/assets/log/n809_screen-shot-2018-10-09-at-15.54.30.png)
