@@ -9,7 +9,8 @@
     "spa": "nuxt build --spa",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "export": "nuxt build --target static && nuxt export"
+    "export": "nuxt build --target static && nuxt export",
+    "pub": "node pub.js && git add content/log && git add assets/log && git commit -m \"push log\" && git push"
   },
   "keywords": [],
   "author": "",
@@ -20,10 +21,14 @@
     "@nuxtjs/feed": "^2.0.0",
     "@nuxtjs/sitemap": "^2.4.0",
     "d3": "^5.16.0",
-    "marked": "^1.1.0",
     "normalize-css": "^2.3.1",
     "nuxt": "^2.13.3",
-    "nuxt-canonical": "^1.0.3",
-    "reading-time": "^1.2.0"
+    "nuxt-canonical": "^1.0.3"
+  },
+  "devDependencies": {
+    "reading-time": "^1.2.0",
+    "marked": "^1.1.0",
+    "moment": "^2.27.0",
+    "slugify": "^1.4.4"
   }
 }

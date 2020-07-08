@@ -87,7 +87,7 @@ export default {
       d.url = d.path
       d.fullurl = 'https://www.fabiofranchino.com' + d.path
 
-      allRoutes.push(d)
+      if (!d.draft) allRoutes.push(d)
     }
   },
   sitemap: {
