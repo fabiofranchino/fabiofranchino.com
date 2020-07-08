@@ -62,7 +62,7 @@ export default {
             links:[
                 {url:'/blog', label:'Articles'},
                 {url:'/log', label:'Logs'},
-                {base:'/resources/', url:'/resources', label:'Resources'},
+                //{url:'/resources', label:'Resources'},
                 {url:'/about', label:'About Me'},
             ]
         }
@@ -81,7 +81,7 @@ export default {
     
     methods:{
         getClass(link){
-            let check = link.base || link.url
+            let check = link.url
             let sel = this.$route.path.indexOf(check) === 0 || false
             return {selected: sel}
         }

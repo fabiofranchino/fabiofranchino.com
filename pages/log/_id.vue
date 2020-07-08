@@ -9,7 +9,7 @@
         <nuxt-content :document="page" />
 
         <PrevNext />
-        <Subscribe />
+        <!-- <Subscribe /> -->
     </div>
 </template>
 
