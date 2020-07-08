@@ -10,6 +10,8 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "export": "nuxt build --target static && nuxt export",
+    "serve:lambda": "netlify-lambda serve netlify-functions",
+    "build:lambda": "netlify-lambda build netlify-functions",
     "pub": "node pub.js && git add content/log && git add static/assets/log && git commit -m \"push log\" && git push"
   },
   "keywords": [],
@@ -26,9 +28,11 @@
     "nuxt-canonical": "^1.0.3"
   },
   "devDependencies": {
-    "reading-time": "^1.2.0",
+    "axios": "^0.19.2",
     "marked": "^1.1.0",
     "moment": "^2.27.0",
+    "netlify-lambda": "^1.6.3",
+    "reading-time": "^1.2.0",
     "slugify": "^1.4.4"
   }
 }

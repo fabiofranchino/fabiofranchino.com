@@ -10,8 +10,8 @@ title: Home
 
 I'm good at:
 
-- Designing, prototyping and developing **interactive software**
-- Teaching **creative coding** to non-tech people
+- Directing, designing, prototyping and developing **interactive software**
+- Teaching **creative coding** and **data visualization** to non-tech people
 - Managing teams in software **design and development**
 
 ### Need to talk?

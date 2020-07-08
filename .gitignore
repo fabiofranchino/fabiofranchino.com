@@ -3,6 +3,8 @@ node_modules
 /dist
 .nuxt
 
+/functions
+
 *.mov
 
 # local env files
