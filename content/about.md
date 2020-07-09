@@ -8,7 +8,7 @@ I'm italian and I currently live in my (still) beautiful country.
 
 I've twenty years of experience in **computational design** and **web development**. 
 
-I co-founded [TODO](https://todo.to.it/) back in 2007 serving as **CTO** role and I'm currently an independent senior designer/technologist.
+I co-founded [TODO](https://todo.to.it/) back in 2007 serving as **CTO**, currently independent senior designer/technologist.
 
 ![](assets/me.jpg)
 
