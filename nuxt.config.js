@@ -28,7 +28,13 @@ export default {
     '@nuxtjs/feed',
     ['nuxt-canonical', { baseUrl: 'https://www.fabiofranchino.com' }]
   ],
-
+  content: {
+    markdown: {
+      prism: {
+        theme: 'css/prism-atom-dark.css'
+      }
+    }
+  },
   feed: [
     {
       path: '/feed.xml',
