@@ -39,7 +39,7 @@ export default {
     align-items: center;
     overflow: auto;
 
-    background-color: #FAF9F6;
+    background-color: var(--mainover);
 }
 
 
@@ -130,7 +130,7 @@ export default {
 .page >>> ul,
 .page >>> ol {
   font-size: 1.15em;
-  line-height: 0.9em;
+  line-height: 1.1em;
   text-align: left;
   margin: 0;
   padding: 0;

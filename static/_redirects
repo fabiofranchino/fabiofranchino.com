@@ -2,3 +2,5 @@
 /blog/log/*    /log/:splat
 /blog/resources/*   /resources/:splat
 /blog/sketching-with-html-css/setup-github-codepen.html  /setup-github-codepen
+
+/*  https://fabiofranchino.github.io/:splat
