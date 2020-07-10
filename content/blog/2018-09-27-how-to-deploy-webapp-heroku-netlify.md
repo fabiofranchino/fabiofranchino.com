@@ -58,7 +58,7 @@ Here the steps:
 
 - Create a new `index.html` file with the following code:
 
-- ```html
+```html
   <!DOCTYPE html>
   <html>
   <head>
@@ -131,7 +131,10 @@ Deploying a simple website on Netlify usually require just a repository connecti
 - Add in the `package.json` file, in the `"Script"` portion, this command:
 
 ```bash
-mkdir dist && cp node_modules/vue/dist/vue.js dist/vue.js && cp node_modules/axios/dist/axios.js dist/axios.js && cp index.html dist/index.html
+mkdir dist && 
+cp node_modules/vue/dist/vue.js dist/vue.js && 
+cp node_modules/axios/dist/axios.js dist/axios.js && 
+cp index.html dist/index.html
 ```
 
 We need also to edit the script import relative path in the HTML file:
