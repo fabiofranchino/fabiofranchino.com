@@ -27,6 +27,7 @@ export default {
     },
     async asyncData({ store, $content, params, error }) {
         let res = await $content('blog').sortBy('date', 'desc').fetch()
+        res = res.filter(d => !d.draft)
         store.commit('setRelated', null)
         return {
             posts: res

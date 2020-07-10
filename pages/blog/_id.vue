@@ -48,6 +48,8 @@ export default {
     },
     async fetch({ store, $content, params }){
         let res = await $content('blog').fetch()
+        res = res.filter(d => !d.draft)
+
         const thisPage = res.filter(d => d.slug === params.id)[0]
         const thisIndex = res.indexOf(thisPage)
 

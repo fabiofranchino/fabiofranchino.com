@@ -66,9 +66,11 @@ export default {
       type: 'rss2'
     }
   ],
-  // generate: {
-  //   routes: allRoutes
-  // },
+  generate: {
+    routes: [
+      '/setup-github-codepen'
+    ]
+  },
   hooks: {
     'content:file:beforeInsert': d => {
       // convert the jekyll style slug
