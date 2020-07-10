@@ -24,7 +24,7 @@ export default {
     components:{
         Subscribe, PrevNext
     },
-    async asyncData({ $content, params, error }) {
+    async asyncData({ store, $content, params, error }) {
         let cnt = null
 
         try{
