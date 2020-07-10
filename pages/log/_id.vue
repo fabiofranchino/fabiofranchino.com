@@ -33,11 +33,6 @@ export default {
             error({ statusCode: 404, message: 'Post not found' })
         }
 
-        return {
-            page: cnt
-        }
-    },
-    async fetch({ store, $content, params }){
         let res = await $content('log').fetch()
         const thisPage = res.filter(d => d.slug === params.id)[0]
         const thisIndex = res.indexOf(thisPage)
@@ -57,7 +52,14 @@ export default {
         store.commit('setPrevSlug', prevS)
         store.commit('setNextSlug', nextS)
         store.commit('setCurrent', thisPage)
+
+        return {
+            page: cnt
+        }
     },
+    // async fetch({ store, $content, params }){
+        
+    // },
 
 
     head () {

@@ -33,7 +33,8 @@ export default {
             nextS:''
         }
     },
-    async asyncData({ $content, params, error }) {
+    async asyncData({ store, $content, params, error }) {
+
         let page = null
 
         try{
@@ -42,11 +43,6 @@ export default {
             error({ statusCode: 404, message: 'Post not found' })
         }
 
-        return {
-            page
-        }
-    },
-    async fetch({ store, $content, params }){
         let res = await $content('blog').fetch()
         res = res.filter(d => !d.draft)
 
@@ -84,7 +80,14 @@ export default {
         store.commit('setPrevSlug', prevS)
         store.commit('setNextSlug', nextS)
         store.commit('setCurrent', thisPage)
+
+        return {
+            page
+        }
     },
+    // async fetch({ store, $content, params }){
+        
+    // },
     head () {
         let cover = this.page.cover ? `blog/covers/${this.page.slug}.jpg` : 'social.png'
         return {

@@ -63,7 +63,7 @@ export default {
 
     .body{
         flex:1;
-        margin-left: 200px;
+        padding-left: 200px;
         margin-top: inherit;
     }
 }
