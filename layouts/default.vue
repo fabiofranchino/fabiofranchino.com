@@ -37,9 +37,16 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: auto;
+
+    margin-top: 70px;
 
     background-color: var(--mainover);
+}
+
+.sidebar{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 
@@ -56,6 +63,8 @@ export default {
 
     .body{
         flex:1;
+        margin-left: 200px;
+        margin-top: inherit;
     }
 }
 

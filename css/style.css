@@ -46,15 +46,9 @@
 html, body{
     padding: 0;
     margin: 0;
-    overflow: hidden;
     width: 100%;
-    height: 100%;
 }
 
-#__nuxt, #__layout, #__default{
-    width: 100%;
-    height: 100%;
-}
 
 
 body{
