@@ -3,7 +3,6 @@ title: Add sitemap to Nuxt with export
 date: 2020-07-10 04:51:00 +0100
 ---
 
- and content
 
 If you are using the new `export` function of Nuxt with the `@nuxt/content` module, which generates automatically all the routes with an internal crawler, maybe you're facing an issue in case you'd like to add the `sitemap` to your generated website.
 
@@ -39,3 +38,4 @@ sitemap: {
 }
 ```
 
+That's it.
