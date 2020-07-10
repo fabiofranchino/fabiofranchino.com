@@ -2,13 +2,11 @@
     <div class="card">
         <div class="inner">
             <nuxt-link :to="item.path">
-                <!-- <a :href="item.path"> -->
                 <div class="img">
                     <img loading="lazy" :src="item.cover" v-if="item.cover" />
                 </div>
                 <h4>{{item.title}}</h4>
                 <p>{{item.humandate}}</p>
-                <!-- </a> -->
             </nuxt-link>
         </div>
     </div>

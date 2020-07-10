@@ -1,12 +1,10 @@
 <template>
     <div class="card">
         <div class="inner">
-            <!-- <nuxt-link :to="item.path"> -->
-                <a :href="item.path">
+            <nuxt-link :to="item.path">
                 <h4>{{item.title}}</h4>
                 <p>{{item.humandate}}</p>
-                </a>
-            <!-- </nuxt-link> -->
+            </nuxt-link>
         </div>
     </div>
 </template>
