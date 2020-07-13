@@ -16,7 +16,7 @@ module.exports = [
   { name: 'twitter:creator', content: '@fabiofranchino' },
   { name: 'twitter:description', content: 'Senior Designer / Technologist' },
 
-  { hid: 'twtit', name: 'twitter:title', content: 'Presenta, a presentation tool' },
+  { hid: 'twtit', name: 'twitter:title', content: 'Fabio Franchino' },
   { hid: 'twurl', name: 'twitter:url', content: 'https://fabiofranchino.com/' },
   { hid: 'twimg', name: 'twitter:image', content: 'https://fabiofranchino.com/social.png' },
 
