@@ -1,10 +1,8 @@
 ---
 title: How to upload images to S3 with Node.js
 date: 2020-07-08 07:00:00 +0100
-cover: cover.png
 categories: Tutorials
 tags: [tutorial, s3, node, upload]
-draft: true
 ---
 
 Here an handy script to upload a folder of images to S3 using Node.js.
@@ -76,7 +74,7 @@ module.exports = (cb) => {
 
 ```
 
-The above script can be used with:
+The above script can be used this way:
 
 ```javascript
 const uploadImages = require('./uploadToS3.js')
@@ -87,3 +85,4 @@ uploadImages(() => {
 
 ```
 
+Happy uploading!
