@@ -14,7 +14,7 @@ To create a billboard panel in Roblox you have to add it in the editor in the **
 
 You should see something like:
 
-![](../assets/tips/n319_screen-shot-2020-05-02-at-09.12.29.png)
+![](/assets/log/n319_screen-shot-2020-05-02-at-09.12.29.png)
 
 You can configure properties and position of the panel using the Properties panel.
 

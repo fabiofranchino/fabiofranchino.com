@@ -20,4 +20,4 @@ end
 
 The particularity of this example is the use of [math.random](https://developer.roblox.com/en-us/api-reference/lua-docs/math) to shuffle the size of each tile in order to get something like:
 
-![](../assets/tips/n351_screen-shot-2020-05-01-at-10.57.22.png)
+![](/assets/log/n351_screen-shot-2020-05-01-at-10.57.22.png)

@@ -11,7 +11,7 @@ That opens interesting possibilities.
 
 The nice part is that you can add many SpawnLocation using code:
 
-![](../assets/tips/n58_screen-shot-2020-05-17-at-16.26.12.png)
+![](/assets/log/n58_screen-shot-2020-05-17-at-16.26.12.png)
 
 First off, put a SpawnLocation into the ServerStorage and name it with `SL`, then put this code in the main script:
 

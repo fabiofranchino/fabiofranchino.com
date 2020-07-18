@@ -27,8 +27,8 @@ The only difference is that we need to calculate the position for each, otherwis
 
 Before running it:
 
-![](../assets/tips/n328_screen-shot-2020-05-01-at-10.47.40.png)
+![](/assets/log/n328_screen-shot-2020-05-01-at-10.47.40.png)
 
 After hit Run:
 
-![](../assets/tips/n318_screen-shot-2020-05-01-at-10.48.09.png)
+![](/assets/log/n318_screen-shot-2020-05-01-at-10.48.09.png)

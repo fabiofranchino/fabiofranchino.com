@@ -11,7 +11,7 @@ This opers interesting possibilities, such as make the Part always different.
 
 Suppose you have a `MyPart` in `ServerStorage`:
 
-![](../assets/tips/n406_screen-shot-2020-04-26-at-14.21.54.png)
+![](/assets/log/n406_screen-shot-2020-04-26-at-14.21.54.png)
 
 And the `Main` script with:
 
@@ -38,7 +38,7 @@ p.BrickColor = BrickColor.new(255,0,0)
 
 You should see something like:
 
-![](../assets/tips/n72_screen-shot-2020-04-26-at-14.25.01.png)
+![](/assets/log/n72_screen-shot-2020-04-26-at-14.25.01.png)
 
 The Part has been created and modified at run-time.
 

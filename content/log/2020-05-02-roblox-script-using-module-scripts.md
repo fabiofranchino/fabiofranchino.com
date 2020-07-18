@@ -31,4 +31,4 @@ The above code just print a string when some object requires it.
 
 This way you can edit the module one time and all the objects that reference to it will get the updates.
 
-![](../assets/tips/n846_screen-shot-2020-05-02-at-08.43.36.png)
+![](/assets/log/n846_screen-shot-2020-05-02-at-08.43.36.png)

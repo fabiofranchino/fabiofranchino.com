@@ -7,7 +7,7 @@ categories: Tips
 
 Want to generate a labyrinth following a spiral shape?
 
-![](../assets/tips/n17_screen-shot-2020-05-06-at-21.22.00.png)
+![](/assets/log/n17_screen-shot-2020-05-06-at-21.22.00.png)
 
 [Watch the preview.](https://www.youtube.com/watch?v=dy4__R0FSxQ)
 

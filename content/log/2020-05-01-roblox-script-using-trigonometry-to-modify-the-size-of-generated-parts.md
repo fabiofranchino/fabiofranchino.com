@@ -7,7 +7,7 @@ categories: Tips
 
 Creating a list of tiles (Part) and resize one dimension using [math.sin](https://developer.roblox.com/en-us/api-reference/lua-docs/math) to modulate armonically the shape of the path:
 
-![](../assets/tips/n752_screen-shot-2020-05-01-at-11.13.30.png)
+![](/assets/log/n752_screen-shot-2020-05-01-at-11.13.30.png)
 
 The script use a variable `a` that is incremented within the `for-loop`. A new `x` variable is calculated for each tile:
 

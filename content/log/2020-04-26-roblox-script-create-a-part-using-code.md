@@ -20,4 +20,4 @@ p.BrickColor = BrickColor.new(255,0,0)
 
 Adding `Anchored` is required if you don't have a Baseplate in your game. Here the result:
 
-![](../assets/tips/n445_screen-shot-2020-04-26-at-11.34.52.png)
+![](/assets/log/n445_screen-shot-2020-04-26-at-11.34.52.png)

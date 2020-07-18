@@ -7,7 +7,7 @@ categories: Tips
 
 Here a bit of math and trigonometry to create on the fly a wall around a circle like that:
 
-![](../assets/tips/n734_screen-shot-2020-05-06-at-18.08.20.png)
+![](/assets/log/n734_screen-shot-2020-05-06-at-18.08.20.png)
 
 First thing first, you need to put a **Part** in **ServerStorage** with the name `Wall`, then run this code from a main script:
 

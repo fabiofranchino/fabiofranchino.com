@@ -7,7 +7,7 @@ categories: Tips
 
 Here the code to create elements for a domino effect.
 
-![](../assets/tips/n895_screen-shot-2020-05-06-at-19.20.26.png)
+![](/assets/log/n895_screen-shot-2020-05-06-at-19.20.26.png)
 
 [Watch the preview.](https://www.youtube.com/watch?v=0k416xeuLOM)
 
