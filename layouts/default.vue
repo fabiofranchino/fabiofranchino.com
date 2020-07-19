@@ -90,6 +90,7 @@ export default {
 .page >>> pre{
     font-size: 1rem;
     line-height: 1.2;
+    background: var(--darkback);
 }
 
 .page >>> p code,

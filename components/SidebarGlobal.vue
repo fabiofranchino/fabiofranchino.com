@@ -93,7 +93,7 @@ export default {
 
 <style scoped>
 .wrapper{
-    background-color: #333333;
+    background-color: var(--darkback);
     padding: .5rem;
     display: flex;
     flex-direction: column;
