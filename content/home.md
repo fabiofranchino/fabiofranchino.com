@@ -4,13 +4,13 @@ title: Home
 
 # Hello! I'm Fabio Franchino
 
-## Senior Designer / Technologist
+## Data Visualization Specialist
 
 <br />
 
 I'm good at:
 
-- Prototyping and developing <span class="s" data-type="underline">interactive software</span>
+- Prototyping and developing <span class="s" data-type="underline">data-driven software</span>
 - Teaching <span class="s" data-type="underline">creative coding</span> and <span class="s" data-type="underline">data visualization</span>
 - <span class="s" data-type="underline">Managing teams</span> in software design and development
 
