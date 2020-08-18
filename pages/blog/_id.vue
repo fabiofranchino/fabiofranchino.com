@@ -89,17 +89,17 @@ export default {
         
     // },
     head () {
-        let cover = this.page.cover ? `blog/covers/${this.page.slug}.jpg` : 'social.png'
+        let cover = this.page.cover ? `assets/posts/${this.page.slug}/${this.page.cover}` : 'social.png'
         return {
             title: this.page.title,
             meta: [
                 { hid:'published_time', property: 'article:published_time', content: this.page.date },
                 { hid:'ogtit', property: 'og:title', content: this.page.title },
                 { hid:'twtit', name: 'twitter:title', content: this.page.title },
-                { hid:'ogimg', property: 'og:image', content: `https://www.presenta.cc/${cover}` },
-                { hid:'twimg', name: 'twitter:image', content: `https://www.presenta.cc/${cover}` },
-                { hid:'ogurl', property: 'og:url', content: `https://www.presenta.cc/blog/${this.page.slug}` },
-                { hid:'twurl', name: 'twitter:url', content: `https://www.presenta.cc/blog/${this.page.slug}` }
+                { hid:'ogimg', property: 'og:image', content: `https://fabiofranchino.com/${cover}` },
+                { hid:'twimg', name: 'twitter:image', content: `https://fabiofranchino.com/${cover}` },
+                { hid:'ogurl', property: 'og:url', content: `https://fabiofranchino.com/blog/${this.page.slug}` },
+                { hid:'twurl', name: 'twitter:url', content: `https://fabiofranchino.com/blog/${this.page.slug}` }
             ]
         }
     }
