@@ -89,7 +89,7 @@ export default {
         
     // },
     head () {
-        let cover = this.page.cover ? `assets/posts/${this.page.slug}/${this.page.cover}` : 'social.png'
+        let cover = this.page.cover ? `assets/posts/${this.page.slug}/${this.page.cover}` : 'social.jpg'
         return {
             title: this.page.title,
             meta: [

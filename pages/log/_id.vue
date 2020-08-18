@@ -63,7 +63,7 @@ export default {
 
 
     head () {
-        let cover = 'social.png'
+        let cover = 'social.jpg'
         return {
             title: this.page.title,
             meta: [
