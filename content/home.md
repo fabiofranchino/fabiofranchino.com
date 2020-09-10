@@ -4,7 +4,7 @@ title: Home
 
 # Hello! I'm Fabio Franchino
 
-## Data Visualization Specialist
+## Coder, Designer, Dataviz(er)
 
 <br />
 
