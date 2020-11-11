@@ -3,7 +3,6 @@ title: Using DOMParser to create HTML and SVG fragment
 date: 2020-10-28 10:50:00 +0100
 ---
 
-s
 
 If you need to create HTML or SVG fragments in javascript, there's a well supported interface that converts string into regular nodes.
 

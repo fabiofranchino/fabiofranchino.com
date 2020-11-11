@@ -5,7 +5,6 @@ import marked from 'marked'
 const allRoutes = []
 
 export default {
-  mode: 'universal',
   components: true,
   head: {
     titleTemplate: '%s @ Fabio Franchino',

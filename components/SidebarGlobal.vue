@@ -16,6 +16,15 @@
         
         <section :class="panelClass">
 
+            <div>
+                <h3>Highlights:</h3>
+                <ul>
+                    <li>
+                        <a href="https://lib.presenta.cc">PRESENTA Lib</a>
+                    </li>
+                </ul>
+            </div>
+
             <div v-if="related">
                 <h3>Related:</h3>
                 <ul>
