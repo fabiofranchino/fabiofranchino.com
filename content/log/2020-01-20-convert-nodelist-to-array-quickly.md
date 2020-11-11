@@ -16,3 +16,10 @@ var array = [].slice.call(document.querySelectorAll("div"))
 
 This comes in handy from time to time.
 
+### Update
+
+There's a more natural and easier-to-remember way to do the same task:
+
+```javascript
+var array = Array.from(document.querySelectorAll("div"))
+```
