@@ -59,6 +59,7 @@ export default {
         width: 200px;
         min-width: 200px;
         height: 100%;
+        overflow-y: auto;
     }
 
     .body{
