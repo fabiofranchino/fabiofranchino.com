@@ -10,7 +10,7 @@ I've twenty years of experience in **computational design** and **web developmen
 
 I co-founded [TODO](https://todo.to.it/) back in 2007 serving as **CTO**, currently independent senior designer/technologist.
 
-![](assets/me.jpg)
+![](/assets/me.jpg)
 
 I'm happy enough to lead teams from a vantage point at the crossroads of **design** and **coding**. I love exploring technologies and I'm passionate about **internal processes optimization** by means of Agile and innovative principles. I'm not satisfied by my actual knowledge, therefore, I constantly study something. Indeed, I'm an **ever learner** person.
 
