@@ -3,7 +3,7 @@ title: Create a GIF with Node
 date: 2020-09-17 12:57:00 +0100
 ---
 
-.js
+
 
 Here the snippet of code that creates a GIF animation using a list of pictures using a combination of [GifEncoder](https://github.com/eugeneware/gifencoder) and [Node-Canvas](https://github.com/Automattic/node-canvas) as well.
 
