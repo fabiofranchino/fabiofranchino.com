@@ -17,10 +17,13 @@
         <section :class="panelClass">
 
             <div>
-                <h3>Highlights:</h3>
+                <h3>Projects:</h3>
                 <ul>
                     <li>
                         <a href="https://lib.presenta.cc">PRESENTA Lib</a>
+                    </li>
+                    <li>
+                        <a href="https://play.presenta.cc">PRESENTA Play!</a>
                     </li>
                 </ul>
             </div>
