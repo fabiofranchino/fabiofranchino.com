@@ -62,7 +62,7 @@ Now, in order to use with your content, go to create an `index.js` file with:
 ```javascript
 var sender = require('./sender.js')()
 
-sender.send('Fabio', 'hello@fabiofranchino.com')
+sender.send('Fabio', 'hello@gmail.com')
 ```
 
 By running this script I'll receive a message from it (please, change the email before using it!).

@@ -57,7 +57,7 @@ export default {
 
         feed.addContributor({
           name: 'Fabio Franchino',
-          email: 'hello@fabiofranchino.com',
+          email: 'fabio.franchino@gmail.com',
           link: 'https://www.fabiofranchino.com'
         })
       },

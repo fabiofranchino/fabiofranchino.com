@@ -16,6 +16,6 @@ I'm good at:
 
 ### Need to talk?
 
-A quick <span class="s" data-type="box" data-color="#333">[e-mail](mailto:hello@fabiofranchino.com)</span> is pretty damn good to start a conversation!
+A quick <span class="s" data-type="box" data-color="#333">[e-mail](mailto:fabio.franchino@gmail.com)</span> is pretty damn good to start a conversation!
 
 Oh! Did I mention you don't have to accept any weird cookie banner because you're **not tracked** at all?

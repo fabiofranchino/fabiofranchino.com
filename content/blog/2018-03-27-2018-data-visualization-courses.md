@@ -27,6 +27,3 @@ The workshop will take place in Lugano, Switzerland from **15th to 19th July 201
 
 You can get full information from [here](https://www.maind.supsi.ch/workshops/2018/2018-03-02-adventures-in-data-visualization-2018.html).
 
----
-
-Hope to see you in some of them. Feel free to [ask for anything](mailto:hello@fabiofranchino.com).
