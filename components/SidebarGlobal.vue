@@ -20,7 +20,7 @@
                 <h3>Projects:</h3>
                 <ul>
                     <li>
-                        <a href="https://presenta.cc/">PRESENTA</a>
+                        <a href="https://www.presenta.cc/">PRESENTA</a>
                     </li>
                 </ul>
             </div>
