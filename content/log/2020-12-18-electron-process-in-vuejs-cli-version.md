@@ -1,9 +1,7 @@
 ---
-title: Electron process in Vue
+title: Electron process in Vue.js CLI version
 date: 2020-12-18 07:42:00 +0100
 ---
-
-.js CLI version
 
 If you want to use the `process` of Electron from within a Vue.js project, there's a little conflict because webpack inject its own `process` object.
 
