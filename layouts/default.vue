@@ -25,8 +25,6 @@ export default {
 }
 </script>
 
-<script async defer data-domain="fabiofranchino.com" src="https://plausible.io/js/plausible.js"></script>
-
 
 
 <style scoped>

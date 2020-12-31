@@ -25,6 +25,7 @@ export default {
     '@nuxt/content',
     '@nuxtjs/sitemap',
     '@nuxtjs/feed',
+    'vue-plausible',
     ['nuxt-canonical', { baseUrl: 'https://www.fabiofranchino.com' }]
   ],
   content: {
@@ -100,5 +101,8 @@ export default {
   sitemap: {
     hostname: 'https://www.fabiofranchino.com',
     routes: allRoutes
+  },
+  plausible:{
+    domain: 'fabiofranchino.com'
   }
 }
