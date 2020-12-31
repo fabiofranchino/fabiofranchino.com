@@ -13,7 +13,6 @@ export default {
       { rel: 'icon', href: '/favicon.png' }
     ],
     script: [
-      { src: 'https://production-assets.codepen.io/assets/embed/ei.js', async: true }
     ]
   },
   css: [
@@ -25,7 +24,6 @@ export default {
     '@nuxt/content',
     '@nuxtjs/sitemap',
     '@nuxtjs/feed',
-    'vue-plausible',
     ['nuxt-canonical', { baseUrl: 'https://www.fabiofranchino.com' }]
   ],
   content: {
@@ -101,9 +99,5 @@ export default {
   sitemap: {
     hostname: 'https://www.fabiofranchino.com',
     routes: allRoutes
-  },
-  plausible:{
-    domain: 'fabiofranchino.com',
-    apiHost: 'https://plausible.io'
   }
 }
