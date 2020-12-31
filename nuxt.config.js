@@ -103,6 +103,7 @@ export default {
     routes: allRoutes
   },
   plausible:{
-    domain: 'fabiofranchino.com'
+    domain: 'fabiofranchino.com',
+    apiHost: 'https://plausible.io'
   }
 }
