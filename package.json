@@ -18,22 +18,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@nuxt/components": "^1.0.7",
-    "@nuxt/content": "^1.4.1",
+    "@nuxt/components": "^1.2.2",
+    "@nuxt/content": "^1.11.1",
     "@nuxtjs/feed": "^2.0.0",
     "@nuxtjs/sitemap": "^2.4.0",
     "d3": "^5.16.0",
     "normalize-css": "^2.3.1",
     "nuxt": "^2.14.12",
-    "nuxt-canonical": "^1.0.3",
+    "nuxt-canonical": "^1.0.6",
     "rough-notation": "^0.4.0"
   },
   "devDependencies": {
     "axios": "^0.19.2",
-    "marked": "^1.1.0",
-    "moment": "^2.27.0",
+    "marked": "^1.2.7",
+    "moment": "^2.29.1",
     "netlify-lambda": "^1.6.3",
-    "reading-time": "^1.2.0",
-    "slugify": "^1.4.4"
+    "reading-time": "^1.2.1",
+    "slugify": "^1.4.6"
   }
 }

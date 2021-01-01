@@ -29,7 +29,7 @@ export default {
     },
     data(){
         return{
-            prevS:'aaa',
+            prevS:'',
             nextS:''
         }
     },
@@ -60,6 +60,8 @@ export default {
                 nextS = res[thisIndex+1]
             }
         }
+
+        console.log(thisPage.slug)
         
         res.forEach(d => {
             d.relevance = 0

@@ -17,7 +17,7 @@ export default {
         }
     },
     async asyncData({ $content, params, error }) {
-        let page = await $content('/', params.id).fetch()
+        let page = await $content(params.id).fetch()
         const title = page.title
         return {
             page,

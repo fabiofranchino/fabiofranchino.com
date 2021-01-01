@@ -20,7 +20,7 @@
                 <h3>Projects:</h3>
                 <ul>
                     <li>
-                        <a href="https://www.presenta.cc/">PRESENTA</a>
+                        <a href="https://www.presenta.cc/" target="_blank">PRESENTA</a>
                     </li>
                 </ul>
             </div>
@@ -36,8 +36,8 @@
 
             <h3>Discover:</h3>
             <ul>
-                <li v-for="link in links" :class="getClass(link)">
-                    <a :href="link.url">{{link.label}}</a>
+                <li v-for="link in links" :class="getClass(link)" :key="link.url">
+                    <nuxt-link :to="link.url">{{link.label}}</nuxt-link>
                 </li>
             </ul>
 
