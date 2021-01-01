@@ -65,7 +65,7 @@ export default {
             d.relevance = 0
             if(d.slug !== thisPage.slug){
                 thisPage.tags.forEach(t => {
-                    if(d.tags.indexOf(t) >= 0) d.relevance++
+                    if(d.tags && d.tags.indexOf(t) >= 0) d.relevance++
                 })
             }
         })

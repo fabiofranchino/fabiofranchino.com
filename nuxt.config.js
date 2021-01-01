@@ -19,7 +19,9 @@ export default {
     '~/node_modules/normalize-css/normalize.css',
     '~/css/style.css'
   ],
-
+  plugins: [
+    "plausible-analytics",
+  ],
   modules: [
     '@nuxt/content',
     '@nuxtjs/sitemap',

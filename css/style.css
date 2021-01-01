@@ -54,6 +54,7 @@ html, body{
 
 body{
     font-family: 'Founter Grotest';
+    background-color: var(--mainover);
 }
 h1{
     font-family: 'Domain Display';
