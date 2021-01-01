@@ -74,7 +74,9 @@ export default {
       // convert the jekyll style slug
       const reg = /\d{4}-\d{2}-\d{2}/
       const mtc = reg.exec(d.slug)
+      
       if (mtc) {
+        d.filename = d.slug + '.md'
         d.slug = d.slug.substr(11)
         d.path = d.dir + '/' + d.slug
       }

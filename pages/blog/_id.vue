@@ -11,7 +11,10 @@
         <nuxt-content :document="page" />
 
         <PrevNext />
+        <PatchLink :editLink="editLink" />
         <Subscribe />
+
+        
     </div>
 </template>
 
@@ -22,10 +25,11 @@
 import {descending} from 'd3'
 import Subscribe from '@/components/Subscribe'
 import PrevNext from '@/components/PrevNext'
+import PatchLink from '@/components/PatchLink'
 
 export default {
     components:{
-        Subscribe, PrevNext
+        Subscribe, PrevNext, PatchLink
     },
     data(){
         return{
@@ -36,9 +40,11 @@ export default {
     async asyncData({ store, $content, params, error }) {
 
         let page = null
+        let editLink = ''
 
         try{
             page = await $content('blog', params.id).fetch()
+            editLink = `https://github.com/fabiofranchino/fabiofranchino.com/edit/master/content/blog/${page.filename}`
         }catch(err){
             error({ statusCode: 404, message: 'Post not found' })
         }
@@ -60,8 +66,6 @@ export default {
                 nextS = res[thisIndex+1]
             }
         }
-
-        console.log(thisPage.slug)
         
         res.forEach(d => {
             d.relevance = 0
@@ -84,7 +88,8 @@ export default {
         store.commit('setCurrent', thisPage)
 
         return {
-            page
+            page,
+            editLink
         }
     },
     // async fetch({ store, $content, params }){
@@ -120,4 +125,5 @@ export default {
 .post-header p{
     font-size:70%;
 }
+
 </style>
