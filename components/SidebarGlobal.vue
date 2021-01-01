@@ -37,7 +37,7 @@
             <h3>Discover:</h3>
             <ul>
                 <li v-for="link in links" :class="getClass(link)">
-                    <nuxt-link :to="link.url">{{link.label}}</nuxt-link>
+                    <a :href="link.url">{{link.label}}</a>
                 </li>
             </ul>
 
