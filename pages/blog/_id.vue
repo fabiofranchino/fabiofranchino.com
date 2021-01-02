@@ -49,7 +49,11 @@ export default {
             error({ statusCode: 404, message: 'Post not found' })
         }
 
-        let res = await $content('blog').fetch()
+        let res = await $content('blog')
+            .only(['slug', 'tags', 'title', 'path'])
+            .fetch()
+
+        console.log(res)
         res = res.filter(d => !d.draft)
 
         const thisPage = res.filter(d => d.slug === params.id)[0]

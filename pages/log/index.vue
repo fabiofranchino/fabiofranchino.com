@@ -28,7 +28,10 @@ export default {
         }
     },
     async asyncData({ store, $content, params, error }) {
-        let res = await $content('log').sortBy('date', 'desc').fetch()
+        let res = await $content('log')
+            .sortBy('date', 'desc')
+            .only(['title', 'slug', 'path', 'humandate'])            
+            .fetch()
         store.commit('setRelated', null)
         return {
             posts: res,
