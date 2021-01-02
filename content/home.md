@@ -8,11 +8,11 @@ title: Home
 
 <br />
 
-50% <span class="s">designer</span>, 50% <span class="s">software developer</span> able to:
+I'm a <span class="s">designer</span> + <span class="s">software developer</span> able to:
 
-- Prototyping and developing <span class="s" data-type="underline">data-driven software</span>
-- Teaching <span class="s" data-type="underline">creative coding</span> and <span class="s" data-type="underline">data visualization</span>
-- <span class="s" data-type="underline">Managing teams</span> in software design and development
+- prototype and develop <span class="s" data-type="underline">data-driven</span> software
+- teach <span class="s" data-type="underline">coding</span> and <span class="s" data-type="underline">data visualization</span>
+- manage <span class="s" data-type="underline">people</span> in software design and development
 
 
 ### Want to talk?

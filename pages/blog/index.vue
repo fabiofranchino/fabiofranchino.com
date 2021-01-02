@@ -30,7 +30,7 @@ export default {
         res = res.filter(d => !d.draft)
         store.commit('setRelated', null)
         return {
-            posts: res
+            posts:res
         }
     }
 }
