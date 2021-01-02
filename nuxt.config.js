@@ -6,6 +6,7 @@ const allRoutes = []
 
 export default {
   components: true,
+  target: 'static',
   head: {
     titleTemplate: '%s @ Fabio Franchino',
     meta: metaDefault,
@@ -91,7 +92,7 @@ export default {
 
       // add the cover path
       d.cover = d.cover ? `/assets/posts/${d.slug}/${d.cover}` : '/social.jpg'
-      d.html = marked(d.text)
+      //d.html = marked(d.text)
       d.url = d.path
       d.fullurl = 'https://www.fabiofranchino.com' + d.path
 
