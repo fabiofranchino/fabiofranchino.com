@@ -53,7 +53,6 @@ export default {
             .only(['slug', 'tags', 'title', 'path'])
             .fetch()
 
-        console.log(res)
         res = res.filter(d => !d.draft)
 
         const thisPage = res.filter(d => d.slug === params.id)[0]
