@@ -10,6 +10,8 @@ title: Home
 
 I'm a <span class="s">designer</span> + <span class="s">software developer</span> able to:
 
+
+
 - prototype and develop <span class="s" data-type="underline">data-driven</span> software
 - teach <span class="s" data-type="underline">coding</span> and <span class="s" data-type="underline">data visualization</span>
 - manage <span class="s" data-type="underline">people</span> in software design and development
