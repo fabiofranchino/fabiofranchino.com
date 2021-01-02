@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "axios": "^0.19.2",
+    "frontmatter": "0.0.3",
     "marked": "^1.2.7",
     "moment": "^2.29.1",
     "netlify-lambda": "^1.6.3",

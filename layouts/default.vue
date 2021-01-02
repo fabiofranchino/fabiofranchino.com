@@ -122,12 +122,14 @@ export default {
 
 .page >>> blockquote{
     font-size:170%;
-    background-color: var(--maincolor);
+    background-color: #fff;
     padding: 1rem;
     margin: 0;
-    color:var(--mainover);
+    margin-top: 1.5rem;
+    color:var(--altover);
     font-family: 'Domain Display Bold';
-    border-radius: 4px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px #ccc;
 }
 .page >>> blockquote p{
     margin: 0;
@@ -135,7 +137,7 @@ export default {
 }
 
 .page >>> blockquote a{
-    color: white;
+    color: var(--maincolor);
 }
 
 .page >>> ul,

@@ -1,6 +1,7 @@
-import metaDefault from './libs/metaDefault.js'
+import metaDefault from './libs/metaDefault'
 import readingTime from 'reading-time'
-import marked from 'marked'
+import stats from './stats.js'
+
 
 const allRoutes = []
 
@@ -92,7 +93,6 @@ export default {
 
       // add the cover path
       d.cover = d.cover ? `/assets/posts/${d.slug}/${d.cover}` : '/social.jpg'
-      //d.html = marked(d.text)
       d.url = d.path
       d.fullurl = 'https://www.fabiofranchino.com' + d.path
 

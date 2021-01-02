@@ -50,12 +50,14 @@ export default {
     width: 100%;
     height: 100%;
     display: flex;
+    box-shadow: 0px 0px 10px #ccc;
 }
 .prevnext > div a{
     padding: 1rem;
     display: block;
     background-color: white;
     height: 100%;
+    width: 100%;
 }
 .l{
     text-align: left;

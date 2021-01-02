@@ -4,17 +4,20 @@ title: Home
 
 # Hello! I'm Fabio Franchino
 
-## Code, Design, Dataviz
+## Code, Data, Design
 
 <br />
 
-A senior <span class="s">designer</span> + <span class="s">software developer</span> able to:
+A senior <span class="s">creative designer</span> and <span class="s">software developer</span> able to:
 
 
 
 - prototype and develop <span class="s" data-type="underline">data-driven</span> software
 - teach <span class="s" data-type="underline">coding</span> and <span class="s" data-type="underline">data visualization</span>
 - manage <span class="s" data-type="underline">people</span> and <span class="s" data-type="underline">projects</span> in software development
+
+
+<Stats></Stats>
 
 
 ### Want to talk?
