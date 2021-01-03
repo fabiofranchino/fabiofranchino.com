@@ -1,9 +1,9 @@
 <template>
     <blockquote>
-        You can learn more exploring my 
+        You can read more <nuxt-link to="/about">about me</nuxt-link>, exploring my 
         <nuxt-link to="/blog">{{stat.blog}} articles</nuxt-link>, 
-        peep my <nuxt-link to="/log">{{stat.log}} notes</nuxt-link>, 
-        for a total of <strong>{{stat.words | format}}</strong> words, so far.
+        peep my <nuxt-link to="/log">{{stat.log}} notes</nuxt-link> and 
+        checking my <a href="https://lib.presenta.cc/">open-source</a> project.
     </blockquote>
 </template>
 

@@ -8,13 +8,13 @@ title: Home
 
 <br />
 
-A senior <span class="s">creative designer</span> and <span class="s">software developer</span> able to:
+As a senior <span class="s">creative designer</span> and <span class="s">front-end engineer</span> I can help companies in the following aspects:
 
 
 
-- prototype and develop <span class="s" data-type="underline">data-driven</span> software
-- teach <span class="s" data-type="underline">creative coding</span> and <span class="s" data-type="underline">data visualization</span>
-- manage <span class="s" data-type="underline">people</span> and <span class="s" data-type="underline">projects</span> in software development
+- designing and developing <span class="s" data-type="underline">interactive</span> and  <span class="s" data-type="underline">data-driven</span> software
+- teaching <span class="s" data-type="underline">creative coding</span> and <span class="s" data-type="underline">data visualization</span>
+- managing <span class="s" data-type="underline">people</span> and <span class="s" data-type="underline">projects</span> in software development
 
 
 <Stats></Stats>
