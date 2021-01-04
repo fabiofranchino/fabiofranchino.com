@@ -5,9 +5,9 @@ title: About Me
 
 I was born forty-and-something years ago in Italy, where I currently live. 
 
-I've more than fifteen years of experience in **computational design** and **web development**. 
+I've more than fifteen years of experience in **computational design**, **data visualization** and **web development**. 
 
-I co-founded [TODO](https://todo.to.it/) back in 2007 serving as **CTO**. Currently, I'm an independent senior designer/technologist.
+I co-founded [TODO](https://todo.to.it/) back in 2007 serving as **CTO**. Currently, I'm an independent senior **designer/technologist**.
 
 ![](/assets/me.jpg)
 
