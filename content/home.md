@@ -4,7 +4,7 @@ title: Home
 
 # Hello! I'm Fabio Franchino
 
-## Code, Data, Design
+## Code + Data + Design = 🔥
 
 <br />
 
