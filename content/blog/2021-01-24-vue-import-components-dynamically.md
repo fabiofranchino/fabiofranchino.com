@@ -7,7 +7,7 @@ categories: Tutorials
 tags: [tutorial, vue, dynamic, component]
 ---
 
-In this post I'm going to show how to create a Vue.js App with an on-the-fly import capability and how to render them using Vue Router as well.
+In this post I'm going to show how to create a Vue.js App with an **on-the-fly component import** capability and how to render them using Vue Router as well.
 
 It's bare-bones, just the mentioned functionality.
 
@@ -52,7 +52,7 @@ requireComponent.keys().forEach((fileName) => {
 export default list
 ```
 
-The above function look within the `dynComps` folder and load all the `.vue` files, creating and returning a useful array we're going to use later.
+The above function looks within the `dynComps` folder and load all the `.vue` files, creating and returning a useful array we're going to use later.
 
 ## Config the Router
 

@@ -1,9 +1,9 @@
 ---
-title: Deploy a Vue
+title: Deploy a Vue.js App in a subfolder
 date: 2021-01-24 09:47:00 +0100
 ---
 
-.js App in a subfolder
+
 
 This is what you need to check when deploy a Vue.js app in a subfolder.
 
