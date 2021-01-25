@@ -1,7 +1,7 @@
 ---
 title: Vue.js and how to include and render components dynamically
 date: 2021-01-24 07:00:00 +0100
-subtitle: 24th Jannuaryl, 2021
+subtitle: 24th January, 2021
 style: blue
 categories: Tutorials
 tags: [tutorial, vue, dynamic, component]
