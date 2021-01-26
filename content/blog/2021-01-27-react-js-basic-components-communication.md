@@ -1,8 +1,9 @@
 ---
-title: React.js: basic components communication
+title: React.js basic components communication
 date: 2021-01-27 07:00:00 +0100
 subtitle: 27th January, 2021
 style: blue
+cover: cover.png
 categories: Tutorials
 tags: [tutorial, react, component, communication]
 ---
