@@ -10,13 +10,16 @@ tags: [tutorial, react, component, parent]
 
 In this sample I wanted to figure out how to call from within a parent component a child component' method in a **React.js** app.
 
-I wanted to explore both with Class component and Functional component as well.
+I wanted to explore both the Class and Functional version as well.
 
 ## The parent wrapper
 
 Here the parent code:
 
 ```jsx
+import CChild from './CChild'
+import FChild from './FChild'
+
 function Mock (props) {
   const fref = useRef()
   const cref = useRef()
@@ -35,9 +38,9 @@ function Mock (props) {
 }
 ```
 
-There are two childern components and a button to trigger the call.
+There are two children components and a button to trigger the call.
 
-The method `setFromOutside` belong to the children definition.
+The method `setFromOutside` belongs to the children definition.
 
 ## The children components
 
@@ -89,11 +92,11 @@ function Child (props, ref) {
 export default forwardRef(Child)
 ```
 
-In this implementation there are some notable things to say.
+Well, in this implementation there are some notable things to say:
 
-The public method needs to be included in the `useImperativeHandle` hook. Also, you have to export the component with `forwardRef` HOC function.
+- The public method needs to be included in the `useImperativeHandle` hook. 
+- Also, you have to export the component with `forwardRef` HOC function.
+- By exporting the component with `forwardRef`, the Function now has two arguments, `props` and `ref`, where the latter needs to be used in `useImperativeHandle` hook.
 
-By exporting the component with `forwardRef`, the Function now has two arguments, `props` and `ref`, where the latter needs to be used in `useImperativeHandle` hook.
-
-That's not really obvious to me!
+Ouch, that's not really "natural" to me, but still.
 
