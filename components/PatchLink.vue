@@ -1,10 +1,14 @@
 <template>
     <div class="mini">
+
+        Want to interact? <strong>Reach me out on</strong>
+        <a href="https://twitter.com/fabiofranchino" target="_blank">Twitter</a>
+        
+        <br />
+
         Spotted a typo? 
         <a :href="editLink" target="_blank">Send a patch</a>
-        <br />
-        Want to comment? <strong>Reach me out on</strong>
-        <a href="https://twitter.com/fabiofranchino" target="_blank">Twitter</a>
+        
     </div>
 </template>
 
@@ -21,7 +25,8 @@ export default {
 <style scoped>
 .mini{
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 1rem;
+    margin-top: 1rem;
 }
 </style>
