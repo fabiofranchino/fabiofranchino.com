@@ -10,6 +10,8 @@ tags: [tutorial, react, markdown, editor]
 
 Here my take to create a bare-bones markdown editor with real-time preview to make practice with React.js.
 
+![](/assets/posts/create-a-markdown-editor-with-react-js/markdown-editor.gif)
+
 There are three components in this example:
 
 - the main **Wrapper**
