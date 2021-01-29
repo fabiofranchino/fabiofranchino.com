@@ -3,7 +3,7 @@ title: How to import components dynamically in React.js
 date: 2021-01-26 07:00:00 +0100
 subtitle: 26th January, 2021
 style: blue
-cover: cover.png
+cover: ../../react.png
 categories: Tutorials
 tags: [tutorial, react, dynamic, component]
 ---

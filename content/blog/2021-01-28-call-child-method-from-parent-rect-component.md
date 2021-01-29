@@ -3,7 +3,7 @@ title: Call child method from parent React.js component
 date: 2021-01-28 07:00:00 +0100
 subtitle: 28th January, 2021
 style: blue
-cover: cover.png
+cover: ../../react.png
 categories: Tutorials
 tags: [tutorial, react, component, parent]
 ---
