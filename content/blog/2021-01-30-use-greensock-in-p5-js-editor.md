@@ -55,11 +55,10 @@ function mouseClicked(){
 
 In this case we pass `this` to GSAP because `x` and `y` are public property of the P5 context.
 
-Click to interact ([source](https://editor.p5js.org/FabioFranchino/sketches/ECgUzd3Z_)):
+Click to interact 👇 ([source](https://editor.p5js.org/FabioFranchino/sketches/ECgUzd3Z_)):
 
 <iframe width="100%" height="300" src="https://editor.p5js.org/FabioFranchino/embed/ECgUzd3Z_"></iframe>
-
-This works but for each element we want to draw, we need, at least, a pair of variables. This is not going to scale.
+This works fine but for each element we want to animate, we need, at least, a pair of variables. This is not going to scale.
 
 Let's try to abstract the elements we want to animate with GSAP:
 
@@ -101,15 +100,21 @@ function mouseClicked(){
 }
 ```
 
-Click to interact ([source](https://editor.p5js.org/FabioFranchino/sketches/bECKaUO6f)):
+Click to interact 👇 ([source](https://editor.p5js.org/FabioFranchino/sketches/bECKaUO6f)):
 
 <iframe width="100%" height="300" src="https://editor.p5js.org/FabioFranchino/embed/bECKaUO6f"></iframe>
-
 Of course, everything that is a number can be animated with GSAP:
 
-Click to interact ([source](https://editor.p5js.org/FabioFranchino/sketches/nZGiDq5tW)):
+Click to interact 👇 ([source](https://editor.p5js.org/FabioFranchino/sketches/nZGiDq5tW)):
 
 <iframe width="100%" height="300" src="https://editor.p5js.org/FabioFranchino/embed/nZGiDq5tW"></iframe>
+
+
+And by extension, here the same above example with the abstraction technique in order to draw many boxes, click to interact 👇, then press <kbd>1</kbd>  ([source](https://editor.p5js.org/FabioFranchino/sketches/BHcJvLaYu))
+
+
+
+<iframe width="100%" height="300" src="https://editor.p5js.org/FabioFranchino/embed/BHcJvLaYu"></iframe>
 
 So far, so good. Happy exploration!
 
