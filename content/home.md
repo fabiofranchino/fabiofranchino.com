@@ -13,8 +13,8 @@ As a senior <span class="s">computational designer</span> and <span class="s">fr
 
 
 - design and develop <span class="s" data-type="underline">interactive</span> and  <span class="s" data-type="underline">data-driven</span> software
-- teach <span class="s" data-type="underline">creative coding</span> and <span class="s" data-type="underline">data visualization</span>
-- manage <span class="s" data-type="underline">people</span> and <span class="s" data-type="underline">projects</span> in software development
+- level up teams in <span class="s" data-type="underline">software development</span> and <span class="s" data-type="underline">data visualization</span>
+- help making software products <span class="s" data-type="underline">performant</span> and <span class="s" data-type="underline">secure</span>
 
 
 <Stats></Stats>
