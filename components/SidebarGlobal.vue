@@ -20,7 +20,7 @@
                 <h3>Projects:</h3>
                 <ul>
                     <li>
-                        <a href="https://www.presenta.cc/" target="_blank">PRESENTA</a>
+                        <a href="https://play.presenta.cc/" target="_blank">PRESENTA</a>
                     </li>
                 </ul>
             </div>
