@@ -25,10 +25,9 @@ open /Applications/Tableau\ Desktop\ 2019.4.app --args --remote-debugging-port=8
 then point Chrome to:
 
 ```shell
-http://localhost:8696/yourExtension.html
+http://localhost:8696/
 ```
-
-You should be able to inspect the DOM and see the console for your debugging purposes.
+Select the Extension name you're working on and you should be able to inspect the DOM and see the console for your debugging purposes.
 
 ## `registerElement` is undefined
 
