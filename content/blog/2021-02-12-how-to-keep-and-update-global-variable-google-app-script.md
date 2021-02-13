@@ -1,5 +1,5 @@
 ---
-title: How to keep and update a global variable in Google App Script
+title: How to keep and update a global variable in Google Apps Script
 date: 2021-02-12 07:00:00 +0100
 subtitle: 12th February, 2021
 style: blue
@@ -8,7 +8,7 @@ categories: Tutorials
 tags: [tutorial, gscript, google, app]
 ---
 
-In a Google App Script, if you want to keep a value across many function executions, there's a service fo that: **PropertiesService**.
+In a Google Apps Script, if you want to keep a value across many function executions, there's a service fo that: **PropertiesService**.
 
 The **PropertiesService** allows to set key/value pairs that will be persistent over time.
 
