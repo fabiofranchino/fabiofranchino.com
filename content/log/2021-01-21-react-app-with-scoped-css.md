@@ -11,6 +11,18 @@ I use `create-react-app` for the scaffolding, thus, here the steps to incorporat
 
 Install `@craco/craco` that let to enhance the default React app by means of additional plugins, then install the Craco plugin `craco-plugin-scoped-css`.
 
+Add in the `craco.config.js` the `plugins` field:
+
+```js
+module.exports = {
+  plugins: [
+    {
+      plugin: require('craco-plugin-scoped-css')
+    }
+  ]
+}
+```
+
 Once you're running the React app with Craco, now you can create a CSS file with the suffix `.scoped`, such as `style.scoped.css` anywhere in the App.
 
 Then, import it in your App or Component to use those scoped styles:
