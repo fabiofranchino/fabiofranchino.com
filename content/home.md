@@ -8,7 +8,7 @@ title: Home
 
 <br />
 
-As a senior <span class="s">computational designer</span> and <span class="s">front-end engineer</span> I help companies to:
+As a senior <span class="s">data-visualization specialist</span> and <span class="s">front-end engineer</span> I help companies to:
 
 
 
