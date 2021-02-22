@@ -1,11 +1,11 @@
 <template>
     <blockquote>
-        You can read more <nuxt-link to="/about">about me</nuxt-link>, exploring my 
-        <nuxt-link to="/blog">{{stat.blog}} articles</nuxt-link>, 
-        peep my <nuxt-link to="/log">{{stat.log}} notes</nuxt-link> and 
-        checking my <a href="https://lib.presenta.cc/">open-source</a> project.
+        You can read more <nuxt-link to="/about">about me</nuxt-link> by exploring my 
+        <nuxt-link to="/blog">{{stat.blog}} articles</nuxt-link> and <nuxt-link to="/log">{{stat.log}} notes</nuxt-link>, 
+        or by checking out my <a href="https://lib.presenta.cc/">open-source</a> project.
     </blockquote>
 </template>
+
 
 
 <script>
