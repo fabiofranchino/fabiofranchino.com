@@ -32,7 +32,6 @@ Here the bare-bones version of the mentioned Module that help me to explain some
 
 ```js
 function randomBubbles(sceneElement, modConfig, sceneConfig){
-  if(!modConfig) return
   
   const parser = new DOMParser()
   
@@ -55,33 +54,6 @@ Let's dissect the above code:
 This Module exploits `sceneElement`, the DOM element of the scene, and `modConfig`, the javascript object provided by the user that contains possible options.
 
 
-
-### Allowing to disable the module
-
-The return statement in **line 2** is meant to allow the user to disable the Module on a specific scene, in the following way:
-
-```js
-{
-  // modules activated and configured at presentation level
-  modules:{
-    randomBubbles:true
-  },
-  scenes:[
-    // this scene will run randomBubbles
-    {
-      blocks:[...]
-    },
-		
-    // this scene won't run randomBubbles
-    {
-      modules:{
-        randomBubbles: false
-      },
-      blocks:[...]
-    }
-	]
-}
-```
 
 
 
@@ -124,6 +96,52 @@ Presenta.addModule('randomBubbles', randomBubbles)
 ```
 
 Since it's a Module, we're using `addModule` with a unique namespace.
+
+
+
+### Global setting vs local setting
+
+It worth to mention that in general PRESENTA Lib modules can be configured across the whole presentation and per specific scene as well. Look at this example to clarify such possibility:
+
+```js
+{
+  // modules activated and configured at presentation level
+  modules:{
+    randomBubbles: {
+      amount: 30
+    }
+  },
+  scenes:[
+    // this scene will run the default randomBubbles
+    {
+      blocks:[...]
+    },
+		
+    // this scene won't run randomBubbles
+    {
+      modules:{
+        randomBubbles: false
+      },
+      blocks:[...]
+    },
+      
+    // this scene will run a variation of randomBubbles
+    {
+      modules:{
+        randomBubbles:{
+          amount: 5
+          color: 'red'
+        }
+      },
+      blocks:[...]
+    }
+	]
+}
+```
+
+
+
+## Show me the thing
 
 That's all. Check the [full source code](https://github.com/presenta-software/unsorted-plugins/blob/master/modules/randomBubbles.js) of the Module as well as play with it in [this Playground sample](https://play.presenta.cc/peek/BuoBSaSo2zbCn).
 
