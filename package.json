@@ -8,6 +8,7 @@
     "build": "nuxt build",
     "spa": "nuxt build --spa",
     "start": "nuxt start",
+    "export": "nuxt build --target static && nuxt export",
     "generate": "nuxt generate",
     "serve:lambda": "netlify-lambda serve netlify-functions",
     "build:lambda": "netlify-lambda build netlify-functions",
@@ -30,7 +31,7 @@
   "devDependencies": {
     "axios": "^0.21.1",
     "frontmatter": "0.0.3",
-    "marked": "^1.2.7",
+    "marked": "^2.0.1",
     "moment": "^2.29.1",
     "netlify-lambda": "^1.6.3",
     "reading-time": "^1.2.1",
