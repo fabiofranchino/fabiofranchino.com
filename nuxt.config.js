@@ -4,6 +4,9 @@ import stats from './stats.js'
 
 
 const allRoutes = []
+const noPublic = [
+  'https://www.fabiofranchino.com/showcase'
+]
 
 export default {
   components: true,
@@ -95,7 +98,7 @@ export default {
       d.cover = d.cover ? `/assets/posts/${d.slug}/${d.cover}` : '/social.jpg'
       d.url = d.path
       d.fullurl = 'https://www.fabiofranchino.com' + d.path
-
+      
       if (!d.draft) allRoutes.push(d)
     }
   },

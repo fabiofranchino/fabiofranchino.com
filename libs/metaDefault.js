@@ -1,7 +1,7 @@
 module.exports = [
   { charset: 'utf-8' },
   { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-  { name: 'robots', content: 'index, follow' },
+  { hid: 'robots', name: 'robots', content: 'index, follow' },
 
   { property: 'og:type', content: 'website' },
   { property: 'og:site_name', content: 'Fabio Franchino' },
