@@ -8,7 +8,10 @@
                 <h3>{{project.title}}</h3>
                 <p>{{project.brief}}</p>
                 <p class="tags" v-html="getTags(project.tags)"></p>
-                <p class="link" v-if="project.link"><a  target="blank" :href="project.link">Go to Project</a></p>
+                <p class="roles" v-html="getTags(project.roles)"></p>
+            </div>
+            <div class="foot">
+                <p class="link" v-if="project.link"><a rel="noreferrer" target="blank" :href="project.link">Go to Project</a></p>
             </div>
         </div>
     </div>
@@ -58,6 +61,9 @@ p{
 .inner{
     background: white;
     height: 100%;
+    box-shadow: 0 0 10px #ddd;
+    display: flex;
+    flex-direction: column;
 }
 
 .img{
@@ -71,10 +77,17 @@ img{
 }
 
 .info{
+    flex:1;
     padding: 1rem;
 }
 
-.tags{
+.foot{
+    padding: .5rem;
+    padding-top: 0;
+    font-size: .8rem;
+}
+
+.tags, .roles{
     display: flex;
     flex-wrap: wrap;
 }
@@ -83,7 +96,8 @@ p.link{
     text-align: center;
 }
 
-.tags >>> span{
+.tags >>> span,
+.roles >>> span{
     color: var(--darkback);
     background-color: #eee;
     border-radius: 8px;
@@ -92,6 +106,10 @@ p.link{
     font-size: 0.7rem;
     text-transform: uppercase;
     margin-bottom: .5rem;
+}
+.roles >>> span{
+    background-color: var(--maincolora);
+    color: var(--darkback);
 }
 
 @media screen and (min-width:760px){

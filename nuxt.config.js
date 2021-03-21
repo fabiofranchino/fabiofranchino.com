@@ -2,7 +2,6 @@ import metaDefault from './libs/metaDefault'
 import readingTime from 'reading-time'
 import stats from './stats.js'
 
-
 const allRoutes = []
 const noPublic = [
   'https://www.fabiofranchino.com/showcase'
@@ -24,7 +23,7 @@ export default {
     '~/node_modules/normalize-css/normalize.css',
     '~/css/style.css'
   ],
-  
+
   modules: [
     '@nuxt/content',
     '@nuxtjs/sitemap',
@@ -79,7 +78,7 @@ export default {
       // convert the jekyll style slug
       const reg = /\d{4}-\d{2}-\d{2}/
       const mtc = reg.exec(d.slug)
-      
+
       if (mtc) {
         d.filename = d.slug + '.md'
         d.slug = d.slug.substr(11)
@@ -98,12 +97,15 @@ export default {
       d.cover = d.cover ? `/assets/posts/${d.slug}/${d.cover}` : '/social.jpg'
       d.url = d.path
       d.fullurl = 'https://www.fabiofranchino.com' + d.path
-      
+
       if (!d.draft) allRoutes.push(d)
     }
   },
   sitemap: {
     hostname: 'https://www.fabiofranchino.com',
-    routes: allRoutes
+    routes: allRoutes,
+    exclude: [
+      '/showcase'
+    ]
   }
 }
