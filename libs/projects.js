@@ -52,7 +52,11 @@ export default [
         image: 'showcase/playground.jpg',
         tags: ['vue.js', 'serverless', 'pwa', 'ide', 'node.js'],
         link: 'https://play.presenta.cc',
-        roles: ['software designer', 'lead developer']
+        roles: ['software designer', 'lead developer'],
+        more: `<p>🔥
+          This online presentation tool allows creating slides using markdown or text, fast!
+          It's based on PRESENTA Lib.
+        </p><p><a href="https://play.presenta.cc">Experience it!</a></p>`
       },
       {
         title: 'SVGMator',
@@ -60,7 +64,11 @@ export default [
         image: 'showcase/svgmator.jpg',
         tags: ['vue.js', 'serverless', 'node.js'],
         link: 'https://www.svgmator.com',
-        roles: ['software designer', 'lead developer']
+        roles: ['software designer', 'lead developer'],
+        more: `<p>🔥
+          This tool allows animating SVG files with ease.
+          It allows to save the animated file in the cloud using AWS.
+        </p><p><a href="https://www.svgmator.com">Experience it!</a></p>`
       }
     ]
   },

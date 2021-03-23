@@ -161,6 +161,10 @@ p.link{
     cursor: pointer;
 }
 
+.cnt >>> a:hover{
+    color: white;
+}
+
 .cnt::-webkit-scrollbar {
   width: 8px;
   height:8px;

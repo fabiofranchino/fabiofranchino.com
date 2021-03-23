@@ -16,7 +16,7 @@
             </div>
         </div> 
 
-        <div class="foot">
+        <div class="header">
             <div class="container">
                 <Stats></Stats>
             </div>
