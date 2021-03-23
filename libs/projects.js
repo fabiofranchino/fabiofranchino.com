@@ -6,37 +6,56 @@ export default [
     Furthermore, I've contributed back releasing my main <b>open-source project</b> and other custom tools.`,
     projects: [
       {
-        title: 'Custom Dataviz WebApp #2',
+        title: 'Tailor-Made Dataviz WebApp #2',
         brief: 'Under NDA, can\'t say more',
         image: 'showcase/dataviz2.jpg',
-        tags: ['vue.js', 'd3.js', 'ux', 'web services', 'data wrangling']
+        more: `<p>In a pure agile iterative process I've been part of a small team made of a data scientist, a designer and a backend developer to design and develop a custom internal tool to visualize financial big-data for a corporate client.</p>
+              <p>The result has been a sleek and high performance visualization that helps domain experts extract values and insights from a huge corpus of financial data.</p>`,
+        tags: ['vue.js', 'd3.js', 'ux', 'web services', 'data wrangling'],
+        roles: ['lead frontend developer']
       },
       {
-        title: 'Custom Dataviz WebApp #1',
+        title: 'Tailor-Made Dataviz WebApp #1',
         brief: 'Under NDA, can\'t say more',
         image: 'showcase/dataviz1.jpg',
-        tags: ['vue.js', 'd3.js', 'ux', 'web services', 'data wrangling']
+        more: `<p>In a pure agile iterative process I've been part of a small team made of a data scientist, a designer and a backend developer to design and develop a custom internal tool to visualize financial big-data for a corporate client.</p>
+              <p>The result has been a sleek and high performance visualization that helps domain experts extract values and insights from a huge corpus of financial data.</p>`,
+        tags: ['vue.js', 'd3.js', 'ux', 'web services', 'data wrangling'],
+        roles: ['lead frontend developer']
+      },
+      {
+        title: 'WebGL Dataviz PoC',
+        brief: 'High-Performance Data Visualization Renderer',
+        image: 'showcase/dataviz.gif',
+        tags: ['three.js', 'd3.js', 'react.js', 'data wrangling'],
+        roles: ['software designer', 'lead developer']
       },
       {
         title: 'Presenta Library',
         brief: 'Open-Source Presentation Library',
         image: 'showcase/presentalib.gif',
         tags: ['javascript', 'es6', 'rollup', 'vuepress'],
-        link: 'https://lib.presenta.cc'
+        link: 'https://lib.presenta.cc',
+        more: `<p>This is my attempt to build and maintain a serious open-source project.</p>
+          <p>By serious, I mean covering design, architecture, development, documentation, promotion and support.</p>
+        <p><a href="https://lib.presenta.cc">Project URL</a></p>`,
+        roles: ['software designer', 'lead developer', 'technical writer']
       },
       {
         title: 'Presenta Playground',
         brief: 'Online tool to make slides with markdown',
         image: 'showcase/playground.jpg',
         tags: ['vue.js', 'serverless', 'pwa', 'ide'],
-        link: 'https://play.presenta.cc'
+        link: 'https://play.presenta.cc',
+        roles: ['software designer', 'lead developer']
       },
       {
         title: 'SVGMator',
         brief: 'Online tool to animate SVG files',
         image: 'showcase/svgmator.jpg',
         tags: ['vue.js', 'serverless'],
-        link: 'https://www.svgmator.com'
+        link: 'https://www.svgmator.com',
+        roles: ['software designer', 'lead developer']
       }
     ]
   },
@@ -47,17 +66,17 @@ export default [
     projects: [
       {
         title: 'Arduino Web IDE',
-        brief: 'Modern code editor in the cloud',
+        brief: 'Online code editor',
         image: 'showcase/arduino.jpg',
         tags: ['angular.js', 'ide', 'node.js', 'websocket', 'serial'],
         link: 'https://create.arduino.cc',
         roles: ['team lead', 'lead developer'],
-        goal: 'For over a year I\'ve been part of the distribuited team that developed the first version of the Web IDE for Arduino microcontroller.'
+        more: '<p>For more than a year I\'ve been part of the distribuited team that designed and developed the first version of the Web IDE for Arduino microcontroller.</p><p><a rel="noreferrer" href="https://create.arduino.cc" target="blank">Project Link</a></p>'
       },
       {
         title: 'Mozilla Codemoji',
         brief: 'Brand activation web tool',
-        tags: ['javascript', 'perf', 'team lead'],
+        tags: ['javascript', 'pwa', 'team lead'],
         roles: ['team lead', 'lead developer'],
         link: 'https://foundation.mozilla.org/en/campaigns/codemoji/',
         image: 'showcase/codemoji.jpg'
@@ -65,72 +84,79 @@ export default [
       {
         title: 'Mozfest Exhibit',
         roles: ['team lead'],
-        brief: 'Multi-screen realtime and dynamic visualization interfaced with touch-sensors',
+        brief: 'Interactive Data Visualization Software controlled by Touch-Sensors',
         image: 'showcase/mozfest.jpg'
       },
 
       {
-        title: 'DSI4EU',
+        title: 'DSI4EU Community',
         roles: ['team lead'],
-        brief: 'Custom Data Visualization webapp',
-        image: 'social.jpg'
+        brief: 'Data Visualization Web Application',
+        image: 'showcase/dsi4eu.jpg'
       },
 
       {
-        title: 'POLO',
+        title: 'POLO900 Survey',
         roles: ['team lead'],
-        brief: 'Custom Data Visualization webapp',
-        image: 'social.jpg'
+        brief: 'Data Visualization System',
+        image: 'showcase/polo900.jpg'
+      },
+
+      {
+        title: 'Formula-e Dashboard',
+        roles: ['team lead'],
+        brief: 'Data Visualization Dashboard',
+        image: 'showcase/enelfe.jpg'
       },
 
       {
         title: 'Artificial Dummies',
         roles: ['team lead', 'developer support'],
-        brief: 'Algorithmic Projection Mapping',
+        brief: 'Computational Projection Mapping',
         image: 'showcase/artificial-dummies.jpg'
       },
       {
-        title: 'Bittogrammi',
+        title: 'Book Public Event',
         roles: ['creative developer'],
-        brief: 'Computational animation',
+        brief: 'Computational Projection Animation',
         image: 'showcase/bittogrammi.jpg'
       },
 
       {
         title: 'Expo Public Event',
         roles: ['creative developer'],
-        brief: 'Generative Projection Mapping',
+        brief: 'Computational Projection Mapping',
         image: 'showcase/expo-logo.jpg'
       },
       {
         title: 'Hotpoint Exhibit',
         roles: ['creative developer'],
-        brief: 'Huge Data Visualization',
+        brief: 'Multi-screen Computational Data Visualization',
         image: 'showcase/hotpoint.jpg'
       },
       {
         title: 'ItaliaOra Exhibit',
         roles: ['creative developer'],
-        brief: 'Real-time statistics simulation and visualization software',
+        brief: 'Statistics Simulation and Info Visualization Software',
         image: 'showcase/italiaora.jpg'
       },
       {
         title: 'La Moneta Exhibit',
         roles: ['creative developer'],
-        brief: 'Multi-screen realtime and dynamic visualization interfaced with touch-sensors',
+        brief: 'Multi-screen Interactive Info Visualization controlled by Touch-Sensors',
         image: 'showcase/lamoneta.jpg'
       },
 
       {
         title: 'Nike Retail Opening',
         roles: ['creative developer'],
-        brief: 'Real-time interactive audio sequencer game',
+        brief: 'Real-time Interactive Audio Sequencer Game',
         image: 'showcase/nike.jpg'
       },
       {
         title: 'Nada Generative Logo',
         roles: ['creative developer'],
-        brief: 'Real-time interactive audio sequencer game',
+        brief: 'Computational Brand Generator',
         image: 'showcase/nada.jpg'
       }
 

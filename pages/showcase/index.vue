@@ -16,6 +16,12 @@
             </div>
         </div> 
 
+        <div class="foot">
+            <div class="container">
+                <Stats></Stats>
+            </div>
+        </div>
+
          
     </div>     
 </template>

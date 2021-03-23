@@ -4,15 +4,27 @@
             <div class="img">
                 <img :src="'/' + project.image" />
             </div>
-            <div class="info">
-                <h3>{{project.title}}</h3>
-                <p>{{project.brief}}</p>
-                <p class="tags" v-html="getTags(project.tags)"></p>
-                <p class="roles" v-html="getTags(project.roles)"></p>
+
+            <div class="content">
+                <div class="info">
+                    <h3>{{project.title}}</h3>
+                    <p>{{project.brief}}</p>
+                    <p class="tags" v-html="getTags(project.tags)"></p>
+                    <p class="roles" v-html="getTags(project.roles)"></p>
+                </div>
+                <div class="foot" v-if="project.more">
+                    <!-- <p class="link" v-if="project.link"><a rel="noreferrer" target="blank" :href="project.link">Go to Project</a></p> -->
+                    <p class="link"><a target="blank" href="" @click.prevent="showInfo=true">More Info</a></p>
+                </div>
+
+                <transition name="slide">
+                    <div v-if="showInfo" class="moreinfo" @click="showInfo=false">
+                        <div class="cnt" v-html="project.more"></div>
+                    </div>
+                </transition>
             </div>
-            <div class="foot">
-                <p class="link" v-if="project.link"><a rel="noreferrer" target="blank" :href="project.link">Go to Project</a></p>
-            </div>
+
+            
         </div>
     </div>
 </template>
@@ -24,12 +36,17 @@ export default {
     props:{
         project:Object
     },
+    data(){
+        return{
+            showInfo:false
+        }
+    },
     methods:{
-        getTags(tags){
+        getTags(arr){
             let str = ''
             
-            if(tags){
-                tags.forEach(t => {
+            if(arr){
+                arr.forEach(t => {
                     str += `<span>${t}</span>`
                 })
             }
@@ -42,6 +59,8 @@ export default {
 
 
 <style scoped>
+
+
 
 h3, p{
     margin:0;
@@ -64,6 +83,12 @@ p{
     box-shadow: 0 0 10px #ddd;
     display: flex;
     flex-direction: column;
+    
+}
+
+.content{
+    position: relative;
+    overflow: hidden;
 }
 
 .img{
@@ -112,13 +137,66 @@ p.link{
     color: var(--darkback);
 }
 
-@media screen and (min-width:760px){
+.moreinfo{
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: var(--darkback);
+    width: 100%;
+    height: 100%;
+
+}
+
+.moreinfo .cnt{
+    color: white;
+    font-size: 1.1rem;
+    padding: 0 1rem;
+    line-height: 1.5rem;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    cursor: pointer;
+}
+
+.cnt::-webkit-scrollbar {
+  width: 8px;
+  height:8px;
+  background-color: unset; 
+}
+.cnt::-webkit-scrollbar-thumb {
+  background: var(--maincolor);
+  border-right: 1px solid white;
+}
+
+.moreinfo::before,
+.moreinfo::after{
+    content:'';
+    width: calc(100% - 8px);
+    height: 30px;
+    background: linear-gradient(0deg, rgba(0,0,0,0), black);
+    position: absolute;
+    left:0;
+}
+.moreinfo::after{
+    background: linear-gradient(0deg, black, rgba(0,0,0,0));
+    bottom:0;
+}
+
+.slide-enter-active, .slide-leave-active{
+    transition: transform 0.75s cubic-bezier(1, 0, 0, 1);
+}
+.slide-enter, .slide-leave-to{
+    transform:translate(0,100%);
+}
+
+
+@media screen and (min-width:960px){
     .project{
         width: 50%;
     }
 }
 
-@media screen and (min-width:1150px){
+@media screen and (min-width:1350px){
     .project{
         width: 33.333333333333333%;
     }
