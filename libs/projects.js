@@ -27,7 +27,7 @@ export default [
         title: 'WebGL Dataviz PoC',
         brief: 'High-Performance Data Visualization Renderer',
         image: 'showcase/dataviz.gif',
-        tags: ['three.js', 'd3.js', 'react.js', 'data wrangling'],
+        tags: ['three.js', 'd3.js', 'showpack', 'data wrangling'],
         roles: ['software designer', 'lead developer']
       },
       {
@@ -45,7 +45,7 @@ export default [
         title: 'Presenta Playground',
         brief: 'Online tool to make slides with markdown',
         image: 'showcase/playground.jpg',
-        tags: ['vue.js', 'serverless', 'pwa', 'ide'],
+        tags: ['vue.js', 'serverless', 'pwa', 'ide', 'node.js'],
         link: 'https://play.presenta.cc',
         roles: ['software designer', 'lead developer']
       },
@@ -53,7 +53,7 @@ export default [
         title: 'SVGMator',
         brief: 'Online tool to animate SVG files',
         image: 'showcase/svgmator.jpg',
-        tags: ['vue.js', 'serverless'],
+        tags: ['vue.js', 'serverless', 'node.js'],
         link: 'https://www.svgmator.com',
         roles: ['software designer', 'lead developer']
       }
@@ -83,6 +83,7 @@ export default [
       },
       {
         title: 'Mozfest Exhibit',
+        tags: ['d3.js', 'vue.js', 'node.js'],
         roles: ['team lead'],
         brief: 'Interactive Data Visualization Software controlled by Touch-Sensors',
         image: 'showcase/mozfest.jpg'
@@ -91,6 +92,7 @@ export default [
       {
         title: 'DSI4EU Community',
         roles: ['team lead'],
+        tags: ['d3.js', 'vue.js'],
         brief: 'Data Visualization Web Application',
         image: 'showcase/dsi4eu.jpg'
       },
@@ -98,6 +100,7 @@ export default [
       {
         title: 'POLO900 Survey',
         roles: ['team lead'],
+        tags: ['d3.js', 'vue.js', 'matter.js'],
         brief: 'Data Visualization System',
         image: 'showcase/polo900.jpg'
       },
@@ -105,6 +108,7 @@ export default [
       {
         title: 'Formula-e Dashboard',
         roles: ['team lead'],
+        tags: ['d3.js', 'vue.js', 'three.js'],
         brief: 'Data Visualization Dashboard',
         image: 'showcase/enelfe.jpg'
       },
@@ -112,12 +116,14 @@ export default [
       {
         title: 'Artificial Dummies',
         roles: ['team lead', 'developer support'],
+        tags: ['processing'],
         brief: 'Computational Projection Mapping',
         image: 'showcase/artificial-dummies.jpg'
       },
       {
         title: 'Book Public Event',
         roles: ['creative developer'],
+        tags: ['processing'],
         brief: 'Computational Projection Animation',
         image: 'showcase/bittogrammi.jpg'
       },
@@ -125,30 +131,35 @@ export default [
       {
         title: 'Expo Public Event',
         roles: ['creative developer'],
+        tags: ['three.js'],
         brief: 'Computational Projection Mapping',
         image: 'showcase/expo-logo.jpg'
       },
       {
         title: 'Hotpoint Exhibit',
         roles: ['creative developer'],
+        tags: ['processing'],
         brief: 'Multi-screen Computational Data Visualization',
         image: 'showcase/hotpoint.jpg'
       },
       {
         title: 'ItaliaOra Exhibit',
         roles: ['creative developer'],
+        tags: ['processing'],
         brief: 'Statistics Simulation and Info Visualization Software',
         image: 'showcase/italiaora.jpg'
       },
       {
         title: 'La Moneta Exhibit',
         roles: ['creative developer'],
+        tags: ['flash'],
         brief: 'Multi-screen Interactive Info Visualization controlled by Touch-Sensors',
         image: 'showcase/lamoneta.jpg'
       },
 
       {
         title: 'Nike Retail Opening',
+        tags: ['processing'],
         roles: ['creative developer'],
         brief: 'Real-time Interactive Audio Sequencer Game',
         image: 'showcase/nike.jpg'
@@ -156,6 +167,7 @@ export default [
       {
         title: 'Nada Generative Logo',
         roles: ['creative developer'],
+        tags: ['nodebox'],
         brief: 'Computational Brand Generator',
         image: 'showcase/nada.jpg'
       }

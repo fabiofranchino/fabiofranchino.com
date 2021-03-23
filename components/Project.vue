@@ -173,12 +173,12 @@ p.link{
     content:'';
     width: calc(100% - 8px);
     height: 30px;
-    background: linear-gradient(0deg, rgba(0,0,0,0), black);
+    background: linear-gradient(0deg, rgba(0,0,0,0), var(--darkback));
     position: absolute;
     left:0;
 }
 .moreinfo::after{
-    background: linear-gradient(0deg, black, rgba(0,0,0,0));
+    background: linear-gradient(0deg, var(--darkback), rgba(0,0,0,0));
     bottom:0;
 }
 
