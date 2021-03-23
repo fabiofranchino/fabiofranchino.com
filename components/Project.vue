@@ -89,6 +89,10 @@ p{
 .content{
     position: relative;
     overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .img{
@@ -144,7 +148,6 @@ p.link{
     background-color: var(--darkback);
     width: 100%;
     height: 100%;
-
 }
 
 .moreinfo .cnt{
@@ -183,20 +186,20 @@ p.link{
 }
 
 .slide-enter-active, .slide-leave-active{
-    transition: transform 0.75s cubic-bezier(1, 0, 0, 1);
+    transition: transform 0.4s cubic-bezier(.9, .1, .1, .9);
 }
 .slide-enter, .slide-leave-to{
     transform:translate(0,100%);
 }
 
 
-@media screen and (min-width:960px){
+@media screen and (min-width:760px){
     .project{
         width: 50%;
     }
 }
 
-@media screen and (min-width:1350px){
+@media screen and (min-width:1150px){
     .project{
         width: 33.333333333333333%;
     }

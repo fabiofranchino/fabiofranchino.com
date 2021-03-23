@@ -7,28 +7,33 @@ export default [
     projects: [
       {
         title: 'Tailor-Made Dataviz WebApp #2',
-        brief: 'Under NDA, can\'t say more',
+        brief: '🤭 Under NDA, can\'t say more',
         image: 'showcase/dataviz2.jpg',
-        more: `<p>In a pure agile iterative process I've been part of a small team made of a data scientist, a designer and a backend developer to design and develop a custom internal tool to visualize financial big-data for a corporate client.</p>
+        more: `<p>In a pure agile iterative process I've been part of a small senior team made by a data scientist, a designer and a backend developer to design and develop a custom internal tool to visualize financial big-data for a corporate client.</p>
               <p>The result has been a sleek and high performance visualization that helps domain experts extract values and insights from a huge corpus of financial data.</p>`,
         tags: ['vue.js', 'd3.js', 'ux', 'web services', 'data wrangling'],
         roles: ['lead frontend developer']
       },
       {
         title: 'Tailor-Made Dataviz WebApp #1',
-        brief: 'Under NDA, can\'t say more',
+        brief: '🤭 Under NDA, can\'t say more',
         image: 'showcase/dataviz1.jpg',
-        more: `<p>In a pure agile iterative process I've been part of a small team made of a data scientist, a designer and a backend developer to design and develop a custom internal tool to visualize financial big-data for a corporate client.</p>
+        more: `<p>In a pure agile iterative process I've been part of a small senior team made by a data scientist, a designer and a backend developer to design and develop a custom internal tool to visualize financial big-data for a corporate client.</p>
               <p>The result has been a sleek and high performance visualization that helps domain experts extract values and insights from a huge corpus of financial data.</p>`,
         tags: ['vue.js', 'd3.js', 'ux', 'web services', 'data wrangling'],
         roles: ['lead frontend developer']
       },
       {
-        title: 'WebGL Dataviz PoC',
+        title: 'WebGL Dataviz Prototype',
         brief: 'High-Performance Data Visualization Renderer',
         image: 'showcase/dataviz.gif',
         tags: ['three.js', 'd3.js', 'showpack', 'data wrangling'],
-        roles: ['software designer', 'lead developer']
+        roles: ['software designer', 'lead developer'],
+        more: `<p>
+          For a client I've developed an high performance data-visualization renderer using three.js that served to unlock an advanced platform development.
+        </p><p>
+          <a target="blank" href="https://cdn.githubraw.com/fabiofranchino/dthree-explorations/0b992a02/build/index.html">Experience it!</a>
+        </p>`
       },
       {
         title: 'Presenta Library',
@@ -37,7 +42,7 @@ export default [
         tags: ['javascript', 'es6', 'rollup', 'vuepress'],
         link: 'https://lib.presenta.cc',
         more: `<p>This is my attempt to build and maintain a serious open-source project.</p>
-          <p>By serious, I mean covering design, architecture, development, documentation, promotion and support.</p>
+          <p>By serious, I mean covering design, architecture, development, documentation, promotion and support. 😬</p>
         <p><a href="https://lib.presenta.cc">Project URL</a></p>`,
         roles: ['software designer', 'lead developer', 'technical writer']
       },
@@ -70,28 +75,28 @@ export default [
         image: 'showcase/arduino.jpg',
         tags: ['angular.js', 'ide', 'node.js', 'websocket', 'serial'],
         link: 'https://create.arduino.cc',
-        roles: ['team lead', 'lead developer'],
-        more: '<p>For more than a year I\'ve been part of the distribuited team that designed and developed the first version of the Web IDE for Arduino microcontroller.</p><p><a rel="noreferrer" href="https://create.arduino.cc" target="blank">Project Link</a></p>'
+        roles: ['team leader', 'lead developer']
+        // more: '<p>For more than a year I\'ve been part of the distribuited team that designed and developed the first version of the Web IDE for Arduino microcontroller.</p><p><a rel="noreferrer" href="https://create.arduino.cc" target="blank">Project Link</a></p>'
       },
       {
         title: 'Mozilla Codemoji',
         brief: 'Brand activation web tool',
         tags: ['javascript', 'pwa', 'team lead'],
-        roles: ['team lead', 'lead developer'],
+        roles: ['team leader', 'lead developer'],
         link: 'https://foundation.mozilla.org/en/campaigns/codemoji/',
         image: 'showcase/codemoji.jpg'
       },
       {
         title: 'Mozfest Exhibit',
         tags: ['d3.js', 'vue.js', 'node.js'],
-        roles: ['team lead'],
+        roles: ['team leader'],
         brief: 'Interactive Data Visualization Software controlled by Touch-Sensors',
         image: 'showcase/mozfest.jpg'
       },
 
       {
         title: 'DSI4EU Community',
-        roles: ['team lead'],
+        roles: ['team leader'],
         tags: ['d3.js', 'vue.js'],
         brief: 'Data Visualization Web Application',
         image: 'showcase/dsi4eu.jpg'
@@ -99,7 +104,7 @@ export default [
 
       {
         title: 'POLO900 Survey',
-        roles: ['team lead'],
+        roles: ['team leader'],
         tags: ['d3.js', 'vue.js', 'matter.js'],
         brief: 'Data Visualization System',
         image: 'showcase/polo900.jpg'
@@ -107,7 +112,7 @@ export default [
 
       {
         title: 'Formula-e Dashboard',
-        roles: ['team lead'],
+        roles: ['team leader'],
         tags: ['d3.js', 'vue.js', 'three.js'],
         brief: 'Data Visualization Dashboard',
         image: 'showcase/enelfe.jpg'
@@ -115,7 +120,7 @@ export default [
 
       {
         title: 'Artificial Dummies',
-        roles: ['team lead', 'developer support'],
+        roles: ['team leader', 'developer support'],
         tags: ['processing'],
         brief: 'Computational Projection Mapping',
         image: 'showcase/artificial-dummies.jpg'
