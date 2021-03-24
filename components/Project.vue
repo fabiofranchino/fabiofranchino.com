@@ -1,14 +1,21 @@
 <template>
-    <div class="project">
+    <div class="project" @mouseenter="onEnter" @mouseleave="onLeave">
         <div class="inner">
-            <div class="img">
-                <img :src="'/' + project.image" />
+
+            <div class="mediacnt">
+                <div class="img">
+                    <img :src="'/showcase/' + project.image" />
+                </div>
+                <div class="vid" v-if="project.video && showVideo">
+                    <video loop autoplay muted :src="'/showcase/' + project.video" ></video>
+                </div>
             </div>
+            
 
             <div class="content">
                 <div class="info">
                     <h3>{{project.title}}</h3>
-                    <p>{{project.brief}}</p>
+                    <p v-html="project.brief"></p>
                     <p class="tags" v-html="getTags(project.tags)"></p>
                     <p class="roles" v-html="getTags(project.roles)"></p>
                 </div>
@@ -38,7 +45,8 @@ export default {
     },
     data(){
         return{
-            showInfo:false
+            showInfo:false,
+            showVideo:false
         }
     },
     methods:{
@@ -52,6 +60,12 @@ export default {
             }
 
             return str
+        },
+        onEnter(){
+            this.showVideo = true
+        },
+        onLeave(){
+            this.showVideo = false
         }
     }
 }
@@ -77,6 +91,7 @@ p{
     padding: 1rem;
 }
 
+
 .inner{
     background: white;
     height: 100%;
@@ -85,6 +100,7 @@ p{
     flex-direction: column;
     
 }
+
 
 .content{
     position: relative;
@@ -95,15 +111,26 @@ p{
     flex-direction: column;
 }
 
-.img{
-    height: 200px;
+.mediacnt{
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+}
+.mediacnt > div{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
 }
 
-img{
+
+img, video{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 
 .info{
     flex:1;

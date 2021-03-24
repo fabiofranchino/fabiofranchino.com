@@ -6,18 +6,18 @@ export default [
     Furthermore, I've contributed back releasing my main <b>open-source project</b> and other custom tools.`,
     projects: [
       {
-        title: 'Tailor-Made Dataviz WebApp #2',
-        brief: '🤭 Under NDA, can\'t say more',
-        image: 'showcase/dataviz2.jpg',
+        title: 'Tailor-Made Dataviz Tool 2020',
+        brief: '<b>Under NDA.</b> Advanced data-visualization web app for big-data exploration',
+        image: 'dataviz2.jpg',
         more: `<p>In a pure agile iterative process I've been part of a small senior team made by a data scientist, a designer and a backend developer to design and develop a custom internal tool to visualize financial big-data for a corporate client.</p>
               <p>The result has been a sleek and high performance visualization that helps domain experts extract values and insights from a huge corpus of financial data.</p>`,
         tags: ['vue.js', 'd3.js', 'ux', 'web services', 'data wrangling'],
         roles: ['lead frontend developer']
       },
       {
-        title: 'Tailor-Made Dataviz WebApp #1',
-        brief: '🤭 Under NDA, can\'t say more',
-        image: 'showcase/dataviz1.jpg',
+        title: 'Tailor-Made Dataviz Tool 2019',
+        brief: '<b>Under NDA.</b> Advanced data-visualization web app for big-data exploration',
+        image: 'dataviz1.jpg',
         more: `<p>In a pure agile iterative process I've been part of a small senior team made by a data scientist, a designer and a backend developer to design and develop a custom internal tool to visualize financial big-data for a corporate client.</p>
               <p>The result has been a sleek and high performance visualization that helps domain experts extract values and insights from a huge corpus of financial data.</p>`,
         tags: ['vue.js', 'd3.js', 'ux', 'web services', 'data wrangling'],
@@ -26,7 +26,8 @@ export default [
       {
         title: 'WebGL Dataviz Prototype',
         brief: 'High-Performance Data Visualization Renderer',
-        image: 'showcase/dataviz.gif',
+        image: 'webgl-dataviz.jpg',
+        video: 'webgl-dataviz.mp4',
         tags: ['three.js', 'd3.js', 'showpack', 'data wrangling'],
         roles: ['software designer', 'lead developer'],
         more: `<p>
@@ -38,7 +39,7 @@ export default [
       {
         title: 'Presenta Library',
         brief: 'Open-Source Presentation Library',
-        image: 'showcase/presentalib.gif',
+        image: 'presentalib.gif',
         tags: ['javascript', 'es6', 'rollup', 'vuepress'],
         link: 'https://lib.presenta.cc',
         more: `<p>This is my attempt to build and maintain a serious open-source project.</p>
@@ -49,7 +50,7 @@ export default [
       {
         title: 'Presenta Playground',
         brief: 'Online tool to make slides with markdown',
-        image: 'showcase/playground.jpg',
+        image: 'playground.jpg',
         tags: ['vue.js', 'serverless', 'pwa', 'ide', 'node.js'],
         link: 'https://play.presenta.cc',
         roles: ['software designer', 'lead developer'],
@@ -61,7 +62,7 @@ export default [
       {
         title: 'SVGMator',
         brief: 'Online tool to animate SVG files',
-        image: 'showcase/svgmator.jpg',
+        image: 'svgmator.jpg',
         tags: ['vue.js', 'serverless', 'node.js'],
         link: 'https://www.svgmator.com',
         roles: ['software designer', 'lead developer'],
@@ -80,7 +81,7 @@ export default [
       {
         title: 'Arduino Web IDE',
         brief: 'Online code editor',
-        image: 'showcase/arduino.jpg',
+        image: 'arduino.jpg',
         tags: ['angular.js', 'ide', 'node.js', 'websocket', 'serial'],
         link: 'https://create.arduino.cc',
         roles: ['team leader', 'lead developer']
@@ -92,22 +93,23 @@ export default [
         tags: ['javascript', 'pwa', 'team lead'],
         roles: ['team leader', 'lead developer'],
         link: 'https://foundation.mozilla.org/en/campaigns/codemoji/',
-        image: 'showcase/codemoji.jpg'
+        image: 'codemoji.jpg'
       },
       {
         title: 'Mozfest Exhibit',
         tags: ['d3.js', 'vue.js', 'node.js'],
         roles: ['team leader'],
         brief: 'Interactive Data Visualization Software controlled by Touch-Sensors',
-        image: 'showcase/mozfest.jpg'
+        image: 'mozfest.jpg',
+        video: 'mozfest.mp4'
       },
 
       {
-        title: 'DSI4EU Community',
+        title: 'NESTA Community Viz',
         roles: ['team leader'],
         tags: ['d3.js', 'vue.js'],
-        brief: 'Data Visualization Web Application',
-        image: 'showcase/dsi4eu.jpg'
+        brief: 'Explorable Data Visualization Web App of the DSI4EU Community',
+        image: 'dsi4eu.jpg'
       },
 
       {
@@ -115,7 +117,7 @@ export default [
         roles: ['team leader'],
         tags: ['d3.js', 'vue.js', 'matter.js'],
         brief: 'Data Visualization System',
-        image: 'showcase/polo900.jpg'
+        image: 'polo900.jpg'
       },
 
       {
@@ -123,7 +125,7 @@ export default [
         roles: ['team leader'],
         tags: ['d3.js', 'vue.js', 'three.js'],
         brief: 'Data Visualization Dashboard',
-        image: 'showcase/enelfe.jpg'
+        image: 'enelfe.jpg'
       },
 
       {
@@ -131,14 +133,15 @@ export default [
         roles: ['team leader', 'developer support'],
         tags: ['processing'],
         brief: 'Computational Projection Mapping',
-        image: 'showcase/artificial-dummies.jpg'
+        image: 'artificial-dummies.jpg',
+        video: 'artificial-dummies.mp4'
       },
       {
         title: 'Book Public Event',
         roles: ['creative developer'],
         tags: ['processing'],
         brief: 'Computational Projection Animation',
-        image: 'showcase/bittogrammi.jpg'
+        image: 'bittogrammi.jpg'
       },
 
       {
@@ -146,28 +149,28 @@ export default [
         roles: ['creative developer'],
         tags: ['three.js'],
         brief: 'Computational Projection Mapping',
-        image: 'showcase/expo-logo.jpg'
+        image: 'expo-logo.jpg'
       },
       {
         title: 'Hotpoint Exhibit',
         roles: ['creative developer'],
         tags: ['processing'],
         brief: 'Multi-screen Computational Data Visualization',
-        image: 'showcase/hotpoint.jpg'
+        image: 'hotpoint.jpg'
       },
       {
         title: 'ItaliaOra Exhibit',
         roles: ['creative developer'],
         tags: ['processing'],
         brief: 'Statistics Simulation and Info Visualization Software',
-        image: 'showcase/italiaora.jpg'
+        image: 'italiaora.jpg'
       },
       {
         title: 'La Moneta Exhibit',
         roles: ['creative developer'],
         tags: ['flash'],
         brief: 'Multi-screen Interactive Info Visualization controlled by Touch-Sensors',
-        image: 'showcase/lamoneta.jpg'
+        image: 'lamoneta.jpg'
       },
 
       {
@@ -175,14 +178,14 @@ export default [
         tags: ['processing'],
         roles: ['creative developer'],
         brief: 'Real-time Interactive Audio Sequencer Game',
-        image: 'showcase/nike.jpg'
+        image: 'nike.jpg'
       },
       {
         title: 'Nada Generative Logo',
         roles: ['creative developer'],
         tags: ['nodebox'],
         brief: 'Computational Brand Generator',
-        image: 'showcase/nada.jpg'
+        image: 'nada.jpg'
       }
 
     ]
