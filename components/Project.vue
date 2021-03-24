@@ -1,12 +1,12 @@
 <template>
-    <div class="project" @mouseenter="onEnter" @mouseleave="onLeave">
+    <div class="project">
         <div class="inner">
 
             <div class="mediacnt">
                 <div class="img">
                     <img :src="imagePath" />
                 </div>
-                <div class="vid" v-if="project.video && showVideo">
+                <div class="vid" v-if="project.video && showInfo">
                     <video loop autoplay muted :src="videoPath" ></video>
                 </div>
             </div>
@@ -21,7 +21,7 @@
                 </div>
                 <div class="foot" v-if="project.more">
                     <!-- <p class="link" v-if="project.link"><a rel="noreferrer" target="blank" :href="project.link">Go to Project</a></p> -->
-                    <p class="link"><a target="blank" href="" @click.prevent="showInfo=true">More Info</a></p>
+                    <p class="link"><a target="blank" href="" @click.prevent="showInfo=true">Please More!</a></p>
                 </div>
 
                 <transition name="slide">
@@ -45,8 +45,7 @@ export default {
     },
     data(){
         return{
-            showInfo:false,
-            showVideo:false
+            showInfo:false
         }
     },
     computed:{
@@ -68,12 +67,6 @@ export default {
             }
 
             return str
-        },
-        onEnter(){
-            this.showVideo = true
-        },
-        onLeave(){
-            this.showVideo = false
         }
     }
 }

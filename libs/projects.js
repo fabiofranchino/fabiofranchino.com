@@ -6,7 +6,7 @@ export default [
     Furthermore, I've contributed back releasing my main <b>open-source project</b> and other custom tools.`,
     projects: [
       {
-        title: 'Tailor-Made Dataviz Tool 2020',
+        title: 'Explorable Big-Data Tool 2020 edition',
         brief: '<b>Under NDA.</b> Advanced data-visualization web app for big-data exploration',
         image: 'dataviz2.jpg',
         more: `<p>In a pure agile iterative process I've been part of a small senior team made by a data scientist, a designer and a backend developer to design and develop a custom internal tool to visualize financial big-data for a corporate client.</p>
@@ -15,7 +15,7 @@ export default [
         roles: ['lead frontend developer']
       },
       {
-        title: 'Tailor-Made Dataviz Tool 2019',
+        title: 'Explorable Big-Data Tool 2019 edition',
         brief: '<b>Under NDA.</b> Advanced data-visualization web app for big-data exploration',
         image: 'dataviz1.jpg',
         more: `<p>In a pure agile iterative process I've been part of a small senior team made by a data scientist, a designer and a backend developer to design and develop a custom internal tool to visualize financial big-data for a corporate client.</p>
@@ -24,7 +24,7 @@ export default [
         roles: ['lead frontend developer']
       },
       {
-        title: 'WebGL Dataviz Prototype',
+        title: 'WebGL Visualization Prototype',
         brief: 'High-Performance Data Visualization Renderer',
         image: 'webgl-dataviz.jpg',
         video: 'webgl-dataviz.mp4',
@@ -39,7 +39,8 @@ export default [
       {
         title: 'Presenta Library',
         brief: 'Open-Source Presentation Library',
-        image: 'presentalib.gif',
+        image: 'presentalib.jpg',
+        video: 'presentalib.mp4',
         tags: ['javascript', 'es6', 'rollup', 'vuepress'],
         link: 'https://lib.presenta.cc',
         more: `<p>This is my attempt to build and maintain a serious open-source project.</p>
@@ -51,6 +52,7 @@ export default [
         title: 'Presenta Playground',
         brief: 'Online tool to make slides with markdown',
         image: 'playground.jpg',
+        video: 'playground.mp4',
         tags: ['vue.js', 'serverless', 'pwa', 'ide', 'node.js'],
         link: 'https://play.presenta.cc',
         roles: ['software designer', 'lead developer'],
@@ -63,6 +65,7 @@ export default [
         title: 'SVGMator',
         brief: 'Online tool to animate SVG files',
         image: 'svgmator.jpg',
+        video: 'svgmator.mp4',
         tags: ['vue.js', 'serverless', 'node.js'],
         link: 'https://www.svgmator.com',
         roles: ['software designer', 'lead developer'],
@@ -84,8 +87,10 @@ export default [
         image: 'arduino.jpg',
         tags: ['angular.js', 'ide', 'node.js', 'websocket', 'serial'],
         link: 'https://create.arduino.cc',
-        roles: ['team leader', 'lead developer']
-        // more: '<p>For more than a year I\'ve been part of the distribuited team that designed and developed the first version of the Web IDE for Arduino microcontroller.</p><p><a rel="noreferrer" href="https://create.arduino.cc" target="blank">Project Link</a></p>'
+        roles: ['team leader', 'lead developer'],
+        more: `<p>
+          For more than a year I've been part of the distribuited team that designed and developed the first version of the Web IDE for Arduino microcontroller.</p><p><a rel="noreferrer" href="https://create.arduino.cc" target="blank">Project Link</a>
+        </p>`
       },
       {
         title: 'Mozilla Codemoji',
@@ -93,7 +98,11 @@ export default [
         tags: ['javascript', 'pwa', 'team lead'],
         roles: ['team leader', 'lead developer'],
         link: 'https://foundation.mozilla.org/en/campaigns/codemoji/',
-        image: 'codemoji.jpg'
+        image: 'codemoji.jpg',
+        video: 'codemoji.mp4',
+        more: `<p>
+          For a Mozilla communication campaign, a slick web tool to play with the encryption concept in a easy and fun way. Let's create a secret message encrypted with an emoji you can send to friends!
+        </p>`
       },
       {
         title: 'Mozfest Exhibit',
@@ -101,11 +110,16 @@ export default [
         roles: ['team leader'],
         brief: 'Interactive Data Visualization Software controlled by Touch-Sensors',
         image: 'mozfest.jpg',
-        video: 'mozfest.mp4'
+        video: 'mozfest.mp4',
+        more: `<p>
+          For the yearly Mozilla Festival in London, I've lead the development team to develop a series of engaging and explorable data visualization software.
+          </p><p>
+          Some of them were interfaced with custom physical sensors for engagement purpose.
+        </p>`
       },
 
       {
-        title: 'NESTA Community Viz',
+        title: 'NESTA Community Explorable Tool',
         roles: ['team leader'],
         tags: ['d3.js', 'vue.js'],
         brief: 'Explorable Data Visualization Web App of the DSI4EU Community',
@@ -134,14 +148,21 @@ export default [
         tags: ['processing'],
         brief: 'Computational Projection Mapping',
         image: 'artificial-dummies.jpg',
-        video: 'artificial-dummies.mp4'
+        video: 'artificial-dummies.mp4',
+        more: `<p>
+          A facade projection mapping for an exhibition opening with a real-time software that is able to generate an animated living system of generative dumb characters using the popular flocking behaviour algorithm.
+        </p>`
       },
       {
         title: 'Book Public Event',
         roles: ['creative developer'],
         tags: ['processing'],
         brief: 'Computational Projection Animation',
-        image: 'bittogrammi.jpg'
+        image: 'bittogrammi.jpg',
+        video: 'bittogrammi.mp4',
+        more: `<p>
+          A computational real-time animation system for a facade projection mapping in a public opening event.
+        </p>`
       },
 
       {
@@ -149,36 +170,56 @@ export default [
         roles: ['creative developer'],
         tags: ['three.js'],
         brief: 'Computational Projection Mapping',
-        image: 'expo-logo.jpg'
+        image: 'expo-logo.jpg',
+        video: 'expo-logo.mp4',
+        more: `<p>
+          A realt-time generative brand system projected in a multi large facade for an opening event.
+        </p>`
       },
       {
         title: 'Hotpoint Exhibit',
         roles: ['creative developer'],
         tags: ['processing'],
         brief: 'Multi-screen Computational Data Visualization',
-        image: 'hotpoint.jpg'
+        image: 'hotpoint.jpg',
+        video: 'hotpoint.mp4',
+        more: `<p>
+          A huge multi-screen data visualization with a info narrative completely generated by a real-time software.
+        </p>`
       },
       {
         title: 'ItaliaOra Exhibit',
         roles: ['creative developer'],
         tags: ['processing'],
         brief: 'Statistics Simulation and Info Visualization Software',
-        image: 'italiaora.jpg'
+        image: 'italiaora.jpg',
+        video: 'italiaora.mp4',
+        more: `<p>
+          A real-time statistics simulator and info-visualization for the 150° year of the Italy unification.
+        </p>`
       },
       {
         title: 'La Moneta Exhibit',
         roles: ['creative developer'],
         tags: ['flash'],
         brief: 'Multi-screen Interactive Info Visualization controlled by Touch-Sensors',
-        image: 'lamoneta.jpg'
+        image: 'lamoneta.jpg',
+        video: 'lamoneta.mp4',
+        more: `<p>
+          For the Lira exhibition, a multi-screen real-time software interfaced with an array of touch sensors that show several information in a playful and engaging way.
+        </p>`
       },
 
       {
         title: 'Nike Retail Opening',
         tags: ['processing'],
         roles: ['creative developer'],
-        brief: 'Real-time Interactive Audio Sequencer Game',
-        image: 'nike.jpg'
+        brief: 'Interactive Audio Game Projection Mapping',
+        image: 'nike.jpg',
+        video: 'nike.mp4',
+        more: `<p>
+          For the Nike Store Opening, a huge projection mapping on a facade shows an interactive audio sequencer tool that can be used by people using a capture sensor to recognize the gestures.
+        </p>`
       },
       {
         title: 'Nada Generative Logo',
