@@ -4,10 +4,10 @@
 
             <div class="mediacnt">
                 <div class="img">
-                    <img :src="'/showcase/' + project.image" />
+                    <img :src="imagePath" />
                 </div>
                 <div class="vid" v-if="project.video && showVideo">
-                    <video loop autoplay muted :src="'/showcase/' + project.video" ></video>
+                    <video loop autoplay muted :src="videoPath" ></video>
                 </div>
             </div>
             
@@ -47,6 +47,14 @@ export default {
         return{
             showInfo:false,
             showVideo:false
+        }
+    },
+    computed:{
+        imagePath(){
+            return process.env.NUXT_ENV_ASSETS_CDN + '/' + this.project.image
+        },
+        videoPath(){
+            return process.env.NUXT_ENV_ASSETS_CDN + '/' + this.project.video
         }
     },
     methods:{
