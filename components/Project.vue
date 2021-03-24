@@ -1,12 +1,12 @@
 <template>
-    <div class="project">
+    <div class="project" @mouseenter="over=true" @mouseleave="over=false">
         <div class="inner">
 
             <div class="mediacnt">
                 <div class="img">
                     <img :src="imagePath" />
                 </div>
-                <div class="vid" v-if="project.video && showInfo">
+                <div class="vid" v-if="project.video && (showInfo || over)">
                     <video loop autoplay muted :src="videoPath" ></video>
                 </div>
             </div>
@@ -45,7 +45,8 @@ export default {
     },
     data(){
         return{
-            showInfo:false
+            showInfo:false,
+            over:false
         }
     },
     computed:{
