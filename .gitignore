@@ -4,6 +4,7 @@ node_modules
 .nuxt
 
 /functions
+/static/showcase
 
 *.mov
 
