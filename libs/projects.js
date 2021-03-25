@@ -31,7 +31,7 @@ export default [
         tags: ['three.js', 'd3.js', 'showpack', 'data wrangling'],
         roles: ['software designer', 'lead developer'],
         more: `<p>
-          For a client I've developed an high performance data-visualization renderer using three.js that served to unlock an advanced platform development.
+          For a client I've developed an high performance data-visualization renderer using three.js that served to unlock the development of an advanced visualization platform.
         </p><p>
           <a target="blank" href="https://cdn.githubraw.com/fabiofranchino/dthree-explorations/0b992a02/build/index.html">Experience it!</a>
         </p>`
@@ -123,7 +123,11 @@ export default [
         roles: ['team leader'],
         tags: ['d3.js', 'vue.js'],
         brief: 'Explorable Data Visualization Web App of the DSI4EU Community',
-        image: 'dsi4eu.jpg'
+        image: 'dsi4eu.jpg',
+        video: 'dsi4eu.mp4',
+        more: `<p>
+          An interactive data visualization of the newtwork information of Nesta DSI4EU community to let the community itself exploring the network finding new potential partnership.
+        </p>`
       },
 
       {
@@ -131,7 +135,11 @@ export default [
         roles: ['team leader'],
         tags: ['d3.js', 'vue.js', 'matter.js'],
         brief: 'Data Visualization System',
-        image: 'polo900.jpg'
+        image: 'polo900.jpg',
+        video: 'polo900.mp4',
+        more: `<p>
+          A dynamic survey + visualization system that allows creating on-site temporary surveys, visualizing in real-time the results in a playful and fresh way.
+        </p>`
       },
 
       {
@@ -155,7 +163,7 @@ export default [
       },
       {
         title: 'Book Public Event',
-        roles: ['creative developer'],
+        roles: ['lead creative developer'],
         tags: ['processing'],
         brief: 'Computational Projection Animation',
         image: 'bittogrammi.jpg',
@@ -167,7 +175,7 @@ export default [
 
       {
         title: 'Expo Public Event',
-        roles: ['creative developer'],
+        roles: ['lead creative developer'],
         tags: ['three.js'],
         brief: 'Computational Projection Mapping',
         image: 'expo-logo.jpg',
@@ -178,7 +186,7 @@ export default [
       },
       {
         title: 'Hotpoint Exhibit',
-        roles: ['creative developer'],
+        roles: ['lead creative developer'],
         tags: ['processing'],
         brief: 'Multi-screen Computational Data Visualization',
         image: 'hotpoint.jpg',
@@ -189,7 +197,7 @@ export default [
       },
       {
         title: 'ItaliaOra Exhibit',
-        roles: ['creative developer'],
+        roles: ['lead creative developer'],
         tags: ['processing'],
         brief: 'Statistics Simulation and Info Visualization Software',
         image: 'italiaora.jpg',
@@ -200,7 +208,7 @@ export default [
       },
       {
         title: 'La Moneta Exhibit',
-        roles: ['creative developer'],
+        roles: ['lead creative developer'],
         tags: ['flash'],
         brief: 'Multi-screen Interactive Info Visualization controlled by Touch-Sensors',
         image: 'lamoneta.jpg',
@@ -213,7 +221,7 @@ export default [
       {
         title: 'Nike Retail Opening',
         tags: ['processing'],
-        roles: ['creative developer'],
+        roles: ['lead creative developer'],
         brief: 'Interactive Audio Game Projection Mapping',
         image: 'nike.jpg',
         video: 'nike.mp4',
@@ -223,7 +231,7 @@ export default [
       },
       {
         title: 'Nada Generative Logo',
-        roles: ['creative developer'],
+        roles: ['lead creative developer'],
         tags: ['nodebox'],
         brief: 'Computational Brand Generator',
         image: 'nada.jpg'

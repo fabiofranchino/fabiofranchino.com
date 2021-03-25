@@ -45,7 +45,10 @@ export default {
         }
     },
     async asyncData({ store, $content, params, error }) {
-        return {projects}
+        const p = params.id
+        return {
+            projects
+        }
     }
 }
 </script>
