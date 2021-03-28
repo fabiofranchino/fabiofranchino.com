@@ -7,7 +7,7 @@ I was born forty-and-something years ago in Italy, where I currently live.
 
 I've more than fifteen years of experience in **computational design**, **data visualization** and **web development**. 
 
-I co-founded [TODO](https://todo.to.it/) back in 2007 serving as **CTO**. Currently, I'm also an independent senior **consultant**.
+I co-founded <a href="https://www.todo.to.it/" rel="noreferrer">TODO</a> back in 2007 serving as **CTO**. Currently, I'm also an independent senior **consultant**.
 
 ![](/assets/me.jpg)
 
