@@ -79,9 +79,9 @@ JS TweenMax course:
   - make a grid of rects
 - **SVG** elements (rect, circle, line, g, polygon, text, image)
 - **Comments** on different languages
-- Intro to **DevTool** for debugging purposes
 - **Exercise**:
   - Make a face with the primitive shapes (circle, rect, lines, polygon)
+- Intro to **DevTool** for debugging purposes
 - **??Homework**: Make a House in SVG with Basic shapes
 - **TweenMax** basics (to,from,x,y,scale,rotation,delay,origin,ease)
 - **Exercise**: 

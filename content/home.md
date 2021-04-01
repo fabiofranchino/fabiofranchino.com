@@ -4,11 +4,11 @@ title: Home
 
 # Hello! I'm Fabio Franchino
 
-## Code + Data + Design = 🔥
+## Frontend + Dataviz = 🚀
 
 <br />
 
-As a senior <span class="s">data-visualization specialist</span> and <span class="s">front-end engineer</span> I help companies to:
+As a senior <span class="s">front-end engineer</span> and <span class="s">data-visualization specialist</span> I help companies to:
 
 
 

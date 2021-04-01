@@ -238,5 +238,53 @@ export default [
       }
 
     ]
+  },
+
+  {
+    title: 'Experiments & Early Prototypes',
+    desc: `I'm used to create early prototypes and quick technical investigations using code because 
+    it's the most efficient way to guide the process and taking the decisions right.`,
+    projects: [
+      {
+        title: 'SuperSocial',
+        roles: ['lead creative developer'],
+        tags: ['nodebox'],
+        brief: 'Computational Brand Generator',
+        image: 'supersocial.jpg',
+        video: 'supersocial.mp4'
+      },
+      {
+        title: 'Flocking Behaviour',
+        roles: ['lead creative developer'],
+        tags: ['processing'],
+        brief: 'Computational Animation',
+        image: 'p-flocking-behavior.jpg',
+        video: 'p-flocking-behavior.mp4'
+      },
+      {
+        title: 'Fluid Solver',
+        roles: ['lead creative developer'],
+        tags: ['processing'],
+        brief: 'Computational Animation',
+        image: 'p-fluid-solver.jpg',
+        video: 'p-fluid-solver.mp4'
+      },
+      {
+        title: 'Pictures Showcase',
+        roles: ['lead creative developer'],
+        tags: ['processing'],
+        brief: 'Multi-screen showcase wall',
+        image: 'p-pict-wall.jpg',
+        video: 'p-pict-wall.mp4'
+      },
+      {
+        title: 'Ribbons',
+        roles: ['lead creative developer'],
+        tags: ['processing'],
+        brief: 'Computational Animation',
+        image: 'p-ribbons-flock.jpg',
+        video: 'p-ribbons-flock.mp4'
+      }
+    ]
   }
 ]
