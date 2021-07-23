@@ -1,5 +1,5 @@
 ---
-title: Create an SVG organic shape generator with D3.js.md
+title: Create an SVG organic shape generator with D3.js
 date: 2021-07-23 07:00:00 +0100
 subtitle: 23th July, 2021
 style: blue
