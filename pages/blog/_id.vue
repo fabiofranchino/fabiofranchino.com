@@ -99,15 +99,18 @@ export default {
         
     // },
     head () {
-        let cover = this.page.cover ? `/assets/posts/${this.page.slug}/${this.page.cover}` : 'social.jpg'
+        console.log(this.page)
+        // http://app.localpresenta.com:3132/cdn/3LdpD55ipk/ZoyiWZus6
+        //let cover = this.page.cover ? `/assets/posts/${this.page.slug}/${this.page.cover}` : 'social.jpg'
+        let cover = process.env.NUXT_ENV_SOCIAL_CARD_GENERATOR_URL + '?title=' + this.page.title
         return {
             title: this.page.title,
             meta: [
                 { hid:'published_time', property: 'article:published_time', content: this.page.date },
                 { hid:'ogtit', property: 'og:title', content: this.page.title },
                 { hid:'twtit', name: 'twitter:title', content: this.page.title },
-                { hid:'ogimg', property: 'og:image', content: `https://fabiofranchino.com/${cover}` },
-                { hid:'twimg', name: 'twitter:image', content: `https://fabiofranchino.com/${cover}` },
+                { hid:'ogimg', property: 'og:image', content: `${cover}` },
+                { hid:'twimg', name: 'twitter:image', content: `${cover}` },
                 { hid:'ogurl', property: 'og:url', content: `https://fabiofranchino.com/blog/${this.page.slug}` },
                 { hid:'twurl', name: 'twitter:url', content: `https://fabiofranchino.com/blog/${this.page.slug}` }
             ]
