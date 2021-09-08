@@ -3,6 +3,3 @@
   functions = "functions"
   command = "npm run build:lambda && npm run generate"
 
-
-  
-
