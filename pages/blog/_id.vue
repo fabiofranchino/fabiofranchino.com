@@ -102,7 +102,7 @@ export default {
         console.log(this.page)
         // http://app.localpresenta.com:3132/cdn/3LdpD55ipk/ZoyiWZus6
         //let cover = this.page.cover ? `/assets/posts/${this.page.slug}/${this.page.cover}` : 'social.jpg'
-        let cover = process.env.NUXT_ENV_SOCIAL_CARD_GENERATOR_URL + '?title=' + this.page.title
+        let cover = process.env.NUXT_ENV_SOCIAL_CARD_GENERATOR_URL + '&title=' + this.page.title
         return {
             title: this.page.title,
             meta: [

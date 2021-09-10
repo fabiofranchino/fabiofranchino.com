@@ -68,7 +68,7 @@ export default {
 
 
     head () {
-        let cover = process.env.NUXT_ENV_SOCIAL_CARD_GENERATOR_URL + '?title=' + this.page.title
+        let cover = process.env.NUXT_ENV_SOCIAL_CARD_GENERATOR_URL + '&title=' + this.page.title
         //let cover = 'social.jpg'
         return {
             title: this.page.title,
