@@ -26,6 +26,7 @@ import {descending} from 'd3'
 import Subscribe from '@/components/Subscribe'
 import PrevNext from '@/components/PrevNext'
 import PatchLink from '@/components/PatchLink'
+import stats from '@/components/global/stats.json'
 
 export default {
     components:{
@@ -99,10 +100,7 @@ export default {
         
     // },
     head () {
-        console.log(this.page)
-        // http://app.localpresenta.com:3132/cdn/3LdpD55ipk/ZoyiWZus6
-        //let cover = this.page.cover ? `/assets/posts/${this.page.slug}/${this.page.cover}` : 'social.jpg'
-        let cover = process.env.NUXT_ENV_SOCIAL_CARD_GENERATOR_URL + '&title=' + this.page.title
+        let cover = process.env.NUXT_ENV_SOCIAL_CARD_GENERATOR_URL + '&title=<mark>' + this.page.title + '</mark>&cta=(just one of ' + stats.blog + ' posts)'
         return {
             title: this.page.title,
             meta: [

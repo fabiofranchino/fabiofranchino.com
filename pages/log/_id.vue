@@ -21,6 +21,7 @@
 import Subscribe from '@/components/Subscribe'
 import PrevNext from '@/components/PrevNext'
 import PatchLink from '@/components/PatchLink'
+import stats from '@/components/global/stats.json'
 
 export default {
     components:{
@@ -68,7 +69,7 @@ export default {
 
 
     head () {
-        let cover = process.env.NUXT_ENV_SOCIAL_CARD_GENERATOR_URL + '&title=' + this.page.title
+        let cover = process.env.NUXT_ENV_SOCIAL_CARD_GENERATOR_URL + '&title=<mark>' + this.page.title + '</mark>&cta=(just one of ' + stats.log + ' posts)'
         //let cover = 'social.jpg'
         return {
             title: this.page.title,
