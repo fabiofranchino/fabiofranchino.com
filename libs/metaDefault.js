@@ -3,7 +3,7 @@ module.exports = [
   { name: 'viewport', content: 'width=device-width, initial-scale=1' },
   { hid: 'robots', name: 'robots', content: 'index, follow' },
 
-  { property: 'og:type', content: 'website' },
+  { property: 'og:type', content: 'article' },
   { property: 'og:site_name', content: 'Fabio Franchino' },
   { property: 'og:description', content: 'Senior Designer / Technologist' },
 
