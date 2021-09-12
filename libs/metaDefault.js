@@ -6,6 +6,7 @@ module.exports = [
   { property: 'og:type', content: 'article' },
   { property: 'og:site_name', content: 'Fabio Franchino' },
   { property: 'og:description', content: 'Senior Designer / Technologist' },
+  { property: 'article:author', content: 'Fabio Franchino' },
 
   { hid: 'ogtit', property: 'og:title', content: 'Fabio Franchino' },
   { hid: 'ogurl', property: 'og:url', content: 'https://fabiofranchino.com/' },
