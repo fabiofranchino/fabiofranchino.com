@@ -17,6 +17,8 @@
         <section :class="panelClass">
 
             <div>
+
+                
                 <h3>Projects:</h3>
                 <ul>
                     <li>
@@ -41,7 +43,9 @@
                 </li>
             </ul>
 
-            
+            <a href="https://www.presenta.cc/">
+                <img class="banner" src="https://app.presenta.cc/f/render/?curl=zGywhb2oJn&purl=F5kJVaXNA&v=2" />
+            </a>
            
         </section>
 
@@ -114,6 +118,15 @@ header{
     align-items: center;
 }
 
+.banner{
+    width: 100%;
+    border:.25rem solid var(--mainover);
+    margin-top: 1rem;
+}
+
+h3{
+    margin-top: 1.5rem;
+}
 
 .ham div{
     width: 20px;
