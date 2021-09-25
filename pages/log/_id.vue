@@ -9,8 +9,8 @@
         <nuxt-content :document="page" />
 
         <PrevNext />
-        <PatchLink :editLink="editLink" />
-        <Subscribe />
+        <!-- <PatchLink :editLink="editLink" />
+        <Subscribe /> -->
     </div>
 </template>
 
