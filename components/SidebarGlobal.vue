@@ -46,8 +46,9 @@
                 </li>
             </ul>
 
-            <a href="https://www.presenta.cc/">
-                <img class="banner" src="https://app.presenta.cc/f/render/?curl=zGywhb2oJn&purl=F5kJVaXNA&v=2" />
+
+            <a href="https://app.presenta.cc/f/redir/?curl=zGywhb2oJn&purl=F5kJVaXNA">
+                <img class="banner" src="https://app.presenta.cc/f/render/?curl=zGywhb2oJn&purl=F5kJVaXNA" />
             </a>
            
         </section>
