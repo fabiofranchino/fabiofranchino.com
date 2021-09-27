@@ -18,6 +18,10 @@
 
             <div>
 
+                <a href="https://app.presenta.cc/f/redir/?curl=zGywhb2oJn&purl=5zx5p8QaB">
+                    <img class="banner" src="https://app.presenta.cc/f/render/?curl=zGywhb2oJn&purl=5zx5p8QaB&w=200" />
+                </a>
+
                 
                 <h3>Projects:</h3>
                 <ul>
@@ -47,9 +51,7 @@
             </ul>
 
 
-            <a href="https://app.presenta.cc/f/redir/?curl=zGywhb2oJn&purl=F5kJVaXNA">
-                <img class="banner" src="https://app.presenta.cc/f/render/?curl=zGywhb2oJn&purl=F5kJVaXNA" />
-            </a>
+            
            
         </section>
 
@@ -123,8 +125,7 @@ header{
 }
 
 .banner{
-    width: 100%;
-    border:.25rem solid var(--mainover);
+    width: 80%;
     margin-top: 1rem;
 }
 
