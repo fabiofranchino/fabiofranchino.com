@@ -1,9 +1,9 @@
 ---
-title: Get the Image Buffer using Axios and Nodejs
+title: Get the Image Buffer using Axios and Nodejs and convert it in Base64
 date: 2021-10-03 11:51:00 +0100
 ---
 
- and convert it in Base64
+
 
 This might be useful in some serverless functions where you need to load an image, do some manipulation and return a result:
 
