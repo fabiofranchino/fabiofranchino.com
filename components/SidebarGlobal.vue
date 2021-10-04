@@ -18,8 +18,8 @@
 
             <div>
 
-                <a href="https://app.presenta.cc/f/redir/?curl=zGywhb2oJn&purl=5zx5p8QaB">
-                    <img class="banner" src="https://app.presenta.cc/f/render/?curl=zGywhb2oJn&purl=5zx5p8QaB&w=200" />
+                <a href="https://app.presenta.cc/f/redir/zGywhb2oJn:5zx5p8QaB">
+                    <img class="banner" src="https://app.presenta.cc/f/render/zGywhb2oJn:5zx5p8QaB/?w=200" />
                 </a>
 
                 
