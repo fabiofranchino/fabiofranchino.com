@@ -17,13 +17,14 @@
         <section :class="panelClass">
 
             <div>
-
+                
+                <h3>My Project👇</h3>
                 <a href="https://app.presenta.cc/f/redir/zGywhb2oJn:5zx5p8QaB">
                     <img class="banner" src="https://app.presenta.cc/f/render/zGywhb2oJn:5zx5p8QaB/?w=200" />
                 </a>
                 
                 
-                <h3>Projects:</h3>
+                <!-- <h3>Projects:</h3>
                 <ul>
                     <li>
                         <a href="https://play.presenta.cc/" target="_blank">PRESENTA Play</a>
@@ -31,7 +32,7 @@
                     <li>
                         <a href="https://lib.presenta.cc/" target="_blank">PRESENTA Lib</a>
                     </li>
-                </ul>
+                </ul> -->
             </div>
 
             <div v-if="related">
