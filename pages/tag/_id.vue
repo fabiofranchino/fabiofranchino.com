@@ -2,6 +2,7 @@
     <div>
         <div class="header">
             <h1>Tag: {{title}}</h1>
+            <h3>There are {{links.length}} entries</h3>
         </div>
 
         <div class="container">
@@ -34,7 +35,23 @@ export default {
 
         return {
             title: tag.title.charAt(0).toUpperCase() + tag.title.slice(1),
-            links 
+            links,
+            slug: params.id
+        }
+    },
+    head () {
+        const tit = 'Tag: ' + this.title + ' ('+this.links.length+' entries)'
+        let cover = process.env.NUXT_ENV_SOCIAL_CARD_GENERATOR_URL + '?title=' + this.title + '&cta=' + this.links.length + ' entries'
+        return {
+            title: tit,
+            meta: [
+                { hid:'ogtit', property: 'og:title', content: tit },
+                { hid:'twtit', name: 'twitter:title', content: tit },
+                { hid:'ogimg', property: 'og:image', content: `${cover}` },
+                { hid:'twimg', name: 'twitter:image', content: `${cover}` },
+                { hid:'ogurl', property: 'og:url', content: `https://fabiofranchino.com/tag/${this.slug}` },
+                { hid:'twurl', name: 'twitter:url', content: `https://fabiofranchino.com/tag/${this.slug}` }
+            ]
         }
     }
 }

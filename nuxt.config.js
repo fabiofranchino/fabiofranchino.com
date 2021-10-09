@@ -78,7 +78,6 @@ export default {
         tagRoutes = extract(allRoutes)
         fs.writeFileSync('./tags.json', JSON.stringify(tagRoutes), 'utf-8')
       } else {
-        console.log('NOLOCAL')
         const src = fs.readFileSync('./tags.json', 'utf-8')
         tagRoutes = JSON.parse(src)
       }

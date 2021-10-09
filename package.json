@@ -13,7 +13,8 @@
     "serve:lambda": "netlify-lambda serve netlify-functions",
     "build:lambda": "netlify-lambda build netlify-functions",
     "pub": "node pub.js && git add content/log && git add static/assets/log && git commit -m \"push log\" && git push",
-    "local": "http-server dist --gzip true"
+    "local": "http-server dist --gzip true",
+    "genTags": "NUXT_ENV_LOCAL=true nuxt generate"
   },
   "keywords": [],
   "author": "",
