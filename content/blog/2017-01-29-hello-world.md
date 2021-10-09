@@ -11,11 +11,11 @@ tags: [opinion, general, thoughts]
 First off, a confession.  
 I've been always an internet lurker with some timid public contributions.   
 
-Most of what I've learned over my career is thanks to the web, a place where, among other things, people use their personal time to organize and share pieces of knowledge, often for free.
+Most of what I've learned over my career is because the web, a place where, among other things, people use their personal time to organize and share pieces of knowledge, often for free.
 
 I've always felt a bit guilty. That particular feeling in the gut when you owe something to someone.
 
-To mitigate that feeling I did some attempts in the past, in the spirit of giving back, but nothing worth to mention.
+To mitigate that feeling, I did some attempts in the past, in the spirit of giving back, but nothing worth to mention.
 
 I've always told myself a lot of shit in order to keep the things as is.
 The most common? That it's too late to begin, that it's something I should have done years ago.
@@ -28,7 +28,7 @@ Last year I thought, more than usual, about this issue and I've decided to take 
 I've committed myself to write more.
 
 Writing is a wonderful tool to both organize thoughts and foster new perspectives.  
-But writing alone is not enough. Publish is also an important aspect.
+But writing alone is not enough. Publishing is also an important aspect.
 
 So, here's my **Hello World** (a blog is not a blog without a hello world post)
 

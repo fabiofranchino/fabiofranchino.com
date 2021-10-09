@@ -38,6 +38,7 @@ export default {
             error({ statusCode: 404, message: 'Post not found' })
         }
 
+
         let res = await $content('log').only(['slug', 'path', 'title']).fetch()
         const thisPage = res.filter(d => d.slug === params.id)[0]
         const thisIndex = res.indexOf(thisPage)

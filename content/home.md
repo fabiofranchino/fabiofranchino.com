@@ -4,16 +4,12 @@ title: Home
 
 # Hello! I'm Fabio Franchino
 
-## Frontend + Dataviz = 🚀
+## Senior Web Engineer & Dataviz Specialist. <br />I help companies to:
 
 <br />
 
-As a senior <span class="s">front-end engineer</span> and <span class="s">data-visualization specialist</span> I help companies to:
-
-
-
 - design and develop <span class="s" data-type="underline">interactive</span> and <span class="s" data-type="underline">data-driven</span> web applications
-- level up teams in <span class="s" data-type="underline">front-end stacks</span> and <span class="s" data-type="underline">data visualization</span>
+- level up teams in <span class="s" data-type="underline">web-dev stacks</span> and <span class="s" data-type="underline">data visualization</span>
 
 
 <Stats></Stats>

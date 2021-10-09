@@ -1,15 +1,18 @@
 import metaDefault from './libs/metaDefault'
 import readingTime from 'reading-time'
-import stats from './stats.js'
+import './stats.js'
+import extract from './extract.js'
+import fs from 'fs'
 
 const allRoutes = []
-const noPublic = [
-  'https://www.fabiofranchino.com/showcase'
-]
+let tagRoutes = []
 
 export default {
   components: true,
   target: 'static',
+  router: {
+    prefetchLinks: false
+  },
   head: {
     titleTemplate: '%s @ Fabio Franchino',
     meta: metaDefault,
@@ -69,11 +72,28 @@ export default {
     }
   ],
   generate: {
-    routes: [
-      '/setup-github-codepen'
-    ]
+    routes: () => {
+      console.log('routes')
+      if (process.env.NUXT_ENV_LOCAL) {
+        tagRoutes = extract(allRoutes)
+        fs.writeFileSync('./tags.json', JSON.stringify(tagRoutes), 'utf-8')
+      } else {
+        console.log('NOLOCAL')
+        const src = fs.readFileSync('./tags.json', 'utf-8')
+        tagRoutes = JSON.parse(src)
+      }
+      return [
+        '/setup-github-codepen'
+      ].concat(tagRoutes)
+    }
   },
   hooks: {
+    'build:before': d => {
+      console.log('build:before')
+    },
+    'generate:before': d => {
+      console.log('generate:before')
+    },
     'content:file:beforeInsert': d => {
       // convert the jekyll style slug
       const reg = /\d{4}-\d{2}-\d{2}/
@@ -103,7 +123,9 @@ export default {
   },
   sitemap: {
     hostname: 'https://www.fabiofranchino.com',
-    routes: allRoutes,
+    routes: () => {
+      return allRoutes.concat(tagRoutes)
+    },
     exclude: [
       '/showcase'
     ]

@@ -12,7 +12,8 @@
     "generate": "nuxt generate",
     "serve:lambda": "netlify-lambda serve netlify-functions",
     "build:lambda": "netlify-lambda build netlify-functions",
-    "pub": "node pub.js && git add content/log && git add static/assets/log && git commit -m \"push log\" && git push"
+    "pub": "node pub.js && git add content/log && git add static/assets/log && git commit -m \"push log\" && git push",
+    "local": "http-server dist --gzip true"
   },
   "keywords": [],
   "author": "",
@@ -22,11 +23,10 @@
     "@nuxt/content": "^1.14.0",
     "@nuxtjs/feed": "^2.0.0",
     "@nuxtjs/sitemap": "^2.4.0",
-    "d3": "^5.16.0",
     "normalize-css": "^2.3.1",
     "nuxt": "^2.15.8",
     "nuxt-canonical": "^1.0.6",
-    "rough-notation": "^0.4.0"
+    "pos": "^0.4.2"
   },
   "devDependencies": {
     "axios": "^0.21.4",

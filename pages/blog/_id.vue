@@ -22,7 +22,6 @@
 
 
 <script>
-import {descending} from 'd3'
 import Subscribe from '@/components/Subscribe'
 import PrevNext from '@/components/PrevNext'
 import PatchLink from '@/components/PatchLink'
@@ -81,7 +80,7 @@ export default {
         })
 
         res.sort((a,b) => {
-            return descending(a.relevance, b.relevance)
+            return a.relevance - b.relevance
         })
 
         res = res.filter((d,i) => d.relevance>0).filter((d,i) => i<5)

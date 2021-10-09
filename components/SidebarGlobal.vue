@@ -19,8 +19,9 @@
             <div>
                 
                 <h3>My Project👇</h3>
-                <a href="https://app.presenta.cc/f/redir/zGywhb2oJn:5zx5p8QaB">
-                    <img class="banner" src="https://app.presenta.cc/f/render/zGywhb2oJn:5zx5p8QaB/?w=200" />
+                <a class="banner" href="https://app.presenta.cc/f/redir/zGywhb2oJn:2wUi7fiQL">
+                    <img src="https://app.presenta.cc/f/render/zGywhb2oJn:2wUi7fiQL/?w=100" />
+                    Automation platform to generate PDF, PNG, GIF using a solid API and a Visual Editor.
                 </a>
                 
                 
@@ -82,6 +83,7 @@ export default {
             links:[
                 {url:'/blog', label:'Articles'},
                 {url:'/log', label:'Logs'},
+                {url:'/tag', label:'Tags'},
                 //{url:'/resources', label:'Resources'},
                 {url:'/about', label:'About Me'},
             ]
@@ -126,8 +128,18 @@ header{
 }
 
 .banner{
-    width: 80%;
+    width: 100%;
+    display: flex;
     margin-top: 1rem;
+    color: white;
+    font-size:11px;
+    text-decoration: none;
+}
+.banner img{
+    border:1px solid #888;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
 }
 
 h3{
