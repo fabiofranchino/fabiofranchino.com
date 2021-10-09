@@ -13,6 +13,6 @@ background: linear-gradient(to right, green 70%, white 70%, white);
 
 To achieve results such as stars rating component:
 
-<img src="/Users/abused/Desktop/Screen Shot 2021-10-09 at 21.31.32.png" alt="Screen Shot 2021-10-09 at 21.31.32" />
+![](/assets/log/d456_fd_rewrw_sdfsdfs.png)
 
 Codepen [here](https://codepen.io/abusedmedia/pen/OJjJWzg?editors=1100).

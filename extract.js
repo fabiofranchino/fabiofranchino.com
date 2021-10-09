@@ -1,5 +1,11 @@
 const pos = require('pos')
 
+const blacklist = [
+  'constructor',
+  'object',
+  've'
+]
+
 export default (pages) => {
   const tagsMap = {}
 
@@ -8,8 +14,6 @@ export default (pages) => {
     const words = new pos.Lexer().lex(page.text)
     const taggedWords = new pos.Tagger().tag(words)
     let tags = taggedWords.filter(w => w[1].indexOf('NN') === 0)
-
-    const blacklist = ['constructor', 'object']
 
     tags = tags.map(n => n[0].replace(/\W/g, '')) // strip non-alphachar
     tags = tags.filter(d => d && d !== '') // skip empty
