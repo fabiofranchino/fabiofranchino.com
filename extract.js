@@ -1,8 +1,8 @@
 const pos = require('pos')
+const enPos = require('en-pos')
 
 const blacklist = [
   'constructor',
-  'object',
   've'
 ]
 
@@ -12,14 +12,22 @@ export default (pages) => {
   // extract noun from posts
   pages.forEach(page => {
     const words = new pos.Lexer().lex(page.text)
-    const taggedWords = new pos.Tagger().tag(words)
-    let tags = taggedWords.filter(w => w[1].indexOf('NN') === 0)
 
-    tags = tags.map(n => n[0].replace(/\W/g, '')) // strip non-alphachar
+    const taggedWords = new pos.Tagger().tag(words)
+
+    // const Tag = enPos.Tag
+    // const tagged = new Tag(words).initial().tags
+    // const taggedWords = tagged.map((t, i) => {
+    //   return [words[i], t]
+    // })
+
+    let tags = taggedWords.filter(w => w[1].indexOf('NN') === 0)
+    tags = tags.map(d => d[0]) // remove NN def
+    tags = tags.map(d => d.replace(/\W/g, '')) // strip non-alphachar
     tags = tags.filter(d => d && d !== '') // skip empty
     tags = tags.map(d => d.toLowerCase()) // lowercase
     tags = [...new Set(tags)] // remove duplicates
-    tags = tags.filter(d => blacklist.indexOf(d) === -1) // remove protected words
+    tags = tags.filter(d => blacklist.indexOf(d) === -1) // remove blacklisted
     tags = tags.filter(d => d.length > 1) // remove single letter
 
     page.genTags = tags
