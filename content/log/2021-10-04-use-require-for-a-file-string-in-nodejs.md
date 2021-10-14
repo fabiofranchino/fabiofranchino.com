@@ -20,7 +20,7 @@ An alternative is to `require` the resource in the same way you do with .js and 
 Here a possible solution for string-based files, such as .html files:
 
 ```js
-const src = require('./myFile.html.js')
+const src = require('./myFile.html.json')
 ```
 
 where 'myFile.html.js' is the html source compiled this way at pre-build time:
@@ -30,13 +30,13 @@ const fs = require('fs')
 const html = fs.readFileSync('./myFile.html', 'utf-8')
 
 const srcjs = JSON.stringify({html})
-const html = fs.writeFileSync('./myFile.html.js', srcjs, 'utf-8')
+const html = fs.writeFileSync('./myFile.html.json', srcjs, 'utf-8')
 ```
 
 This way you can include the string source and use this way:
 
 ```js
-const src = require('./myFile.html.js')
+const src = require('./myFile.html.json')
 console.log(src.html) // the html file source
 ```
 
