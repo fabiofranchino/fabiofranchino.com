@@ -1,4 +1,6 @@
 /js/script.js https://plausible.io/js/plausible.js 200
+/api/event https://plausible.io/api/event 202
+
 /blog/tips/*    /log/:splat
 /blog/log/*    /log/:splat
 /blog/resources/*   /resources/:splat
