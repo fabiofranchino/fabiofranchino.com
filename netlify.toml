@@ -1,5 +1,4 @@
 [build]
   publish = "dist"
-  functions = "functions"
-  command = "npm run build:lambda && npm run generate"
+  command = "npm run deploy"
 
