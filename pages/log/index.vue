@@ -5,7 +5,7 @@
             <h3>Usually quickly and roughly. 
                 It's like a public container of bookmarks, code snippets and notes, all together.</h3>
         </div>
-        <Search :source="posts" @results="onResults" />
+        <!-- <Search :source="posts" @results="onResults" /> -->
         <div class="container">
             <Row :item="item" v-for="item in results" :key="item.path" />
         </div>     

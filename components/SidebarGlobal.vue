@@ -8,32 +8,23 @@
                     <img src="@/assets/ff.jpg" />
                 </nuxt-link>
             </div>
-            <div class="ham" @click="panelVisible=!panelVisible">
+            <a class="ham" href="#menu">
                 <div></div>
                 <div></div>
-            </div>
+            </a>
         </header>
         
-        <section :class="panelClass">
+        <section id="menu" class="visible">
 
             <div>
                 
                 <h3>My Project👇</h3>
                 <a class="banner" href="https://app.presenta.cc/f/redir/zGywhb2oJn:2wUi7fiQL">
-                    <img src="https://app.presenta.cc/f/render/zGywhb2oJn:2wUi7fiQL/?w=100" />
+                    <img width="100" height="100" src="https://app.presenta.cc/f/render/zGywhb2oJn:2wUi7fiQL/?w=100" />
                     Automation platform to generate PDF, PNG, GIF using a solid API and a Visual Editor.
                 </a>
                 
                 
-                <!-- <h3>Projects:</h3>
-                <ul>
-                    <li>
-                        <a href="https://play.presenta.cc/" target="_blank">PRESENTA Play</a>
-                    </li>
-                    <li>
-                        <a href="https://lib.presenta.cc/" target="_blank">PRESENTA Lib</a>
-                    </li>
-                </ul> -->
             </div>
 
             <div v-if="related">
@@ -57,7 +48,7 @@
            
         </section>
 
-        <footer :class="panelClass">
+        <footer>
             <div class="socials">
                 <a href="https://github.com/abusedmedia" title="Github" target="_blank"><img src="@/assets/github.svg" /></a>
                 <a href="https://twitter.com/fabiofranchino" title="Twitter" target="_blank"><img src="@/assets/twitter.svg" /></a>
@@ -79,7 +70,6 @@ import {mapGetters} from 'vuex'
 export default {
     data(){
         return{
-            panelVisible:false,
             links:[
                 {url:'/blog', label:'Articles'},
                 {url:'/log', label:'Logs'},
@@ -89,16 +79,9 @@ export default {
             ]
         }
     },
-    watch:{
-        '$route'(){
-            this.panelVisible=false
-        }
-    },
+    
     computed:{
-        ...mapGetters(['related']),
-        panelClass(){
-            return {visible: this.panelVisible}
-        }
+        ...mapGetters(['related'])
     },
     
     methods:{
@@ -193,9 +176,10 @@ footer{
     display: none;
 }
 
-.visible{
+:target.visible{
     display: block;
 }
+
 
 ul{
     margin: 0;
