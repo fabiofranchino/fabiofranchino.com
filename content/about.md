@@ -3,13 +3,9 @@ title: About Me
 ---
 
 
-I was born forty-and-something years ago in Italy, where I currently live. 
-
 I've more than fifteen years of experience in **computational design**, **data visualization** and **web development**. 
 
-I co-founded <a href="https://www.todo.to.it/" rel="noreferrer">TODO</a> back in 2007 serving as **CTO**. Currently, I'm also an independent senior **consultant**.
-
-![](/assets/me.jpg)
+I co-founded <a href="https://www.todo.to.it/" rel="noreferrer">TODO</a> back in 2007 serving as **CTO**. Currently, I'm an independent senior **consultant**.
 
 I'm happy enough to lead teams from a vantage point at the crossroads of **design** and **coding**. I love exploring technologies and I'm passionate about **internal processes optimization** by means of Agile and innovative principles. I'm not satisfied by my actual knowledge, therefore, I constantly study something. Indeed, I'm an **ever learner** person.
 
