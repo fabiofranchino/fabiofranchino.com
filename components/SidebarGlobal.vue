@@ -18,7 +18,6 @@
 
             <div>
                 
-                <h3>My Project👇</h3>
                 <a class="banner" href="https://app.presenta.cc/f/redir/zGywhb2oJn:2wUi7fiQL">
                     <img width="100" height="100" src="https://app.presenta.cc/f/render/zGywhb2oJn:2wUi7fiQL/?w=100" />
                     Automation platform to generate PDF, PNG, GIF using a solid API and a Visual Editor.
