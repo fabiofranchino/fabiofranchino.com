@@ -10,7 +10,6 @@ Here the tip to download a binary file, such as a PDF, ZIP or image file with ax
 ```js
 // within an async function
 const res = await axios({
-  method: 'post',
   responseType: 'blob',
   url: URL_TO_BINARY_FILE
 })

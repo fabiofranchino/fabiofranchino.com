@@ -1,9 +1,7 @@
 ---
-title: How to make an atomic readwrite with ioRedis
+title: How to make an atomic read/write with ioRedis
 date: 2021-10-24 08:08:00 +0100
 ---
-
-How to make an atomic read/write with ioRedis
 
 If you're using Redis in your system, chances are that you want to benefit of its performance.
 

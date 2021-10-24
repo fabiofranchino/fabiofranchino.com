@@ -1,9 +1,7 @@
 ---
-title: How to prepend a base path to all images with Node
+title: How to prepend a base path to all relative  images with Node.js
 date: 2021-10-23 08:50:00 +0100
 ---
-
-How to prepend a base path to all relative images with Node
 
 To add further optimizations to my blog, I decided to use a CDN to serve optimized images and assets.
 
