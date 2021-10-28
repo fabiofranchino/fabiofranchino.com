@@ -30,7 +30,7 @@
                 <h3>Related:</h3>
                 <ul>
                     <li v-for="item in related" :key="item.path">
-                        <nuxt-link :to="item.path">{{item.title}}</nuxt-link>
+                        <nuxt-link :to="item.path + '/'">{{item.title}}</nuxt-link>
                     </li>
                 </ul>
             </div>
@@ -70,11 +70,11 @@ export default {
     data(){
         return{
             links:[
-                {url:'/blog', label:'Articles'},
-                {url:'/log', label:'Logs'},
-                {url:'/tag', label:'Tags'},
+                {url:'/blog/', label:'Articles'},
+                {url:'/log/', label:'Logs'},
+                {url:'/tag/', label:'Tags'},
                 //{url:'/resources', label:'Resources'},
-                {url:'/about', label:'About Me'},
+                {url:'/about/', label:'About Me'},
             ]
         }
     },
