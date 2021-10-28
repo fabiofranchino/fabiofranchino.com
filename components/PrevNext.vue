@@ -1,10 +1,10 @@
 <template>
     <div class="prevnext">
         <div class="l">
-            <nuxt-link  v-if="prevSlug" :to="prevSlug.path">← {{prevSlug.title}}</nuxt-link>
+            <nuxt-link  v-if="prevSlug" :to="prevSlug.path + '/'">← {{prevSlug.title}}</nuxt-link>
         </div>
         <div class="r">
-            <nuxt-link  v-if="nextSlug" :to="nextSlug.path">{{nextSlug.title}} →</nuxt-link>
+            <nuxt-link  v-if="nextSlug" :to="nextSlug.path + '/'">{{nextSlug.title}} →</nuxt-link>
         </div>
     </div>
 </template>

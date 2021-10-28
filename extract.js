@@ -49,7 +49,7 @@ export default (pages) => {
           title: k,
           path: '/tag/' + k,
           slug: '/tag/' + k,
-          url: '/tag/' + k,
+          url: '/tag/' + k + '/',
           children: tagsMap[k]
         })
       }

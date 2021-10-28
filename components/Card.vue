@@ -1,7 +1,7 @@
 <template>
     <div class="card">
         <div class="inner">
-            <nuxt-link :to="item.path">
+            <nuxt-link :to="item.path + '/'">
                 <div class="img">
                     <img loading="lazy" :src="item.cover + '?w=550'" v-if="item.cover" />
                 </div>

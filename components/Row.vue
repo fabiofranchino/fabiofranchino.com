@@ -1,7 +1,7 @@
 <template>
     <div class="card">
         <div class="inner">
-            <nuxt-link :to="item.path">
+            <nuxt-link :to="item.path + '/'">
                 <h4>{{item.title}}</h4>
                 <p>{{item.humandate}}</p>
             </nuxt-link>

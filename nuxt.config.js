@@ -82,7 +82,7 @@ export default {
         tagRoutes = JSON.parse(src)
       }
       return [
-        '/setup-github-codepen'
+        '/setup-github-codepen/'
       ].concat(tagRoutes)
     }
   },
@@ -114,7 +114,7 @@ export default {
 
       // add the cover path
       d.cover = d.cover ? `/assets/posts/${d.slug}/${d.cover}` : '/social.jpg'
-      d.url = d.path
+      d.url = d.path + '/'
       d.fullurl = 'https://www.fabiofranchino.com' + d.path
 
       if (!d.draft) allRoutes.push(d)
