@@ -53,6 +53,12 @@ To increment a value of an existing or new record by key:
 redis.incr('count:a')
 ```
 
+To increment by a specific value:
+
+```js
+redis.incrby('count:a', 10)
+```
+
 To get a list of records using a wildcard operator:
 
 ```js
