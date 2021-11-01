@@ -30,7 +30,7 @@ export default {
         const tag = tagsArr.find(d => d.title.toLowerCase() === params.id)
         const links = tag.children
         links.forEach(l => {
-            l.path = l.url
+            l.path = l.url.slice(0, -1)
         })
 
         return {

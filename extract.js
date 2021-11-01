@@ -44,12 +44,12 @@ export default (pages) => {
 
   for (const k in tagsMap) {
     if (tagsMap[k].length > 2) {
-      if (count < 250) { // increase from time to time
+      if (count < 300) { // increase from time to time
         res.push({
           title: k,
           path: '/tag/' + k,
           slug: '/tag/' + k,
-          url: '/tag/' + k + '/',
+          url: '/tag/' + k,
           children: tagsMap[k]
         })
       }
