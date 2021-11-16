@@ -18,11 +18,16 @@
 
             <div>
                 
-                <a class="banner" href="https://app.presenta.cc/f/redir/zGywhb2oJn:2wUi7fiQL">
+                <!-- <a class="banner" href="https://app.presenta.cc/f/redir/zGywhb2oJn:2wUi7fiQL">
                     <img width="100" height="100" src="https://app.presenta.cc/f/render/zGywhb2oJn:2wUi7fiQL/?w=100" />
                     Automation platform to generate PDF, PNG, GIF using a solid API and a Visual Editor.
-                </a>
-                
+                </a> -->
+                <h3>Projects:</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.presenta.cc/lib">📜 PRESENTA Lib</a>
+                    </li>
+                </ul>
                 
             </div>
 
