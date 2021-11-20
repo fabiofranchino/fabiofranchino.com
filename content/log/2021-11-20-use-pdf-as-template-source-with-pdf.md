@@ -1,9 +1,7 @@
 ---
-title: Use PDF as template source with PDF
+title: Use PDF as template source with PDF.js
 date: 2021-11-20 17:21:00 +0100
 ---
-
-.js
 
 I'm poking with PDF.js library to figuring out the possibility to use PDF document as template source in PRESENTA Platform.
 
