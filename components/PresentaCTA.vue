@@ -1,7 +1,7 @@
 <template>
     <div class="cta">
-        <p><a href="https://www.presenta.cc" target="_blank">PRESENTA</a>
-        <br />The automation platform for
+        <p class="main">Learn more on <a href="https://www.presenta.cc" target="_blank">PRESENTA Platform</a>!</p>
+        <p>The automation platform for
 data-driven presentational documents.</p>
     </div>
 </template>
@@ -17,7 +17,12 @@ data-driven presentational documents.</p>
     margin: 0;
     font-size: 2rem;
     text-align: center;
+}
+.cta p.main{
+    
     font-family: 'Domain Display';
     font-weight: 900;
 }
+
+
 </style>
