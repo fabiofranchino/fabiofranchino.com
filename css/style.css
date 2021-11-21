@@ -61,7 +61,7 @@ body{
     background-color: var(--mainover);
 }
 h1{
-    font-family: 'Domain Display';
+    font-family: 'Domain Display', system-ui, serif;
     font-weight: 900;
 }
 h1:first-child{
