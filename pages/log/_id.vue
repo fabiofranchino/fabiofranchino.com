@@ -70,7 +70,7 @@ export default {
 
 
     head () {
-        const coverImage = this.page.cover ? '&cover=https://www.fabiofranchino.com' + this.page.cover : ''
+        const coverImage = this.page.cover ? '&cover=https://ajahofrzam.cloudimg.io/v7/_fcom_' + this.page.cover : ''
         let cover = process.env.NUXT_ENV_SOCIAL_CARD_GENERATOR_URL + '?title=' + this.page.title + '&cta=' + stats.log + '&check=tip&site=log' + coverImage
         return {
             title: this.page.title,
