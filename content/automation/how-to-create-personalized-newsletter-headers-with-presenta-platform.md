@@ -1,7 +1,8 @@
 ---
 date: 2021-09-21
 title: How to create personalized newsletter images with PRESENTA
-category: tutorials
+category: automation
+cover: comp.jpg
 ---
 
 <mark>**Personalized newsletters**</mark> are a key aspect in any **Marketing Automation** strategy. 

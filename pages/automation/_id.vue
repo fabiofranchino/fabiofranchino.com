@@ -26,12 +26,7 @@ export default {
     components:{
         PresentaCTA
     },
-    data(){
-        return{
-            prevS:'',
-            nextS:''
-        }
-    },
+    
     async asyncData({ store, $content, params, error }) {
 
         let page = null
