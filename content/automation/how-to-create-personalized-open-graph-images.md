@@ -55,18 +55,18 @@ Here the step-by-step to integrate a dynamic image generation pipeline into your
 
 ### Fill the fields for testing purpose
 
-![](/assets/automation/how-to-create-personalized-open-graph-images/tut3.png)
+![](/assets/automation/how-to-create-personalized-open-graph-images/tut3b.png)
 
 ### Test the result
 
-![](/assets/automation/how-to-create-personalized-open-graph-images/tut4.png)
+![](/assets/automation/how-to-create-personalized-open-graph-images/tut4b.png)
 
 ### Integrate into your website
 
 Grab the URL provided by the interface and put it into your `HEAD` tag:
 
 ```html
-<meta property="og:image" content="https://app.presenta.cc/f/url/<TEMPLATE_ID>?title=My Special Receipt"/>
+<meta property="og:image" content="https://app.presenta.cc/f/url/<TEMPLATE_ID>?title=My Special Recipe"/>
 ```
 
 ### That's all!
