@@ -21,21 +21,21 @@ The `https://mywebsite.net/assets/opengraph/card.jpg` image is then loaded in th
 
 ## The problem: the same image
 
-A typical issue on many websites is that the image is always the same no matter the URL. Some systems (such as Wordpress) allows to customize the image by picking a specific image from the assets library. 
+A typical issue on many websites is that the image is always the same no matter the URL. Some systems (such as Wordpress) allow to customize the image by picking a specific one from the assets library. 
 
 ![](/assets/automation/how-to-create-personalized-open-graph-images/card-2.png)
 
-It's a first step that allows to customize the Open Graph image to  a basic level. If you want to use a more interesting graphic composition, you have to create it manually for each website page:
+It's a first step that allows to customize the Open Graph image to  a basic level. If you want to use a more **interesting** and **informative** graphic composition, you have to create it manually for each website page:
 
 ![](/assets/automation/how-to-create-personalized-open-graph-images/card-3.png)
 
-BTW, the above image is not created manually, but using an **automatic software pipeline!**
+BTW, the above image is not created manually, they use an **automatic software pipeline!**
 
-## The solution: generate on-the-fly a personalized image
+## The solution: generate on-the-fly a personalized, data-driven, image
 
-Solving this problem is possible by using a software pipeline that generates the image on-the-fly when it's requested by the social crawlers.
+It is possible to solve this problem by using a software pipeline that generates the image **on-the-fly** when it's requested by the social crawlers.
 
-The following example is generated using fresh data of the specific [URL](https://www.fabiofranchino.com/blog/get-colors-from-images-in-bulk-with-node-js/):
+The following example is generated using fresh data from this [URL](https://www.fabiofranchino.com/blog/get-colors-from-images-in-bulk-with-node-js/):
 
 ![](/assets/automation/how-to-create-personalized-open-graph-images/card-4.png)
 
@@ -45,7 +45,7 @@ You may note that the image contains relevant text of the article.
 
 Here the step-by-step to integrate a dynamic image generation pipeline into your website using [PRESENTA Platform](https://www.presenta.cc/):
 
-### Choose a template or design your own with PRESENTA Visual Editor
+### Choose a template or design your own with the PRESENTA Visual Editor
 
 ![](/assets/automation/how-to-create-personalized-open-graph-images/tut1.png)
 
