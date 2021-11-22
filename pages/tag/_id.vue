@@ -41,7 +41,7 @@ export default {
     },
     head () {
         const tit = 'Tag: ' + this.title + ' ('+this.links.length+' entries)'
-        let cover = process.env.NUXT_ENV_SOCIAL_CARD_GENERATOR_URL + '?title=' + this.title + '&cta=' + this.links.length + ' entries'
+        let cover = process.env.NUXT_ENV_SOCIAL_CARD_GENERATOR_URL + '?title=' + this.title + '&cta=' + this.links.length + ' entries&check=tag&site=tag'
         return {
             title: tit,
             meta: [
