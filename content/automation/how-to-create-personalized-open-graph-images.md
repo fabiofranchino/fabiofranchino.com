@@ -2,6 +2,7 @@
 date: 2021-11-22
 title: How to create personalized open graph images with PRESENTA Platform
 category: automation
+cover: tut1.png
 ---
 
 **Open Graph images** are those that appear when someone share a website URL on social platforms, such as Twitter, Facebook or Linkedin:
