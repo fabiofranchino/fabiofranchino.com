@@ -63,7 +63,7 @@ Here the step-by-step to integrate a dynamic image generation pipeline into your
 
 ### Integrate into your website
 
-Grab the URL provided by the interface and put it into your `HEAD` tag:
+Grab the URL provided by the interface, complete it with the required parameters and put it into your `HEAD` tag:
 
 ```html
 <meta property="og:image" content="https://app.presenta.cc/f/url/<TEMPLATE_ID>?title=My Special Recipe"/>
