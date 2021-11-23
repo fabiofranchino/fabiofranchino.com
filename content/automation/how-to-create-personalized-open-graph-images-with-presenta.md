@@ -23,11 +23,11 @@ The `https://mywebsite.net/assets/opengraph/card.jpg` image is then loaded in th
 
 A typical issue on many websites is that the image is always the same no matter the URL. Some systems (such as Wordpress) allow to customize the image by picking a specific one from the assets library. 
 
-![](/assets/automation/how-to-create-personalized-open-graph-images/card-2.png)
+![](/assets/automation/how-to-create-personalized-open-graph-images-with-presenta/card-2.png)
 
 It's a first step that allows to customize the Open Graph image to  a basic level. If you want to use a more **interesting** and **informative** graphic composition, you have to create it manually for each website page:
 
-![](/assets/automation/how-to-create-personalized-open-graph-images/card-3.png)
+![](/assets/automation/how-to-create-personalized-open-graph-images-with-presenta/card-3.png)
 
 BTW, the above image is not created manually, they use an **automatic software pipeline!**
 
@@ -37,7 +37,7 @@ It is possible to solve this problem by using a software pipeline that generates
 
 The following example is generated using fresh data from this [URL](https://www.fabiofranchino.com/blog/get-colors-from-images-in-bulk-with-node-js/):
 
-![](/assets/automation/how-to-create-personalized-open-graph-images/card-4.png)
+![](/assets/automation/how-to-create-personalized-open-graph-images-with-presenta/card-4.png)
 
 You may note that the image contains relevant text of the article.
 
@@ -47,11 +47,11 @@ Here the step-by-step to integrate a dynamic image generation pipeline into your
 
 ### Choose a template or design your own with the PRESENTA Visual Editor
 
-![](/assets/automation/how-to-create-personalized-open-graph-images/tut1.png)
+![](/assets/automation/how-to-create-personalized-open-graph-images-with-presenta/tut1.png)
 
 ### Define the dynamic fields
 
-![](/assets/automation/how-to-create-personalized-open-graph-images/tut2.png)
+![](/assets/automation/how-to-create-personalized-open-graph-images-with-presenta/tut2.png)
 
 ### Fill the fields for testing purpose
 
@@ -59,7 +59,7 @@ Here the step-by-step to integrate a dynamic image generation pipeline into your
 
 ### Test the result
 
-![](/assets/automation/how-to-create-personalized-open-graph-images/tut4b.png)
+![](/assets/automation/how-to-create-personalized-open-graph-images-with-presenta/tut4b.png)
 
 ### Integrate into your website
 
