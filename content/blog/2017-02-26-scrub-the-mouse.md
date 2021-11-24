@@ -11,7 +11,7 @@ tags: [project, silly, selfinitiated, d3js, ui, webtoy]
 
 **TL;DR:** Go straight to the [toy](/scrub_the_mouse/) to explore my mouse activity.
 
-![](/assets/posts/scrub-the-mouse/cover.gif)
+![](/assets/blog/scrub-the-mouse/cover.gif)
 
 ## Previously on...
 

@@ -11,7 +11,7 @@ tags: [opinion, thoughts, agile, sprint]
 I've been interested in the [Google Design Sprint](http://www.gv.com/sprint/) method over the last year.  
 I've conducted, successfully, some sprints in our studio, so far. I'm quite happy with the results even though a degree of personalization is required.
 
-![](/assets/posts/the-design-sprint/sprint.png)
+![](/assets/blog/the-design-sprint/sprint.png)
 
 But, what is a Design Sprint?
 

@@ -296,7 +296,7 @@ The relevant details are:
 }
 ```
 
-![](/assets/posts/a-first-vega-lite-specs-dive/cover.png)
+![](/assets/blog/a-first-vega-lite-specs-dive/cover.png)
 
 [Here the live version.](https://vega.github.io/editor/#/url/vega-lite/N4KABGBEAkDODGALApgWwIaQFxUQFzwAdYsB6UgN2QHN0A6agSz0QFcAjOxge1IRQyUa6ALQAbZskoAWOgCtY3AHaQANOCgB3RgBMW2MNIAMR9REg70eTDlARzrAE5iDkfERLkAZunY8vjuhKSIxK3HTw3KikOoywANYxVuiwyHiwpFaIYmnIsAD6iiERsBRqGuZe3I4YeNh29vaQeACehMiu8KWQFWAAvhp9ZlB4gUqwVTUGANoN5ujU1I7CeB04s73m3ISd3KxKdcONkF6MyGI6rkroqB1HTSmuWTmrsD2NfQC691BLe4TsFozSCRfajIGfQbDOaVRhiVaOVyWPCsVB0Z65WBgAB8YAAjCZ3v1vhpIBhHPFXOx0IijpBkMFuLElNQDDCoAAPeqbcytdrYSBhVChdAuVRQU7nS44EF7A6OIHiyCKRx1LCQERAzZDTaQIFYdlNPlrSAAR1YQTwzCsjCoaglZwuTxYLzyRPsAw9ID6QA)
 

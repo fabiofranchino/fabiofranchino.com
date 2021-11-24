@@ -14,7 +14,7 @@ In the previous tutorial, I've shown how it can be used together with anchor lin
 
 This time I needed to achieve a particular micro-interaction in my side-project toy,  [Presenta](https://www.presenta.cc), as briefly shown here:
 
-<video autoplay muted loop src="/assets/posts/smooth-the-scroll-position/sidebar.m4v"></video>
+<video autoplay muted loop src="/assets/blog/smooth-the-scroll-position/sidebar.m4v"></video>
 
 The sidebar allows to select a specific item (the thumb) and the scroll position needs to be changed in order to keep a precise horizontal alignment between the thumb and the editor panel.
 

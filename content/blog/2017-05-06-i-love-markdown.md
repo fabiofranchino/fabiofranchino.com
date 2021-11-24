@@ -10,7 +10,7 @@ tags: [opinion, markdown, thoughts]
 
 I really love [markdown](https://en.wikipedia.org/wiki/Markdown).
 
-![](/assets/posts/i-love-markdown/logo.png)
+![](/assets/blog/i-love-markdown/logo.png)
 
 I've started writing in this format long time ago, I suppose around 2010.  
 It wasn't a love at first sight, though, but at that time I felt it was worth giving a try.  

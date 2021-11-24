@@ -19,10 +19,10 @@ Here some screenshots of this little project, visual reperantations using pollut
 In retrospect, I find them interesting:
 
 <div class="grid four">
-<div class="grid_item"><img src="/assets/posts/using-data-as-material-for-visual-exploration/bangalore.png" /></div>
-<div class="grid_item"><img src="/assets/posts/using-data-as-material-for-visual-exploration/rio.png" /></div>
-<div class="grid_item"><img src="/assets/posts/using-data-as-material-for-visual-exploration/sanfrancisco.png" /></div>
-<div class="grid_item"><img src="/assets/posts/using-data-as-material-for-visual-exploration/singapore.png" /></div>
+<div class="grid_item"><img src="/assets/blog/using-data-as-material-for-visual-exploration/bangalore.png" /></div>
+<div class="grid_item"><img src="/assets/blog/using-data-as-material-for-visual-exploration/rio.png" /></div>
+<div class="grid_item"><img src="/assets/blog/using-data-as-material-for-visual-exploration/sanfrancisco.png" /></div>
+<div class="grid_item"><img src="/assets/blog/using-data-as-material-for-visual-exploration/singapore.png" /></div>
 </div>
 
 

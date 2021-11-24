@@ -68,7 +68,7 @@ var svg = d3.select('svg')
 </script>
 ```
 
-![screenshot](/assets/posts/towards-a-better-chart-template/screenshot.png)
+![screenshot](/assets/blog/towards-a-better-chart-template/screenshot.png)
 
 As you might notice yourself, this template contains both the **Scale** and the **Axis** configurations as well. I'm not totally sure whether it is ok or not.  
 Scales and axis usually need to be configured according to the nature of the dataset but in this template there are some assumptions about them, that is why my doubts.

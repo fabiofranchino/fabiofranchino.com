@@ -91,7 +91,7 @@ Now we need to calculate the coordinates (using the `regression` transform) and 
 
 Here the result:
 
-![](/assets/posts/adding-a-regression-line-in-vega-lite-scatterplot/cover.svg)
+![](/assets/blog/adding-a-regression-line-in-vega-lite-scatterplot/cover.svg)
 
 And the [full source code](https://vega.github.io/editor/#/url/vega-lite/N4KABGBEDuCWAmAXAFpAXGAbABmwGnCngENFj0xQIJIA3YgGwFcBTAZwoG1DrLJyMAJgDMeKACMKggBwBfMcH4UAjILGRJGAKxb5fAWFESKAFmHye1RQa2Z1msAE5le6yuX2K0lwqUZhJp7a5gS8EG7+asYYyo6ufmAmHtFg0gDs8TZGGhRagrIAuoQWNAzEAJ4sAE7onFRhkAC2xFUA1hSQAA4A9rAAdoiQoQ0sfQDG3fD9AOYU9WFQAB7o8wtQiOWdLOiQAI5MxAOwZIiwtNtilguQAGawLAzwHeRX1CVrkOUrr7yQG1sdfaHU4nM4XH7UW73R47SQQ2SvBG8d7hV5NFrtNCrX7-bZoSAMfrgtZQCYMbo1fGdJhVToMbaI4Y4qqHNg3CmNWrYyFVFjTXlsNiwbp9DqSJkNEXPSCIgoSmijCZTPqzDDcmhfLEQmh3B5PfHi7XrTZ4vYHI6g84ykkohrLLUknXQ-VKeUNXE7IEW0hg61rJFhAMQANFWRAA).
 

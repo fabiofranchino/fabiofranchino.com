@@ -13,7 +13,7 @@ I think that every developer at some point in his/her career starts wondering ho
 It's in the DNA of any developer.  
 Code can be used but most importantly can be **re-used**
 
-![](/assets/posts/write-code-in-a-jquery-plugin/modularity.jpg)
+![](/assets/blog/write-code-in-a-jquery-plugin/modularity.jpg)
 
 As mentioned in [this](/blog/still-using-jquery/) post, I do currently use [jQuery](http://jquery.com) for all my projects.  
 For that reason I'm very interested in jQuery plugin development since it's a good way to develop chunks of code easy to use, re-use, test and debug.  

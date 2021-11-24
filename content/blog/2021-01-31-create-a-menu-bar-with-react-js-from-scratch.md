@@ -10,7 +10,7 @@ tags: [tutorial, react, component, menu]
 
 I use to make practice on a specific library or framework by creating common components. This time I wanted to make a basic MenuBar in React.js.
 
-![](/assets/posts/create-a-menu-bar-with-react-js-from-scratch/mock.gif)
+![](/assets/blog/create-a-menu-bar-with-react-js-from-scratch/mock.gif)
 
 ## The Wrapper
 

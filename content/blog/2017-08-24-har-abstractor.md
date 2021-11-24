@@ -10,17 +10,17 @@ tags: [project, d3js, graphic, art, poster, abstract]
 
 Back in 2013, I made a little visualization project using [HAR](https://en.wikipedia.org/wiki/.har) as data source.
 
-![](/assets/posts/har-abstractor/cover.gif)
+![](/assets/blog/har-abstractor/cover.gif)
 
 The purpose was about experimenting with graphic art using some data as input material. At that time I liked the idea to use a kind of fingerprint for web pages in order to build some retro-style graphic compositions.
 
 These are some saved images related to popular home pages: 
 
 <div class="grid pair">
-<div class="grid_item padded"><img src="/assets/posts/har-abstractor/har_cnn.png" /></div>
-<div class="grid_item padded"><img src="/assets/posts/har-abstractor/har_facebook.png" /></div>
-<div class="grid_item padded"><img src="/assets/posts/har-abstractor/har_google.png" /></div>
-<div class="grid_item padded"><img src="/assets/posts/har-abstractor/har_wikipedia.png" /></div>
+<div class="grid_item padded"><img src="/assets/blog/har-abstractor/har_cnn.png" /></div>
+<div class="grid_item padded"><img src="/assets/blog/har-abstractor/har_facebook.png" /></div>
+<div class="grid_item padded"><img src="/assets/blog/har-abstractor/har_google.png" /></div>
+<div class="grid_item padded"><img src="/assets/blog/har-abstractor/har_wikipedia.png" /></div>
 </div>
 
 Here the working D3.js script (click to loop through different data sources):

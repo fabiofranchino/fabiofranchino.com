@@ -10,7 +10,7 @@ tags: [opinion, thoughts, gtd, growth]
 
 Everybody, at some point in time, will stumble upon the [GTD](https://en.wikipedia.org/wiki/Getting_Things_Done) issue. 
 
-![](/assets/posts/the-getting-things-done-issue/cover.png)
+![](/assets/blog/the-getting-things-done-issue/cover.png)
 
 **Getting Things Done** is the art of keeping organized and efficient the list of tasks we've been asking to accomplish in our everyday life, both personal and professional as well.
 

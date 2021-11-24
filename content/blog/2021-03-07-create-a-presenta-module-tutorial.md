@@ -22,7 +22,7 @@ The Module I've created has a clear goal:
 
 > Generate random bubbles in a scene.
 
-![](/assets/posts/create-a-presenta-module-tutorial/cover.gif)
+![](/assets/blog/create-a-presenta-module-tutorial/cover.gif)
 
 You can see the full [source code here](https://github.com/presenta-software/unsorted-plugins/blob/master/modules/randomBubbles.js), and a [sample in Playground](https://play.presenta.cc/peek/BuoBSaSo2zbCn) you can play with, but I want to outline some important aspects that belongs to a **PRESENTA Lib** Module, thus, I'm using a simplified version of it.
 

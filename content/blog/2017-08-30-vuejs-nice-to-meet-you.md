@@ -10,7 +10,7 @@ tags: [tutorial, vue, svg, basic]
 
 [Vue.js](https://vuejs.org/) caught my attention since its first public release mainly for its simplicity. Unfortunately, I've never had the opportunity to put my hands on it. Finally, that time has come.
 
-![](/assets/posts/vuejs-nice-to-meet-you/cover.png)
+![](/assets/blog/vuejs-nice-to-meet-you/cover.png)
 
 Over the past few years, I had some experience with [Angular 1.x](https://angularjs.org/). I remember I've stumbled upon it back in 2012.  
 I remember quite clearly my excitement about how I was able to transform a static web-page in a reactive web-app using a couple of magic custom HTML tags. 

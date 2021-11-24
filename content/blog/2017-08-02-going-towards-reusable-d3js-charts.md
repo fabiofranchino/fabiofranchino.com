@@ -14,7 +14,7 @@ Over the last few days, I've thought quite often about making reusable [D3.js](h
 I perfectly know that writing code that should be also reusable basically means ending up to build some *yet-another-library*.  
 In the D3.js context, that would mean to reach to some yet-another-library built on top of D3.js.
 
-![](/assets/posts/going-towards-reusable-d3js-charts/cover.png)
+![](/assets/blog/going-towards-reusable-d3js-charts/cover.png)
 
 I don't want to build a library. My premises are a little bit different.  
 What I'm thinking is something that is easy to use, easy to extend, easy to combine and all that shit without putting too much complexity in it, simple ah? 

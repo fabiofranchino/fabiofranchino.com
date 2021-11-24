@@ -8,7 +8,7 @@ categories: Tutorials
 tags: [tutorial, d3js, bigdive, svg, tip]
 ---
 
-![cover](/assets/posts/boost-d3js-learning-kickoff/cover.png)
+![cover](/assets/blog/boost-d3js-learning-kickoff/cover.png)
 
 I've been involved in teaching [d3.js](https://d3js.org/) and data visualisation in several classes since more than five years.  
 Every time it's like the first time.  

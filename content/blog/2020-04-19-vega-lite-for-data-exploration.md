@@ -42,7 +42,7 @@ I want to show the athletes distribution according to height/weight properties, 
 }
 ```
 
-![](/assets/posts/vega-lite-for-data-exploration/01.svg)
+![](/assets/blog/vega-lite-for-data-exploration/01.svg)
 
 Since there are some missing values, I want to filter out the data points with missing height and weight, adding a filter in the transform array:
 
@@ -54,7 +54,7 @@ Since there are some missing values, I want to filter out the data points with m
 ]
 ```
 
-![](/assets/posts/vega-lite-for-data-exploration/02.svg)
+![](/assets/blog/vega-lite-for-data-exploration/02.svg)
 
 A filter can be also a list of filters, which is much more readable:
 
@@ -77,7 +77,7 @@ By adding one more filter we can show only a specific country:
 }
 ```
 
-![](/assets/posts/vega-lite-for-data-exploration/03.svg)
+![](/assets/blog/vega-lite-for-data-exploration/03.svg)
 
 But now I want to manipulate the scale of the x axis because a lot of space is not user by the scatterplot. We can set a different domain per single encoding:
 
@@ -99,7 +99,7 @@ But now I want to manipulate the scale of the x axis because a lot of space is n
 }
 ```
 
-![](/assets/posts/vega-lite-for-data-exploration/04.svg)
+![](/assets/blog/vega-lite-for-data-exploration/04.svg)
 
 So far so good. 
 
@@ -146,7 +146,7 @@ And finally, the `encoding` that uses the new calculated property `num`:
 }
 ```
 
-![](/assets/posts/vega-lite-for-data-exploration/05.svg)
+![](/assets/blog/vega-lite-for-data-exploration/05.svg)
 
 Full source code [here](https://vega.github.io/editor/#/url/vega-lite/N4KABGBEAkDODGALApgWwIaQFxUQFzwAdYsB6UgN2QHN0A6agSz0QFcAjOxge1IRQyUa6ALQAbZskoAWOgCtY3AHaQANOCgB3RgBMW2MADYADMfURIO9Hkw5QEC6wBOYg5HxES5AGbp2Pbyd0JSRGJW46eG5UUh1GWABrWOt0WGQ8WFJrRDF05FgAfUVQyNgKNQ0Lb24nDDxsewcHSDwAT0JkN3gyyEqwAF8NfvMoPCClWGragwBtRot0amonYTxOnDm+i25CLu5WJXqRpshvRmQxHTcldFRO4+bU69ZUSDA+-oBdB8hl-cJ2K1Zr9kEodMgnJBPkNvhpIBgnAkGn0Wu11lB0E54BUTmElBCAEroOKsWAGaTGIYjSCgqJxJTUAzzCwsdK2MDM5ptDpuACOrGCeGY1kYVBxTSq50uz1eW2GW0gUTENWREpZaOwkHCqDC6FcD2aZwuVxwILBELecveEEG-SAA).
 
@@ -178,7 +178,7 @@ And we need to move the `encoding` of the `arc` outside the `layer`:
 ]
 ```
 
-![](/assets/posts/vega-lite-for-data-exploration/06.svg)
+![](/assets/blog/vega-lite-for-data-exploration/06.svg)
 
 [Source code.](https://vega.github.io/editor/#/url/vega-lite/N4KABGBEAkDODGALApgWwIaQFxUQFzwAdYsB6UgN2QHN0A6agSz0QFcAjOxge1IRQyUa6ALQAbZskoAWOgCtY3AHaQANOCgB3RgBMW2MADYADMfURIO9Hkw5QEC6wBOYg5HxES5AGbp2Pbyd0JSRGJW46eG5UUh1GWABrWOt0WGQ8WFJrRDF05FgAfUVQyNgKNQ0Lb24nDDwDYEg8AE9CZDd4MsgAXw1u8yg8IKVYatqDAG1KsHsHC3RqaidhPHacCcbuQg7uViV61ShvRmQxHTcldFR2w8hUi9ZUHoBdAbnIJd3CdmbJj+QlDpkE5IM9pr0IK8NJAAVE4kpqA1pk0UDYGk1WmsoABHVjBPDMayMKhqI4nM4PJ63WA2eAJAxDVjIfrIqJiGrolptC7RMLoVy3Y6nc44f6A4E9PoDSBidDNCXraaNDBOel2DHc0XoJzwUmQMJKYEAJXQcVYsAM0mM3RZc1m7xVapmGqxTWQAA8DlAgmaLTgAIwAJjMUDZHKwkHYsrpPTeDhhIW48MR6tWnoM0ztkCFFNF1ABQJBty5rvCqD5rghczAVYgVbB3SAA)
 

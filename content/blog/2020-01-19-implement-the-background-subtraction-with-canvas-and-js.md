@@ -16,15 +16,15 @@ The technique is widely used in object and motion-detection software where the c
 
 Suppose to have this frame:
 
-![](/assets/posts/implement-the-background-subtraction-with-canvas-and-js/1.jpg)
+![](/assets/blog/implement-the-background-subtraction-with-canvas-and-js/1.jpg)
 
 and then this one:
 
-![](/assets/posts/implement-the-background-subtraction-with-canvas-and-js/3.jpg)
+![](/assets/blog/implement-the-background-subtraction-with-canvas-and-js/3.jpg)
 
 and want to compare them in order to spot some differences, such as:
 
-![](/assets/posts/implement-the-background-subtraction-with-canvas-and-js/3.png)
+![](/assets/blog/implement-the-background-subtraction-with-canvas-and-js/3.png)
 
 ## Getting the data from an image
 
@@ -142,7 +142,7 @@ for (var i = 0; i < data1.data.length; i += 4) {
 
 Comparing two nearly identical images might be not straightforward as you might be expected because pixels get manipulated also by lossless file format algorithms, such as JPG. A little blur filter might come in handy and the canvas element has an experimental filter property that does the job very well. You can see here a version without the blur effect:
 
-![](/assets/posts/implement-the-background-subtraction-with-canvas-and-js/4.png)
+![](/assets/blog/implement-the-background-subtraction-with-canvas-and-js/4.png)
 
 For some reason the context of a canvas that has not already been painted, doesn't work properly, for example, the `putImageData` doesn't work at all. A quick solution has been to draw a black rect before start using its context.
 

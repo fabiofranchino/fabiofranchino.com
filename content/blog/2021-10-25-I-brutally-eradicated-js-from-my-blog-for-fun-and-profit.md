@@ -14,11 +14,11 @@ Nuxt is awesome from **development** perspective and it's great for **SEO** too,
 
 **But**, Google PageSpeed is not really happy with it:
 
-![](/assets/posts/I-brutally-eradicated-js-from-my-blog-for-fun-and-profit/old-list.png)
+![](/assets/blog/I-brutally-eradicated-js-from-my-blog-for-fun-and-profit/old-list.png)
 
 The above is the blog list page and below is an article:
 
-![](/assets/posts/I-brutally-eradicated-js-from-my-blog-for-fun-and-profit/old-page.png)
+![](/assets/blog/I-brutally-eradicated-js-from-my-blog-for-fun-and-profit/old-page.png)
 
 It turns out that Google PageSpeed doesn't like many little JS includes, that are meant to hydrating the blog for a better user navigation and experience.
 
@@ -32,11 +32,11 @@ Instead of digging with the Nuxt internals, plugin system or some unknown builde
 
 And here the result of the same pages from Google PageSpeed:
 
-![](/assets/posts/I-brutally-eradicated-js-from-my-blog-for-fun-and-profit/new-list.png)
+![](/assets/blog/I-brutally-eradicated-js-from-my-blog-for-fun-and-profit/new-list.png)
 
 and
 
-![](/assets/posts/I-brutally-eradicated-js-from-my-blog-for-fun-and-profit/new-page.png)
+![](/assets/blog/I-brutally-eradicated-js-from-my-blog-for-fun-and-profit/new-page.png)
 
 > **Not bad at all!**
 

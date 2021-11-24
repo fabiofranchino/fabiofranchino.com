@@ -27,7 +27,7 @@ First thing, let's download the font file of choice in order to install on the c
 
 Next, on Illustrator, let's assign the font **Unlock** to the text elements. This is what I see on Illustrator:
 
-![](/assets/posts/missing-font-on-svg-exported-from-illustrator/cover.png)
+![](/assets/blog/missing-font-on-svg-exported-from-illustrator/cover.png)
 
 By checking the SVG code, this is how Illustrator (with my current settings) encoded the **font-family** information on the text element:
 

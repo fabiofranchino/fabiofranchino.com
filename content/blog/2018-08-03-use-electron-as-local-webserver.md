@@ -29,7 +29,7 @@ require('http').createServer(function (request, response) {
 
 This is a very minimal local webserver the serves files in a folder. We also need a folder where to put the files that will be served by `node-static`, the project content should looks like this one: 
 
-![](/assets/posts/use-electron-as-local-webserver/filesys.png)
+![](/assets/blog/use-electron-as-local-webserver/filesys.png)
 
 
 The last point was about to run `server.js` from within Electron. The following code does the job and can be put in the `main.js` file or in the `renderer.js` as well, depending of the project scope:
@@ -43,7 +43,7 @@ I'm exploiting an internal Node.js functionality to run a so-called **child proc
 
 That's approximately all. Now you just need to run the `npm start` command from the shell to run Electron and don't forget to point your browser to the URL `http://localhost:9990`:
 
-![](/assets/posts/use-electron-as-local-webserver/cover.png)
+![](/assets/blog/use-electron-as-local-webserver/cover.png)
 
 Repository [here](https://github.com/fabiofranchino/electron-as-local-web-server)
 

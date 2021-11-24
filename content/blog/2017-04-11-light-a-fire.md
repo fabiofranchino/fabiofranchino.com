@@ -13,7 +13,7 @@ Imagine you in a forest.
 It's dark and getting colder.  
 You're cold. You definitely need a **fire**.
 
-![cover](/assets/posts/light-a-fire/cover.jpg)
+![cover](/assets/blog/light-a-fire/cover.jpg)
 
 First thing, you have to find the right place where to set the fire, a safe place **protected** from the wind.
 

@@ -10,7 +10,7 @@ tags: [tutorial, tooltip, d3js, positioning, proof, technique]
 
 I was just scribbling on paper without a specific goal. Suddenly, a little **ah-ha** moment brought me in a little exploration. 
 
-![screen](/assets/posts/efficient-tooltip-positioning-in-d3js-chart/sketch.jpg)
+![screen](/assets/blog/efficient-tooltip-positioning-in-d3js-chart/sketch.jpg)
 
 <!-- main_ad -->
 
@@ -36,7 +36,7 @@ They are simple and can be outlined as the following:
 
 A very efficient way to show how it works and what's going on behind the scene might be this progressive visualization:
 
-![screen](/assets/posts/efficient-tooltip-positioning-in-d3js-chart/screen.gif)
+![screen](/assets/blog/efficient-tooltip-positioning-in-d3js-chart/screen.gif)
 
 Here the relevant javascript code that uses a couple of essential native functions to accomplish this feature. It was extrapolated by a D3.js script but it can be adapted to other contexts quite easily. This script requires to be within a **mousemove** listener:
 

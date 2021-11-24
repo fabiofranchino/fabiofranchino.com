@@ -12,7 +12,7 @@ There are tons of organic shape generators out there, some of them even charge m
 
 I thought it might be nice to write a little tutorial on how to build your own generator with few lines of code.
 
-![](/assets/posts/create-an-svg-organic-shape-generator-with-d3js/cover.gif)
+![](/assets/blog/create-an-svg-organic-shape-generator-with-d3js/cover.gif)
 
 Here the walk-through:
 

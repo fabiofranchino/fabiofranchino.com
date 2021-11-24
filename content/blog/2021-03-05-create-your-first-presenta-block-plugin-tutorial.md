@@ -24,7 +24,7 @@ Here the **GOAL**:
 >
 > Furthermore, let the user choose the color.
 
-![](/assets/posts/create-your-first-presenta-block-plugin-tutorial/cover.png)
+![](/assets/blog/create-your-first-presenta-block-plugin-tutorial/cover.png)
 
 Here the code with some comments between the lines:
 

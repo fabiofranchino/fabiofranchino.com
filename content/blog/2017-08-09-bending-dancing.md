@@ -14,7 +14,7 @@ CSS-Tricks wrote about it extensively [here](https://css-tricks.com/svg-line-ani
 Briefly, it relies on changing two props belonging to the SVG path, `stroke-dasharray` and `stroke-dashoffset`.  
 They can be set with values between `0` and the path length using the native function `getTotalLength()`.
 
-![cover](/assets/posts/bending-dancing/cover.gif)
+![cover](/assets/blog/bending-dancing/cover.gif)
 
 D3.js transition can animate those attributes out of the box, therefore, I can't help but playing a bit with them is just a matter of these line of code:
 

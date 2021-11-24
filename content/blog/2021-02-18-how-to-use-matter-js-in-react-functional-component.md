@@ -14,7 +14,7 @@ The basic Matter.js boilerplace code comes from this [codepen](https://codepen.i
 
 It's a simple example that **inits** and **runs** the physic simulation engine with a basic mouse interaction to add particles on press:
 
-![](/assets/posts/how-to-use-matter-js-in-react-functional-component/cover.gif)
+![](/assets/blog/how-to-use-matter-js-in-react-functional-component/cover.gif)
 
 In a React functional component we need to deal with its stateless aspect while Matter.js is a statefull engine. We don't want to exploit the React nature to update the DOM on each update. For that reason, `useRef` instead `useState` is used to add statefulness to the component.
 
