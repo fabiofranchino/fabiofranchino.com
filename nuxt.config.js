@@ -73,7 +73,6 @@ export default {
   ],
   generate: {
     routes: () => {
-      console.log('routes')
       if (process.env.NUXT_ENV_LOCAL) {
         tagRoutes = extract(allRoutes)
         fs.writeFileSync('./tags.json', JSON.stringify(tagRoutes), 'utf-8')
