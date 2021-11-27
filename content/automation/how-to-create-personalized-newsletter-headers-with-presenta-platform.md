@@ -1,5 +1,5 @@
 ---
-date: 2021-11-21
+date: 2021-11-14
 title: How to create personalized newsletter images with PRESENTA
 category: automation
 cover: comp.jpg

@@ -1,5 +1,5 @@
 ---
-date: 2021-11-22
+date: 2021-11-21
 title: How to create personalized open graph images with PRESENTA Platform
 category: automation
 cover: tut1.png
