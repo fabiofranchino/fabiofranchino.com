@@ -115,12 +115,9 @@ header{
 }
 
 .banner{
-    width: 100%;
+    width: 250px;
     display: flex;
-    margin-top: 1rem;
-    color: white;
-    font-size:11px;
-    text-decoration: none;
+    margin-top: 1rem;    
 }
 .banner img{
     width: 100%;
@@ -223,6 +220,10 @@ footer{
     }
     footer{
         display: block;
+    }
+
+    .banner{
+        width: 100%;
     }
 }
 
