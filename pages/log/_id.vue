@@ -6,7 +6,7 @@
             </p>
         </div>
         
-        <nuxt-content :document="page" />
+        <nuxt-content class="cnt" :document="page" />
 
         <PrevNext />
         <!-- <PatchLink :editLink="editLink" />
@@ -99,5 +99,8 @@ export default {
 }
 .post-header p{
     font-size:70%;
+}
+.cnt{
+    overflow-x: hidden;
 }
 </style>
