@@ -3,7 +3,7 @@
         <div class="inner">
             <nuxt-link :to="item.path + '/'">
                 <div class="img">
-                    <img loading="lazy" :src="item.cover + '?w=550'" v-if="item.cover" />
+                    <img loading="lazy" :src="item.cover" v-if="item.cover" />
                 </div>
                 <h4>{{item.title}}</h4>
                 <p>{{item.humandate}}</p>

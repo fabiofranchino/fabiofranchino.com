@@ -7,7 +7,7 @@
         </div>
         <!-- <Search :source="posts" @results="onResults" /> -->
         <div class="container">
-            <Row :item="item" v-for="item in results" :key="item.path" />
+            <Card :item="item" v-for="item in results" :key="item.path" />
         </div>     
     </div>      
 </template>
@@ -15,12 +15,12 @@
 
 
 <script>
-import Row from '@/components/Row'
+import Card from '@/components/Card'
 import Search from '@/components/Search'
 
 export default {
     components:{
-        Row, Search
+        Card, Search
     },
     head () {
         return {
@@ -33,6 +33,11 @@ export default {
             .only(['title', 'slug', 'path', 'humandate'])            
             .fetch()
         store.commit('setRelated', null)
+
+        res.forEach(d => {
+            d.cover = 'https://app.presenta.cc/f/url/zGywhb2oJn:co813Eaci?&title=' + d.title + '&w=450'
+        })
+
         return {
             posts: res,
             results: res

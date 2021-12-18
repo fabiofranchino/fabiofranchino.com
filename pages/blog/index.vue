@@ -32,6 +32,9 @@ export default {
             .fetch()
         res = res.filter(d => !d.draft)
         store.commit('setRelated', null)
+        res.forEach(d => {
+            d.cover = d.cover + '?w=450'
+        })
         return {
             posts:res
         }
