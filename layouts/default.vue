@@ -64,6 +64,7 @@ export default {
 
     .body{
         flex:1;
+        width:100%;
         padding-left: 200px;
         margin-top: inherit;
     }
