@@ -10,12 +10,11 @@
 
 <script>
 import SidebarGlobal from '~/components/SidebarGlobal.vue'
-import FooterGlobal from '~/components/FooterGlobal.vue'
 
 export default {
     
     components:{
-        SidebarGlobal,FooterGlobal
+        SidebarGlobal
     },
     watch: {
         '$route'(){
