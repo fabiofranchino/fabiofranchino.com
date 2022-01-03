@@ -80,8 +80,8 @@ export default {
                 { hid:'twtit', name: 'twitter:title', content: this.page.title },
                 { hid:'ogimg', property: 'og:image', content: `${cover}` },
                 { hid:'twimg', name: 'twitter:image', content: `${cover}` },
-                { hid:'ogurl', property: 'og:url', content: `https://fabiofranchino.com/log/${this.page.slug}` },
-                { hid:'twurl', name: 'twitter:url', content: `https://fabiofranchino.com/log/${this.page.slug}` }
+                { hid:'ogurl', property: 'og:url', content: `https://www.fabiofranchino.com/log/${this.page.slug}/` },
+                { hid:'twurl', name: 'twitter:url', content: `https://www.fabiofranchino.com/log/${this.page.slug}/` }
             ]
         }
     }
