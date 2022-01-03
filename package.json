@@ -22,7 +22,7 @@
   "license": "ISC",
   "dependencies": {
     "@nuxt/components": "^1.2.6",
-    "@nuxt/content": "^1.14.0",
+    "@nuxt/content": "^1.15.1",
     "@nuxtjs/feed": "^2.0.0",
     "@nuxtjs/sitemap": "^2.4.0",
     "en-pos": "^1.0.16",
@@ -38,7 +38,7 @@
     "moment": "^2.29.1",
     "netlify-lambda": "^1.6.3",
     "reading-time": "^1.5.0",
-    "slugify": "^1.6.0",
-    "standard": "^16.0.3"
+    "slugify": "^1.6.4",
+    "standard": "^16.0.4"
   }
 }
