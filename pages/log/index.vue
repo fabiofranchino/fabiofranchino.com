@@ -35,7 +35,7 @@ export default {
         store.commit('setRelated', null)
 
         res.forEach(d => {
-            d.cover = 'https://cloud.presenta.cc/v1/url/zGywhb2oJn:co813Eaci?&title=' + d.title + '&w=450'
+            d.cover = 'https://cloud.presenta.cc/v1/url/zGywhb2oJn:9O8SHIX9v?&title=' + d.title + '&w=450'
         })
 
         return {
