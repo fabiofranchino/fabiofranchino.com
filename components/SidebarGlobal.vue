@@ -116,11 +116,11 @@ header{
 
 .banner{
     width: 250px;
-    display: flex;
     margin-top: 1rem;    
 }
 .banner img{
     width: 100%;
+    height: auto;
 }
 
 h3{
