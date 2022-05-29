@@ -1,7 +1,7 @@
 ---
 title: Image Generator Services
 layout: page
-last_modified_at: 2022-05-12
+last_modified_at: 2022-05-29
 ---
 
 If you need to create dynamic images by calling an API, here the possibilities out there.
@@ -34,6 +34,3 @@ They might be bare-bones API only to visual editor thaat help creating templates
 - https://bannertize.com/
 - https://htmlcsstoimage.com/
 
-## UI Only
-
-- https://haikei.app/

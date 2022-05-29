@@ -1,7 +1,7 @@
 ---
 title: Graphic Design
 layout: page
-last_modified_at: 2019-11-01
+last_modified_at: 2022-05-29
 ---
 
 I'm passionate about Graphic Design since always. 
@@ -24,9 +24,7 @@ Check:
 - Saul Bass
 - Milton Glaser
 
-### Movements
 
-- Bauhaus
 
 ### Graphic Design + Computation
 

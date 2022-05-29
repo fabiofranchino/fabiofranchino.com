@@ -20,6 +20,9 @@ last_modified_at: 2019-11-01
 - [GraphCMS](https://graphcms.com/)
 - [StoryBlock](https://www.storyblok.com/)
 
-https://jamstack.org/headless-cms/
+### More resources
 
-https://www.smashingmagazine.com/2021/07/how-to-choose-a-headless-cms/
+- https://jamstack.org/headless-cms/
+
+- https://www.smashingmagazine.com/2021/07/how-to-choose-a-headless-cms/
+
