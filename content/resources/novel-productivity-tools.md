@@ -11,9 +11,10 @@ They try to envision a new model to foster collaboration and flexibility breakin
 Some of them are similar, others took different approaches, by the way, here the list:
 
 - [Notion](https://www.notion.so/)
-- [Airtable](https://airtable.com/)
-- [Rows](https://rows.com/)
 - [Coda](https://coda.io/)
 - [Dropbox Paper](https://www.dropbox.com/paper)
+- [Airtable](https://airtable.com/)
+- [Rows](https://rows.com/)
+- [Softr](https://www.softr.io/)
 - [Retool](https://retool.com/)
 - [PipeDream](https://pipedream.com/)
