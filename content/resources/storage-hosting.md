@@ -29,3 +29,4 @@ https://www.jsonstore.io/
 
 - [Dweet](http://dweet.io/)
 - [PipeDream](https://pipedream.com/)
+- [Sequin](https://www.sequin.io/) (sync db)

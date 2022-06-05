@@ -10,11 +10,26 @@ They try to envision a new model to foster collaboration and flexibility breakin
 
 Some of them are similar, others took different approaches, by the way, here the list:
 
+### Document based:
+
 - [Notion](https://www.notion.so/)
 - [Coda](https://coda.io/)
 - [Dropbox Paper](https://www.dropbox.com/paper)
+
+### Spreadsheet based
+
 - [Airtable](https://airtable.com/)
 - [Rows](https://rows.com/)
 - [Softr](https://www.softr.io/)
+
+### Low-code based
+
 - [Retool](https://retool.com/)
+- [DronaHQ](https://www.dronahq.com/)
+- [Blaze](https://www.blaze.tech/)
+- [ToolJet](https://www.tooljet.com/)
+- [AppSmith](https://www.appsmith.com/)
+
+### Toolchain based
+
 - [PipeDream](https://pipedream.com/)
