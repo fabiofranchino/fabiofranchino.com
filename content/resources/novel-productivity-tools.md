@@ -29,6 +29,9 @@ Some of them are similar, others took different approaches, by the way, here the
 - [Blaze](https://www.blaze.tech/)
 - [ToolJet](https://www.tooljet.com/)
 - [AppSmith](https://www.appsmith.com/)
+- [SuperBlock](https://www.superblocks.com/)
+- [Internal](https://www.internal.io/)
+- [Airplane](https://www.airplane.dev/)
 
 ### Toolchain based
 
