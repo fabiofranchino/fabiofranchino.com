@@ -18,9 +18,6 @@
 
             <div>
                 
-                <a class="banner" href="https://www.presenta.cc/">
-                    <img src="@/assets/presenta-banner.png" />
-                </a>
                 <!-- <h3>Projects:</h3>
                 <ul>
                     <li>
@@ -114,14 +111,6 @@ header{
     align-items: center;
 }
 
-.banner{
-    width: 250px;
-    margin-top: 1rem;    
-}
-.banner img{
-    width: 100%;
-    height: auto;
-}
 
 h3{
     margin-top: 1.5rem;

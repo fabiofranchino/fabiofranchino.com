@@ -160,3 +160,14 @@ kbd{
         width: calc(100% + 16rem);
     }
 }
+
+
+
+.banner{
+    margin-top: 1rem;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}

@@ -5,6 +5,10 @@
             <p>Posted on {{page.humandate}}
             </p>
         </div>
+
+        <a class="banner" href="https://slashd.cc/">
+            <img src="@/assets/slashd.jpg" />
+        </a>
         
         <nuxt-content class="cnt" :document="page" />
 

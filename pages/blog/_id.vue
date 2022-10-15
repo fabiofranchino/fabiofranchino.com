@@ -7,6 +7,11 @@
                  <br /><em>{{page.reading.text}}</em>
             </p>
         </div>
+
+
+        <a class="banner" href="https://slashd.cc/">
+            <img src="@/assets/slashd.jpg" />
+        </a>
         
         <nuxt-content class="cnt" :document="page" />
 
