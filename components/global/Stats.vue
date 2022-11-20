@@ -1,8 +1,7 @@
 <template>
     <blockquote>
         You can read more <nuxt-link to="/about/">about me</nuxt-link> by exploring my 
-        <nuxt-link to="/blog/">{{stat.blog}} articles</nuxt-link> and <nuxt-link to="/log/">{{stat.log}} notes</nuxt-link>, 
-        or by checking out my <a href="https://github.com/presenta-software/presenta-lib">open-source</a> project.
+        <nuxt-link to="/blog/">{{stat.blog}} articles</nuxt-link> and <nuxt-link to="/log/">{{stat.log}} TIL</nuxt-link>.
     </blockquote>
 </template>
 

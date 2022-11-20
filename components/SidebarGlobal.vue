@@ -72,7 +72,7 @@ export default {
         return{
             links:[
                 {url:'/blog/', label:'Articles'},
-                {url:'/automation/', label:'Automation'},
+                //{url:'/automation/', label:'Automation'},
                 {url:'/log/', label:'Logs'},
                 {url:'/tag/', label:'Tags'},
                 //{url:'/resources', label:'Resources'},
