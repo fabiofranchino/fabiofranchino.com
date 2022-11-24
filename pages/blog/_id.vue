@@ -9,8 +9,8 @@
         </div>
 
 
-        <a class="banner" href="https://slashd.cc/">
-            <img src="@/assets/slashd.jpg" />
+        <a class="banner" href="https://www.presenta.cc/">
+            <img src="@/assets/presenta.jpg" />
         </a>
         
         <nuxt-content class="cnt" :document="page" />
