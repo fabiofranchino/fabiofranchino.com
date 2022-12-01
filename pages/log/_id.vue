@@ -7,7 +7,7 @@
         </div>
 
         <a class="banner" href="https://www.presenta.cc/">
-            <img src="https://daily.presenta.workers.dev/zGywhb2oJn:NVSORu57i?geo_city=true" />
+            <img src="https://daily.presenta.workers.dev/zGywhb2oJn:NVSORu57i?geo_city=London" />
         </a>
         
         <nuxt-content class="cnt" :document="page" />
