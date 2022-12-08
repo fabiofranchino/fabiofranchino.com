@@ -10,7 +10,7 @@
 
 
         <a class="banner" href="https://www.presenta.cc/">
-            <img src="https://cache.presenta.workers.dev/zGywhb2oJn:NVSORu57i?geo_city=London" />
+            <img src="https://cache.presenta.workers.dev/zGywhb2oJn:dqj1pQq2U?a=1" />
         </a>
         
         <nuxt-content class="cnt" :document="page" />
