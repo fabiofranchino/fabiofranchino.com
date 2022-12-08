@@ -6,7 +6,7 @@
                 <!-- <nuxt-link :to="page.categories">{{page.categories}}</nuxt-link> -->
                  <br /><em>{{page.reading.text}}</em>
             </p>
-
+        </div>
 
         <a class="banner" href="https://www.presenta.cc/">
             <img src="https://daily.presenta.workers.dev/GhZD3MDlBN:dqj1pQq2U?a=1" />
