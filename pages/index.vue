@@ -1,7 +1,5 @@
 <template>
-    <div class="reader">
-        <div style="position:fixed;width:300px;right:0;top:0;transform:translate(80px,50px)rotate(45deg);z-index:999;"><img src="https://daily.presenta.workers.dev/GhZD3MDlBN:yvLHzHJhJ" /></div>
-        
+    <div class="reader">        
         <nuxt-content :document="page" />
     </div>
 </template>
