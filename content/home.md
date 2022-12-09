@@ -2,9 +2,6 @@
 title: Home
 ---
 
-<a class="banner" href="https://war.ukraine.ua/">
-    <img src="https://daily.presenta.workers.dev/GhZD3MDlBN:VMaBpMLXU" />
-</a>
 
 # Hello! I'm Fabio Franchino
 
