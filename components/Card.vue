@@ -3,7 +3,7 @@
         <div class="inner">
             <nuxt-link :to="item.path + '/'">
                 <div class="img">
-                    <img loading="lazy" :src="item.cover" v-if="item.cover" />
+                    <img loading="lazy" :src="imageUrl(item.cover)" v-if="item.cover" />
                 </div>
                 <h4>{{item.title}}</h4>
                 <p>{{item.humandate}}</p>
@@ -12,11 +12,16 @@
     </div>
 </template>
 
-
 <script>
 export default {
     props:{
         item:Object
+    },
+    methods:{
+        imageUrl(cover){
+            const full = 'https://cache.presenta.workers.dev/zGywhb2oJn:gMOjvFl85?image=' + process.env.NUXT_ENV_FRONT_DOMAIN + cover
+            return full
+        }
     }
 }
 </script>
