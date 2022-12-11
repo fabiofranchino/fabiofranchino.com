@@ -15,12 +15,13 @@
 <script>
 export default {
     props:{
-        item:Object
+        item:Object,
+        effect:Boolean
     },
     methods:{
         imageUrl(cover){
             const full = 'https://cache.presenta.workers.dev/zGywhb2oJn:gMOjvFl85?image=' + process.env.NUXT_ENV_FRONT_DOMAIN + cover
-            return full
+            return this.effect ? full : cover
         }
     }
 }

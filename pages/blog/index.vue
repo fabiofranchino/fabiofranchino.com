@@ -6,7 +6,7 @@
         </div>
 
         <div class="container">
-            <Card :item="item" v-for="item in posts" :key="item.path" />
+            <Card effect="true" :item="item" v-for="item in posts" :key="item.path" />
         </div>  
     </div>     
 </template>
