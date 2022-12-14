@@ -11,8 +11,6 @@ As an example, let's suppose we want to load remote images from the local enviro
 
 ```php
 function replace_image_base_url($content) {
-
-  $pTemplateID = 'SiWAMgDfRB:djQqgcBDO';
   
   $content = preg_replace('/src=http:\/\/localhost:8080/u', 'src=https://cdn.yourdomain.com/', $content);
   
