@@ -1,6 +1,11 @@
-How to modify the HTML source page of Wordpress before to send to the user
+---
+title: How to modify the HTML source page of Wordpress before to send to the user
+date: 2022-12-15 02:30:00 +0100
+---
 
-If you need to create a Wordpress Plugin that is able to modify the HTML source before sending it to the users, here the basic code:
+
+
+If you need to create a Wordpress Plugin that is able to modify the HTML source before sending it to the users, here the PHP basic code:
 
 ```php
 function mod_func($buffer) {
