@@ -23,3 +23,4 @@ const ob = {
 }
 
 fs.writeFileSync('components/global/stats.json', JSON.stringify(ob))
+fs.writeFileSync('static/stats.json', JSON.stringify(ob))
