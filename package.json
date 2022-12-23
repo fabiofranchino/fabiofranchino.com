@@ -15,7 +15,8 @@
     "pub": "node pub.js && git add content/log && git add static/assets/log && git commit -m \"push log\" && git push",
     "local": "http-server dist --gzip true",
     "genTags": "NUXT_ENV_LOCAL=true nuxt generate",
-    "deploy": "npm run generate && node purge.js"
+    "deploy": "npm run generate && node purge.js",
+    "bump": "git add -u && git version patch && git commit -m \"bump\" && git push && git status"
   },
   "keywords": [],
   "author": "",
