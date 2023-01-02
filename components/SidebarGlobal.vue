@@ -55,7 +55,7 @@
                 <a href="/feed.xml" title="Feed RSS" target="_blank"><img src="@/assets/rss.svg" /></a>
             </div>
             <div>
-                2017-22 @ Fabio Franchino
+                2017-23 @ Fabio Franchino
             </div>
         </footer>
         
