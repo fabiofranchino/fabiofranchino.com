@@ -1,6 +1,6 @@
 <template>
     <div id="__default" class="main">
-        <a href="https://github.com/abusedmedia/Ukraine-support-banner" style="position:fixed;width:300px;right:0;top:0;transform:translate(80px,50px) rotate(45deg);z-index:999"><img style="width:100%;display:block;" src="https://daily.presenta.workers.dev/GhZD3MDlBN:yvLHzHJhJ"></a>
+        <!-- <a href="https://github.com/abusedmedia/Ukraine-support-banner" style="position:fixed;width:300px;right:0;top:0;transform:translate(80px,50px) rotate(45deg);z-index:999"><img style="width:100%;display:block;" src="https://daily.presenta.workers.dev/GhZD3MDlBN:yvLHzHJhJ"></a> -->
         <SidebarGlobal class="sidebar" />
         <div ref="body" class="body">
             <nuxt class="page" />

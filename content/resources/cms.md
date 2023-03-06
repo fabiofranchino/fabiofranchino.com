@@ -5,9 +5,11 @@ last_modified_at: 2019-11-01
 
 ## Hosted CMS as a service
 
-- [Contentful](https://www.contentful.com/)
-- [DatoCMS](https://www.datocms.com/)
-- [Sanity](https://www.sanity.io/)
+- https://www.contentful.com/
+- https://www.datocms.com/
+- https://www.storyblok.com/
+- https://www.sanity.io/
+- https://prismic.io/
 - [Wordpress.com](https://wordpress.com/)
 - Github
 - [Prismic](https://prismic.io/)

@@ -6,9 +6,9 @@
             </p>
         </div>
 
-        <a class="banner" href="https://www.presenta.cc/">
+        <!-- <a class="banner" href="https://www.presenta.cc/">
             <img src="/presenta.jpg" />
-        </a>
+        </a> -->
         
         <nuxt-content class="cnt" :document="page" />
 
