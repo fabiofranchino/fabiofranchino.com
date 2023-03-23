@@ -1,7 +1,7 @@
 <template>
     <blockquote>
-        You can read more <nuxt-link to="/about/">about me</nuxt-link> by exploring my 
-        <nuxt-link to="/blog/">{{stat.blog}} articles</nuxt-link> and <nuxt-link to="/log/">{{stat.log}} TIL</nuxt-link>.
+        You can explore my 
+        <nuxt-link to="/blog/">{{stat.blog}} articles</nuxt-link> and <nuxt-link to="/log/">{{stat.log}} TIL</nuxt-link>
     </blockquote>
 </template>
 

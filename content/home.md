@@ -3,14 +3,15 @@ title: Home
 ---
 
 
-# Hello! I'm Fabio Franchino
+# Hi! I'm Fabio Franchino
 
-## Senior Web Engineer & Dataviz Specialist. <br />I help companies to:
+## Designer+Developer, Educator, Entrepreneur
 
 <br />
 
-- design and develop <span class="s" data-type="underline">interactive</span> and <span class="s" data-type="underline">data-driven</span> web applications
-- level up teams in <span class="s" data-type="underline">web-dev stacks</span> and <span class="s" data-type="underline">data visualization</span>
+## I provide consultancy to level-up digital product teams.
+
+
 
 
 <Stats></Stats>
