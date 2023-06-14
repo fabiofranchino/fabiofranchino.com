@@ -7,10 +7,6 @@ title: Home
 
 ## Designer+Developer, Educator, Entrepreneur
 
-<br />
-
-## I provide consultancy to level-up digital product teams.
-
 
 
 
