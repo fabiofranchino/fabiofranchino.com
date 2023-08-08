@@ -1,1 +1,4 @@
 Disallow: /showcase/
+
+User-agent: GPTBot
+Disallow: /
