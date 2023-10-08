@@ -23,6 +23,12 @@ The local MySQL/MariaDB database runs usually on `3306` port. Change the above c
 
 Now `ngrok` gives you a new `host` and `port` that you can use into the Retool resource configuration.
 
+## Create the Resource
+
 Create a new MySql resource and add the new `host` and `port` alongside the database name as well.
 
 ![](/assets/log/n852_copypastedesign-2023-10-08-at-11.23.36.png)
+
+That's it. Now you should query the local database as usual in Retool as it were a remote one.
+
+Want a 20% discount on Retool? [Sign up with this link](https://get.retool.com/c2blfe7c4kts)!

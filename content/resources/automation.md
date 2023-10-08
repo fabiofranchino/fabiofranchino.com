@@ -16,6 +16,4 @@ These are services that allow to set a logic pipeline that usually start with a 
 - [Bardeen](https://www.bardeen.ai/)
 - [n8n](https://n8n.io)
 - [Axiom](https://axiom.ai)
-- [Automate](https://automate.io) (now in Notion)
-- [DoTenX](https://dotenx.com/)
 

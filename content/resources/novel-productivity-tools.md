@@ -26,6 +26,7 @@ Some of them are similar, others took different approaches, by the way, here the
 
 - [Retool](https://retool.com/)
 - [DronaHQ](https://www.dronahq.com/)
+- [Budibase](https://budibase.com/)
 - [Blaze](https://www.blaze.tech/)
 - [ToolJet](https://www.tooljet.com/)
 - [AppSmith](https://www.appsmith.com/)
