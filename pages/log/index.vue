@@ -35,7 +35,7 @@ export default {
         store.commit('setRelated', null)
 
         res.forEach(d => {
-            d.cover = 'social.jpg'
+            d.cover = '/social.jpg'
         })
 
         return {
