@@ -35,7 +35,7 @@ export default {
         store.commit('setRelated', null)
 
         res.forEach(d => {
-            d.cover = 'https://cache.presenta.workers.dev/zGywhb2oJn:9O8SHIX9v?&title=' + d.title + '&w=450'
+            d.cover = 'social.jpg'
         })
 
         return {
