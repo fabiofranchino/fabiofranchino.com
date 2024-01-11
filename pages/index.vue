@@ -25,6 +25,7 @@ export default {
         this.$store.commit('setRelated', null)
     }
 }
+
 </script>
 
 
