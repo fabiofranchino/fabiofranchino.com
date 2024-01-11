@@ -1,7 +1,7 @@
 self.addEventListener('fetch', function(event) {
     const url = event.request.url
     const status = event.request.status
-    console.log(url, status)
+    console.log(event.request)
 })
 
 self.addEventListener("install", event => {
