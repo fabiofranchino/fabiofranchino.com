@@ -6,9 +6,11 @@
             </p>
         </div>
 
-        <!-- <a class="banner" href="https://www.presenta.cc/">
-            <img src="/presenta.jpg" />
-        </a> -->
+        <div class="banner">
+            Hey! I run a consultancy on <b>Retool</b> and <i>rapid software development</i>. 
+            <br />It's called <a href="https://eloquentops.com/">EloquentOps</a>.
+             If you need help, just say 👋
+        </div>
         
         <nuxt-content class="cnt" :document="page" />
 

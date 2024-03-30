@@ -165,6 +165,8 @@ kbd{
 
 .banner{
     margin-top: 1rem;
+    background-color: #fff0c1;
+    padding: 1rem;
 }
 .banner img{
     width: 100%;
