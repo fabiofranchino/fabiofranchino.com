@@ -12,6 +12,12 @@ const myArray = ['a', 'b', 'c']
 
 JSON.stringify(myArray).replace(/[\[\]]/mig, '')
 
-// 'a,b,c'
+// '"a","b","c"'
+```
+
+Here an (better) alternative given by ChatGPT:
+
+```js
+myArray.map(item => `"${item}"`).join(',');
 ```
 
