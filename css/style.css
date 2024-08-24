@@ -169,9 +169,32 @@ kbd{
     background-color: #fff0c1;
     padding: 1rem;
     border: 2px dashed var(--maincolor);
+    flex:1;
 }
 .banner img{
     width: 100%;
     height: auto;
     margin-top: 1rem;
+}
+.banners{
+    display: flex;
+}
+
+.banners .banner:first-child{
+    margin-right: .4rem;
+}
+.banners .banner:last-child{
+    margin-left: .4rem;
+}
+
+.banner.alt{
+    background-color: #c1f1ff;
+    border: 2px dashed #08c5ff;
+}
+
+.banner.alt a{
+    color: #007fa6!important;
+}
+.banner.alt a:hover{
+    color: #000!important;
 }

@@ -6,11 +6,8 @@
             </p>
         </div>
 
-        <div class="banner">
-            Hey! I run a small consultancy on <b>Retool</b> and <i>rapid software development</i>. 
-            <br />It's called <a href="https://eloquentops.com/">EloquentOps</a>.
-             If you need help, just say 👋
-        </div>
+        <Banners />
+
         
         <nuxt-content class="cnt" :document="page" />
 
@@ -28,10 +25,11 @@ import Subscribe from '@/components/Subscribe'
 import PrevNext from '@/components/PrevNext'
 import PatchLink from '@/components/PatchLink'
 import stats from '@/components/global/stats.json'
+import Banners from '@/components/Banners.vue'
 
 export default {
     components:{
-        Subscribe, PrevNext, PatchLink
+        Subscribe, PrevNext, PatchLink, Banners
     },
     async asyncData({ store, $content, params, error }) {
         let page = null
