@@ -15,7 +15,7 @@ newfiles.forEach(f => {
   const title = rawtitle
   const filename = slugify(title).toLowerCase()
 
-  src = src.replace(title, '')
+  src = src.replace('# ', '').replace(title, '')
 
   let re = /!\[(.*)\]\((.*)\)/gim
   let mtc = src.match(re)
