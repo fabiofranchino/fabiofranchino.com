@@ -8,7 +8,21 @@ categories: Tutorials
 tags: [tutorial, electron, local, server]
 ---
 
+
+
 I was poking with this little idea about using [Electron](https://electronjs.org/) as a host to run a local webserver, for a while. So, here the POC, even though I don't know if it's something that can be useful or not but, who knows?
+
+
+
+## Electron and a local web-server
+
+When working with Electron, setting up a local web server can be a powerful way to develop and test your applications efficiently. If you're looking to integrate a simple HTTP server within your Electron app, using Node.js modules like `node-static` can be a game-changer. 
+
+This guide walks you through the process of setting up an Electron HTTP server, enabling your application to serve files locally, and ensuring a seamless development experience. Whether you're using Electron Quick Start or exploring more advanced configurations like running a Node.js server within Electron, this tutorial covers all the essential steps to get you up and running quickly.
+
+
+
+## Step by step to integrate them
 
 I've cloned the popular [Electron Quick Start](https://github.com/electron/electron-quick-start) to have an Electron app without hassles, then run `npm install` and `npm start` to test whether my Electron instance worked properly.  
 
@@ -48,3 +62,4 @@ That's approximately all. Now you just need to run the `npm start` command from 
 Repository [here](https://github.com/fabiofranchino/electron-as-local-web-server)
 
 Happy hacking.
+
