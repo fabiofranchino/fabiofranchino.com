@@ -10,6 +10,18 @@ tags: [tutorial, react, matter, component]
 
 This time I've wanted to integrate [Matter.js](https://brm.io/matter-js/) in a React app.
 
+
+
+To integrate Matter.js into a React application effectively, it's crucial to understand how to manage state within a functional component, especially since Matter.js operates as a stateful engine. 
+
+The challenge lies in maintaining React's stateless nature while utilizing Matter.js's powerful physics engine. By leveraging `useRef` instead of `useState`, you can add statefulness to your component without unnecessary re-renders, ensuring optimal performance. 
+
+This approach allows you to initialize the Matter.js engine within a `useEffect` hook, creating an interactive simulation with mouse-based particle addition. 
+
+This method not only simplifies the integration process but also maintains React's efficiency. Whether you're experimenting with Matter.js on CodePen or building complex React components, understanding this integration is key to creating responsive, physics-based animations in your projects.
+
+
+
 The basic Matter.js boilerplace code comes from this [codepen](https://codepen.io/abusedmedia/pen/abBwWYL) that I did to wrap my head with the library.
 
 It's a simple example that **inits** and **runs** the physic simulation engine with a basic mouse interaction to add particles on press:
