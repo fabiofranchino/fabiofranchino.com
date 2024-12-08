@@ -5,7 +5,7 @@ title: Home
 
 # Hi! I'm Fabio Franchino
 
-## Designer+Developer, Educator, Entrepreneur
+## Designer+Developer, Educator, [Entrepreneur](https://www.eloquentops.com)
 
 
 
