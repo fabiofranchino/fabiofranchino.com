@@ -45,7 +45,7 @@ export default {
         
     // },
     head () {
-        const coverImage = this.page.cover ? '&cover=https://ajahofrzam.cloudimg.io/v7/_fcom_' + this.page.cover : ''
+        const coverImage = this.page.cover ? '&cover=' + this.page.cover : ''
         let cover = process.env.NUXT_ENV_SOCIAL_CARD_GENERATOR_URL + '?title=' + this.page.title + '&cta=' + stats.blog + '&check=tutorial&site=automation' + coverImage
         return {
             title: this.page.title,
